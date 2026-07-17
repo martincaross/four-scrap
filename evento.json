@@ -1,0 +1,19 @@
+{
+    "origen": "Fourvenues",
+    "titulo": "Terraza Karau",
+    "imagen_alta_resolucion": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/190e0e76-3db7-429a-f859-14facf2b0e00/w=1350",
+    "fecha": "2026-07-17",
+    "hora_apertura": "18:00",
+    "hora_cierre": "02:00",
+    "edad_minima": "+23",
+    "vestimenta": "Smart / Arreglado",
+    "localizacion": {
+        "nombre_sala": "Karau",
+        "direccion_completa": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.4200526,
+            "longitud": -3.6920776
+        }
+    },
+    "descripcion": "Get your tickets and VIP access for Terraza Karau at Yatengoplan now! Enjoy this event: Fri, Jul 17, in Madrid — limited spots available."
+}

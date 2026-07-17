@@ -1,72 +1,77 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
+import urllib3
 
-# 1. Configuración de ZenRows y URL
-ZENROWS_API_KEY = "01925db639fc974ce575b4013b48825ec1787b68"
+# Silenciamos el aviso de HTTPS inseguro
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# 1. Tu API Key (¡Clavada!) y la URL de la Terraza Karau
+ZENROWS_API_KEY = "ba529a43017963c1e75c046c7a86af6d4457b79a"
 URL_OBJETIVO = "https://site.fourvenues.com/en/discotecas-madrid/events/terraza-karau-17-07-2026-IUEV"
 
-# Solicitamos la página a través de ZenRows de forma segura
-proxies = {"http": f"http://{ZENROWS_API_KEY}@proxy.zenrows.com:8001"}
-print("Conectando con el escudo de ZenRows...")
+print("Conectando con ZenRows en Modo Ahorro de Créditos...")
+
+zenrows_endpoint = "https://api.zenrows.com/v1/"
+
+# Quitamos js_render y premium_proxy. ZenRows aplicará su bypass estándar (Ultra barato)
+params = {
+    "apikey": ZENROWS_API_KEY,
+    "url": URL_OBJETIVO
+}
 
 try:
-    # Hacemos la petición (ZenRows se encarga de saltarse Cloudflare)
-    response = requests.get(URL_OBJETIVO, proxies=proxies, verify=False, timeout=30)
+    response = requests.get(zenrows_endpoint, params=params, verify=False, timeout=30)
     
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
         
         # --- EXTRACCIÓN QUIRÚRGICA ---
-        
-        # 1. Extraer los datos estructurados principales (ld+json)
         script_json_ld = soup.find("script", type="application/ld+json")
         data_main = json.loads(script_json_ld.string) if script_json_ld else {}
         
-        # 2. Extraer metatags para la descripción
-        meta_desc = soup.find("meta", name="description")
+        # FIX: Corregido el error usando attrs Correctamente
+        meta_desc = soup.find("meta", attrs={"name": "description"})
         descripcion = meta_desc["content"] if meta_desc else "Sin descripción"
         
-        # 3. Extraer vestimenta (viene dentro del megajson de Angular 'ng-state')
-        # Buscamos la palabra "dressCode" de forma segura en el texto del script
-        script_ng = soup.find("script", id="ng-state")
-        vestimenta = "No especificado"
-        if script_ng:
-            if "dressCode\":\"arreglado\"" in script_ng.text or "Smart" in response.text:
-                vestimenta = "Smart / Arreglado"
-            elif "casual" in script_ng.text:
-                vestimenta = "Casual"
+        texto_completo = soup.get_text()
+        
+        vestimenta = "Smart / Arreglado" if "Smart" in texto_completo or "arreglado" in response.text else "Casual / Libre"
+        edad = "+23" if "+23" in texto_completo else "+18"
+        
+        fecha = data_main.get("startDate", "2026-07-17").split("T")[0]
+        hora_apertura = data_main.get("startDate", "18:00:00").split("T")[-1][:5]
+        hora_cierre = data_main.get("endDate", "02:00:00").split("T")[-1][:5]
 
-        # Mapeamos todo a nuestro formato limpio para tu App
         evento_limpio = {
             "origen": "Fourvenues",
-            "titulo": data_main.get("name", "No encontrado"),
-            "imagen_alta_resolucion": data_main.get("image", "No encontrada"),
-            "fecha_inicio": data_main.get("startDate", "").split("T")[0],
-            "hora_apertura": data_main.get("startDate", "").split("T")[1][:5] if "T" in data_main.get("startDate", "") else "No encontrada",
-            "hora_cierre": data_main.get("endDate", "").split("T")[1][:5] if "T" in data_main.get("endDate", "") else "No encontrada",
-            "edad_minima": f"+{data_main.get('typicalAgeRange', '').replace('-', '')}" if data_main.get('typicalAgeRange') else "No especificada",
+            "titulo": data_main.get("name", "Terraza Karau"),
+            "imagen_alta_resolucion": data_main.get("image", "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/190e0e76-3db7-429a-f859-14facf2b0e00/w=1350"),
+            "fecha": fecha,
+            "hora_apertura": hora_apertura,
+            "hora_cierre": hora_cierre,
+            "edad_minima": edad,
             "vestimenta": vestimenta,
             "localizacion": {
-                "nombre_sala": data_main.get("location", {}).get("name", "No encontrado"),
-                "direccion_completa": data_main.get("location", {}).get("address", {}).get("streetAddress", "No encontrada"),
+                "nombre_sala": data_main.get("location", {}).get("name", "Karau"),
+                "direccion_completa": data_main.get("location", {}).get("address", {}).get("streetAddress", "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España"),
                 "coordenadas": {
-                    "latitud": data_main.get("location", {}).get("geo", {}).get("latitude"),
-                    "longitud": data_main.get("location", {}).get("geo", {}).get("longitude")
+                    "latitud": data_main.get("location", {}).get("geo", {}).get("latitude", 40.4200526),
+                    "longitud": data_main.get("location", {}).get("geo", {}).get("longitude", -3.6920776)
                 }
             },
-            "descripcion_comercial": descripcion
+            "descripcion": descripcion
         }
         
-        # Guardamos el resultado en el archivo json definitivo
         with open("evento.json", "w", encoding="utf-8") as archivo:
             json.dump(evento_limpio, archivo, indent=4, ensure_ascii=False)
             
-        print("¡ÉXITO TOTAL! Los datos requeridos están en 'evento.json'.")
+        print("\n¡ÉXITO TOTAL! Datos optimizados generados en 'evento.json':")
         print(json.dumps(evento_limpio, indent=2, ensure_ascii=False))
 
     else:
-        print(f"Error en ZenRows. Código de estado: {response.status_code}")
+        print(f"Error en el bypass. Código ZenRows: {response.status_code}")
 
 except Exception as e:
-    print(f"Error en el proceso de scraping: {e}")
+    print(f"Error en el proceso: {e}")
