@@ -1,0 +1,54 @@
+[
+    {
+        "id": "IUEV",
+        "titulo": "Terraza Karau",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/190e0e76-3db7-429a-f859-14facf2b0e00/w=1350",
+        "fecha": "2026-07-17",
+        "hora": "18:00",
+        "edad": "+23",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Karau",
+        "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/nextplan/events/terraza-karau-17-07-2026-IUEV",
+        "descripcion": "Get your tickets and VIP access for Terraza Karau at Yatengoplan now! Enjoy this event: Fri, Jul 17, in Madrid — limited spots available."
+    },
+    {
+        "id": "QGIA",
+        "titulo": "OH MY CLUB VIERNES HYPE",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f2e88a0c-1b2c-4df6-5715-50fdaeeaed00/w=1350",
+        "fecha": "2026-07-17",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Oh My Club",
+        "direccion": "C. de Rosario Pino, 14, 28020 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/nextplan/events/oh-my-club-viernes-hype-17-07-2026-QGIA",
+        "descripcion": "Get your tickets and VIP access for OH MY CLUB VIERNES HYPE at Oh My Club now! Enjoy this event: Fri, Jul 17, in Madrid — limited spots available."
+    },
+    {
+        "id": "VT97",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/715c6244-c1b1-45c8-05ff-92c8d02afd00/w=1350",
+        "fecha": "2026-07-17",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "direccion": "C. de Orense, 24, 28020 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/nextplan/events/viernes-17-07-202628-VT97",
+        "descripcion": "Get your tickets and VIP access for VIERNES at Nazca Club now! Enjoy this event: Fri, Jul 17, in Madrid — limited spots available."
+    },
+    {
+        "id": "HT34",
+        "titulo": "VIERNES MON: COPAS A 2€",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/670aec66-ecc6-4690-fa64-3ba0c3f43600/w=1350",
+        "fecha": "2026-07-18",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/nextplan/events/viernes-mon-copas-a-2-17-07-2026-HT34",
+        "descripcion": "Get your tickets and VIP access for VIERNES MON: COPAS A 2€ at Sala MON now! Enjoy this event: Fri, Jul 17, in Madrid — limited spots available."
+    }
+]
