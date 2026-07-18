@@ -5,11 +5,9 @@ import os
 import time
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-# Nueva variable específica para este canal
 TELEGRAM_CHAT_ID_CHATS = os.getenv("TELEGRAM_CHAT_ID_CHATS") 
 DATABASE_FILE = "base_de_datos_madrid.json"
-# Si GitHub no le dice lo contrario, el espaciado será de 0 minutos para pruebas rápidas
-MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0)) 
+MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
 fecha_objetivo = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
 print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo}")
@@ -27,7 +25,7 @@ with open("automation/templates/chat_template.txt", "r", encoding="utf-8") as f:
     chat_tmpl = f.read()
 
 for index, evento in enumerate(eventos_filtrados):
-    if index > 0:
+    if index > 0 and MINUTOS_ESPACIADO > 0:
         print(f"⏳ Esperando {MINUTOS_ESPACIADO} minutos para el siguiente chat...")
         time.sleep(MINUTOS_ESPACIADO * 60)
         
@@ -38,9 +36,14 @@ for index, evento in enumerate(eventos_filtrados):
     )
     
     telegram_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    requests.post(telegram_url, json={
+    response = requests.post(telegram_url, json={
         "chat_id": TELEGRAM_CHAT_ID_CHATS,
         "text": f"📥 *PACK WHATSAPP / TELEGRAM*\n\n{msg_chat}",
         "parse_mode": "Markdown"
     })
-    print(f"✅ Enviado pack de chat para: {evento['titulo']}")
+    
+    # CONTROL DE ERRORES REAL
+    if response.status_code == 200:
+        print(f"✅ Enviado pack de chat para: {evento['titulo']}")
+    else:
+        print(f"❌ Error en Telegram para {evento['titulo']}. Código: {response.status_code}. Respuesta: {response.text}")

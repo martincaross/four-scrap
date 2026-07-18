@@ -5,10 +5,8 @@ import os
 import time
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-# Nueva variable específica para tu grupo de creador de contenido
 TELEGRAM_CHAT_ID_SOCIAL = os.getenv("TELEGRAM_CHAT_ID_SOCIAL") 
 DATABASE_FILE = "base_de_datos_madrid.json"
-# Si GitHub no le dice lo contrario, el espaciado será de 0 minutos para pruebas rápidas
 MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
 fecha_objetivo = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
@@ -27,7 +25,7 @@ with open("automation/templates/social_template.txt", "r", encoding="utf-8") as 
     social_tmpl = f.read()
 
 for index, evento in enumerate(eventos_filtrados):
-    if index > 0:
+    if index > 0 and MINUTOS_ESPACIADO > 0:
         print(f"⏳ Esperando {MINUTOS_ESPACIADO} minutos para las redes...")
         time.sleep(MINUTOS_ESPACIADO * 60)
         
@@ -40,9 +38,14 @@ for index, evento in enumerate(eventos_filtrados):
     )
     
     telegram_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    requests.post(telegram_url, json={
+    response = requests.post(telegram_url, json={
         "chat_id": TELEGRAM_CHAT_ID_SOCIAL,
         "text": f"📸 *PACK INSTAGRAM / TIKTOK*\n\n{msg_social}\n\n🔗 *Descargar Flyer:* {evento['imagen']}",
         "parse_mode": "Markdown"
     })
-    print(f"✅ Enviado pack de redes para: {evento['titulo']}")
+    
+    # CONTROL DE ERRORES REAL
+    if response.status_code == 200:
+        print(f"✅ Enviado pack de redes para: {evento['titulo']}")
+    else:
+        print(f"❌ Error en Telegram para {evento['titulo']}. Código: {response.status_code}. Respuesta: {response.text}")
