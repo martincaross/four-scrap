@@ -1,0 +1,12 @@
+{titulo} 🔥
+
+{descripcion}
+
+⏰ Horario: {hora}h
+🎒 Edad: {edad}
+👔 Dress code: {vestimenta}
+📍 Sala: {sala}
+
+🎟️ Listas GRATIS, Entradas y Reservados VIP: Consigue tus códigos QR oficiales en el enlace de nuestra biografía antes de que se agoten. ¡No te quedes fuera! 👇
+
+#NextPlan #Madrid #FiestaMadrid #{sala_clean}Madrid #MadridNoDescansa

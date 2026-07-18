@@ -1,0 +1,12 @@
+{titulo} 🔥
+
+{descripcion}
+
+⏰ Horario: {hora}h
+🎒 Edad: {edad}
+👔 Dress code: {vestimenta}
+📍 Sala: {sala}
+
+🎟️ Listas GRATIS, Entradas y Reservados VIP: Consigue tus códigos QR oficiales en el enlace antes de que se agoten. ¡No te quedes fuera! 👇
+
+{link_compra_rrpp}

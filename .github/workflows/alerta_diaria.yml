@@ -1,0 +1,31 @@
+name: Publicador NextPlan
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 17:00 hora de Madrid
+  workflow_dispatch:      # Mantiene el botón de pruebas manuales activo
+
+jobs:
+  run_pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Lanzar Ambos Publicadores
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
+          TELEGRAM_CHAT_ID_SOCIAL: ${{ secrets.TELEGRAM_SECRET_SOCIAL }}
+        run: |
+          python automation/publicador_chats.py &
+          python automation/publicador_social.py &
+          wait
