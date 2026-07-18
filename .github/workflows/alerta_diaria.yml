@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # 🚀 Actualizado de v3 a v4
 
       - name: Instalar Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # 🚀 Actualizado de v4 a v5
         with:
           python-version: '3.12'
 
@@ -25,7 +25,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
           TELEGRAM_CHAT_ID_SOCIAL: ${{ secrets.TELEGRAM_SECRET_SOCIAL }}
-          MINUTOS_ESPACIADO: 0   # 👈 CAMBIA A 30 CUANDO YA ESTÉ TODO PROBADO Y EN PRODUCCIÓN
+          MINUTOS_ESPACIADO: 0
         run: |
           python automation/publicador_chats.py &
           python automation/publicador_social.py &
