@@ -8,7 +8,8 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 # Nueva variable específica para este canal
 TELEGRAM_CHAT_ID_CHATS = os.getenv("TELEGRAM_CHAT_ID_CHATS") 
 DATABASE_FILE = "base_de_datos_madrid.json"
-MINUTOS_ESPACIADO = 30 
+# Si GitHub no le dice lo contrario, el espaciado será de 0 minutos para pruebas rápidas
+MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0)) 
 
 fecha_objetivo = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
 print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo}")
