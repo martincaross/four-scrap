@@ -25,7 +25,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
           TELEGRAM_CHAT_ID_SOCIAL: ${{ secrets.TELEGRAM_SECRET_SOCIAL }}
-          MINUTOS_ESPACIADO: 0  # 👈 Aquí le dejas los 30 minutos reales para producción
+          MINUTOS_ESPACIADO: 15  # 👈 Aquí le dejas los 30 minutos reales para producción
         run: |
           python automation/publicador_chats.py &
           python automation/publicador_social.py &
