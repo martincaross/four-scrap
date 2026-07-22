@@ -24,16 +24,9 @@ jobs:
         run: pip install requests beautifulsoup4 urllib3
 
       - name: 1. Rastrear eventos nuevos (Landing Fourvenues)
-        env:
-          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
-        run: python scraper_events.py
-
-      - name: 2. Extraer datos de eventos y actualizar JSON
-        env:
-          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
         run: python scraper.py
 
-      - name: 3. Generar clon de Linktree para GitHub Pages
+      - name: 2. Generar clon de Linktree para GitHub Pages
         run: python automation/generar_linktree.py
 
       - name: 4. Auto-subir base de datos y web actualizadas a GitHub
