@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import urllib3
+import os
 
 # Silenciamos los avisos de certificado HTTPS
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-ZENROWS_API_KEY = "ba529a43017963c1e75c046c7a86af6d4457b79a"
+ZENROWS_API_KEY = os.getenv("ZENROWS_API_KEY")
 zenrows_endpoint = "https://api.zenrows.com/v1/"
 
 # La URL de tu landing pública con todas tus promotoras de Madrid

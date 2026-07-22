@@ -3,12 +3,13 @@ from bs4 import BeautifulSoup
 import json
 import re
 import urllib3
+import os
 
 # Silenciamos el aviso de HTTPS inseguro
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 1. Tu API Key (¡Clavada!) y la URL de la Terraza Karau
-ZENROWS_API_KEY = "ba529a43017963c1e75c046c7a86af6d4457b79a"
+ZENROWS_API_KEY = os.getenv("ZENROWS_API_KEY")
 URL_OBJETIVO = "https://site.fourvenues.com/en/discotecas-madrid/events/terraza-karau-17-07-2026-IUEV"
 
 print("Conectando con ZenRows en Modo Ahorro de Créditos...")
