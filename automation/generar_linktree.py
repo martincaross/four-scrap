@@ -5,10 +5,12 @@ import os
 DATABASE_FILE = "base_de_datos_madrid.json"
 OUTPUT_HTML = "index.html"
 
+# Fecha de hoy (22 de julio de 2026)
 hoy_dt = datetime.now()
-hoy_str = hoy_dt.strftime("%Y-%m-%d")
+hoy_date = hoy_dt.date()
+hoy_str = hoy_date.strftime("%Y-%m-%d")
 
-print(f"🌐 Generando Linktree interactivo con selector a partir de hoy: {hoy_str}")
+print(f"🌐 Generando Linktree interactivo desde: {hoy_str}")
 
 if not os.path.exists(DATABASE_FILE):
     print(f"❌ No se encuentra la base de datos {DATABASE_FILE}")
@@ -17,21 +19,48 @@ if not os.path.exists(DATABASE_FILE):
 with open(DATABASE_FILE, "r", encoding="utf-8") as f:
     eventos = json.load(f)
 
-# 1. Filtramos solo eventos de HOY en adelante
-eventos_futuros = [e for e in eventos if e.get("fecha") >= hoy_str]
+# =========================================================================
+# 📦 1. PARSEO ROBUTOS Y FILTRADO POR FECHA REAL (No strings)
+# =========================================================================
+eventos_futuros = []
 
-# 2. Obtenemos las fechas únicas ordenadas
-fechas_unicas = sorted(list(set(e.get("fecha") for e in eventos_futuros)))
+for e in eventos:
+    f_raw = e.get("fecha", "")
+    if not f_raw:
+        continue
+    
+    # Intentamos parsear la fecha independientemente de su formato
+    e_date = None
+    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%Y/%m/%d", "%d-%m-%Y"):
+        try:
+            e_date = datetime.strptime(str(f_raw).strip(), fmt).date()
+            break
+        except ValueError:
+            pass
+    
+    # Solo nos quedamos con eventos de hoy en adelante
+    if e_date and e_date >= hoy_date:
+        e_copy = dict(e)
+        e_copy["fecha_std"] = e_date.strftime("%Y-%m-%d")
+        e_copy["date_obj"] = e_date
+        eventos_futuros.append(e_copy)
 
-# 3. Generamos los botones de las pestañas (Tabs)
+# Ordenar eventos cronológicamente (Fecha primero, Hora después)
+eventos_futuros.sort(key=lambda x: (x["date_obj"], x.get("hora", "23:59")))
+
+# =========================================================================
+# 📅 2. OBTENER DÍAS ÚNICOS
+# =========================================================================
+fechas_unicas = sorted(list(set(e["fecha_std"] for e in eventos_futuros)))
+
+# Generamos botones de pestañas
 tabs_html = ""
 for idx, fecha in enumerate(fechas_unicas):
-    fecha_dt = datetime.strptime(fecha, "%Y-%m-%d")
+    fecha_dt = datetime.strptime(fecha, "%Y-%m-%d").date()
     
-    # Etiqueta amigable para la pestaña
     if fecha == hoy_str:
         label = "🔥 Hoy"
-    elif fecha == (hoy_dt + timedelta(days=1)).strftime("%Y-%m-%d"):
+    elif fecha == (hoy_date + timedelta(days=1)).strftime("%Y-%m-%d"):
         label = "🚀 Mañana"
     else:
         label = fecha_dt.strftime("%d %b")
@@ -39,17 +68,19 @@ for idx, fecha in enumerate(fechas_unicas):
     active_class = "active" if idx == 0 else ""
     tabs_html += f'<button class="tab-btn {active_class}" onclick="filterDate(\'{fecha}\', this)">{label}</button>\n'
 
-# 4. Generamos las tarjetas de eventos
+# =========================================================================
+# 🎟️ 3. GENERAR TARJETAS DE EVENTOS
+# =========================================================================
 cards_html = ""
 if not eventos_futuros:
     cards_html = '<div class="no-events">💤 No hay eventos próximos programados.</div>'
 else:
     for e in eventos_futuros:
-        fecha_dt = datetime.strptime(e['fecha'], "%Y-%m-%d")
+        fecha_dt = datetime.strptime(e['fecha_std'], "%Y-%m-%d")
         fecha_bonita = fecha_dt.strftime("%d %b")
-        fecha_event = e['fecha']
+        fecha_event = e['fecha_std']
         
-        # Por defecto solo se muestran las de la primera fecha (Hoy)
+        # Muestra por defecto los del primer día disponible
         display_style = "flex" if fecha_event == fechas_unicas[0] else "none"
         
         cards_html += f"""
@@ -62,7 +93,9 @@ else:
         </a>
         """
 
-# 5. Estructura HTML + CSS (Negro Absoluto y Centrado Físico Reforzado)
+# =========================================================================
+# 🎨 4. ESTRUCTURA HTML + CSS (Fix de Scroll y Negro Puro)
+# =========================================================================
 html_completo = f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -77,13 +110,12 @@ html_completo = f"""<!DOCTYPE html>
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }}
         body {{
-            background-color: #000000; /* 🔥 Negro puro */
+            background-color: #000000;
             color: #ffffff;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
-            padding: 40px 16px;
+            padding: 32px 16px;
             min-height: 100vh;
             width: 100%;
         }}
@@ -94,15 +126,15 @@ html_completo = f"""<!DOCTYPE html>
             text-align: center;
             width: 100%;
             max-width: 580px;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }}
         .profile-pic-wrapper {{
-            width: 96px;
-            height: 96px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
             background: linear-gradient(45deg, #fe2c55, #25f4ee);
             padding: 3px;
-            margin: 0 auto 16px auto; /* 🎯 Centrado garantizado en bloque */
+            margin: 0 auto 14px auto;
             display: block;
         }}
         .profile-pic-wrapper img {{
@@ -120,34 +152,40 @@ html_completo = f"""<!DOCTYPE html>
             color: #ffffff;
         }}
         .bio {{
-            font-size: 14px;
+            font-size: 13px;
             color: #9ca3af;
-            max-width: 400px;
+            max-width: 380px;
             line-height: 1.4;
         }}
         
-        /* Contenedor de Pestañas de Días */
+        /* Contenedor de Pestañas con Scroll Móvil Corregido */
         .tabs-wrapper {{
             display: flex;
-            gap: 10px;
-            margin-bottom: 24px;
+            gap: 8px;
+            margin-bottom: 20px;
             width: 100%;
             max-width: 580px;
             overflow-x: auto;
-            padding-bottom: 4px;
-            justify-content: center;
+            padding: 4px 4px 10px 4px;
+            justify-content: flex-start; /* FIX: Evita que el scroll corte elementos a la izquierda */
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }}
+        .tabs-wrapper::-webkit-scrollbar {{
+            display: none;
         }}
         .tab-btn {{
             background: #121214;
             border: 1px solid #27272a;
             color: #a1a1aa;
-            padding: 8px 18px;
+            padding: 8px 16px;
             border-radius: 20px;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             white-space: nowrap;
             transition: all 0.2s ease;
+            flex-shrink: 0;
         }}
         .tab-btn.active {{
             background: #ffffff;
@@ -160,26 +198,25 @@ html_completo = f"""<!DOCTYPE html>
             max-width: 580px;
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 12px;
         }}
         .link-btn {{
             background: #121214;
             border: 1px solid #27272a;
-            border-radius: 30px;
-            padding: 14px 24px;
+            border-radius: 24px;
+            padding: 14px 20px;
             align-items: center;
             text-decoration: none;
             color: white;
-            transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+            transition: transform 0.2s, background-color 0.2s;
         }}
         .link-btn:hover {{
-            transform: scale(1.015);
+            transform: scale(1.01);
             background: #18181b;
-            border-color: #3f3f46;
         }}
         .btn-emoji {{
             font-size: 22px;
-            margin-right: 16px;
+            margin-right: 14px;
         }}
         .btn-text {{
             display: flex;
@@ -194,7 +231,7 @@ html_completo = f"""<!DOCTYPE html>
         .btn-sub {{
             font-size: 12px;
             color: #a1a1aa;
-            margin-top: 3px;
+            margin-top: 2px;
         }}
         .no-events {{
             text-align: center;
@@ -213,23 +250,19 @@ html_completo = f"""<!DOCTYPE html>
         <p class="bio">📍 Tu cartelera oficial de Madrid. Listas GRATIS, entradas y reservados VIP.</p>
     </div>
 
-    <!-- Pestañas para seleccionar el día -->
     <div class="tabs-wrapper">
         {tabs_html}
     </div>
 
-    <!-- Lista Dinámica de Eventos -->
     <div class="links-wrapper">
         {cards_html}
     </div>
 
     <script>
         function filterDate(selectedDate, btnElement) {{
-            // Cambiar estilo visual de los botones
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
             btnElement.classList.add('active');
             
-            // Mostrar solo las tarjetas del día seleccionado
             const cards = document.querySelectorAll('.event-card');
             cards.forEach(card => {{
                 if (card.getAttribute('data-date') === selectedDate) {{
@@ -247,4 +280,4 @@ html_completo = f"""<!DOCTYPE html>
 with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
     f.write(html_completo)
 
-print("🎯 ¡Linktree interactivo con selector de fechas generado con éxito!")
+print(f"🎯 ¡Linktree corregido! {len(eventos_futuros)} eventos organizados en {len(fechas_unicas)} días.")

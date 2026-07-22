@@ -22,7 +22,17 @@ js_instructions = """
 [
     {"wait_for": "app-root"},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
-    {"wait": 3000},
+    {"wait": 2500},
+    {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
+    {"wait": 2500},
+    {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
+    {"wait": 2500},
+    {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
+    {"wait": 2000}
+    {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
+    {"wait": 2000}
+    {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
+    {"wait": 2000}
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
     {"wait": 2000}
 ]
