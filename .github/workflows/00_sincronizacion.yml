@@ -2,8 +2,8 @@ name: 🌐 00. Sincronización Web y Base de Datos
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 22:00 UTC = 00:00h Madrid
-  workflow_dispatch:      # Botón de pruebas manuales
+    - cron: '0 22 * * *'  # Todos los días a las 00:00h de Madrid
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,16 +23,23 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests beautifulsoup4 urllib3
 
-      - name: 1. Rastrear eventos nuevos (Landing Fourvenues)
+      - name: 1. Descubrir eventos activos (1 crédito)
+        env:
+          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
+        run: python scraper_events.py
+
+      - name: 2. Descargar SOLO los eventos nuevos (Smart Skip)
+        env:
+          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
         run: python scraper.py
 
-      - name: 2. Generar clon de Linktree para GitHub Pages
+      - name: 3. Actualizar la web de Linktree
         run: python automation/generar_linktree.py
 
-      - name: 4. Auto-subir base de datos y web actualizadas a GitHub
+      - name: 4. Guardar cambios en GitHub
         run: |
           git config --global user.name "NextPlan Bot"
           git config --global user.email "bot@nextplan.es"
           git add base_de_datos_madrid.json urls.txt index.html
-          git diff-index --quiet HEAD || git commit -m "chore: actualización nocturna de eventos, JSON y web"
+          git diff-index --quiet HEAD || git commit -m "chore: actualización nocturna de cartelera"
           git push origin main
