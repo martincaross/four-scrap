@@ -1,0 +1,32 @@
+name: 📢 17. Goteo de Mensajes Telegram
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # Todos los días a las 15:00 UTC (17:00h de la tarde en España)
+  workflow_dispatch:      # Botón de ejecución manual
+
+jobs:
+  enviar_goteo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Lanzar Publicadores con Espaciado Real
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
+          TELEGRAM_CHAT_ID_SOCIAL: ${{ secrets.TELEGRAM_SECRET_SOCIAL }}
+          MINUTOS_ESPACIADO: 30  # 👈 Aquí le dejas los 30 minutos reales para producción
+        run: |
+          python automation/publicador_chats.py &
+          python automation/publicador_social.py &
+          wait

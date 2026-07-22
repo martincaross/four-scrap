@@ -29,6 +29,7 @@ for index, evento in enumerate(eventos_filtrados):
         print(f"⏳ Esperando {MINUTOS_ESPACIADO} minutos para el siguiente chat...")
         time.sleep(MINUTOS_ESPACIADO * 60)
         
+    # Formateamos el mensaje directo sin cabeceras añadidas
     msg_chat = chat_tmpl.format(
         titulo=evento['titulo'], descripcion=evento['descripcion'],
         hora=evento['hora'], edad=evento['edad'], vestimenta=evento['vestimenta'],
@@ -36,13 +37,16 @@ for index, evento in enumerate(eventos_filtrados):
     )
     
     telegram_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    response = requests.post(telegram_url, json={
-        "chat_id": TELEGRAM_CHAT_ID_CHATS,
-        "text": f"📥 *PACK WHATSAPP / TELEGRAM*\n\n{msg_chat}",
-        "parse_mode": "Markdown"
-    })
     
-    # CONTROL DE ERRORES REAL
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID_CHATS,
+        "text": msg_chat,  # 👈 Solo enviamos la plantilla limpia
+        "parse_mode": "Markdown",
+        "disable_web_page_preview": True  # 👈 Si quieres QUITAR la vista previa del link en el futuro, descomenta esta línea
+    }
+    
+    response = requests.post(telegram_url, json=payload)
+    
     if response.status_code == 200:
         print(f"✅ Enviado pack de chat para: {evento['titulo']}")
     else:

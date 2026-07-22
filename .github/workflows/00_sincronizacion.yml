@@ -1,0 +1,34 @@
+name: 🌐 00. Sincronización Web y Base de Datos
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # Todos los días a las 22:00 UTC (00:00h de la noche en España)
+  workflow_dispatch:      # Botón de ejecución manual
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizar_bunker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Aquí en el futuro puedes añadir la línea de lanzar el scraper.py automáticamente
+      
+      - name: Generar clon de Linktree (Solo hoy)
+        run: python automation/generar_linktree.py
+
+      - name: Guardar cambios en GitHub Pages
+        run: |
+          git config --global user.name "NextPlan Bot"
+          git config --global user.email "bot@nextplan.es"
+          git add index.html
+          git diff-index --quiet HEAD || git commit -m "chore: actualización nocturna de cartelera"
+          git push origin main
