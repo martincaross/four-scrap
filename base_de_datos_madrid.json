@@ -2873,6 +2873,19 @@
         "descripcion": "No te pierdas DOMINGO en Nazca Club. Vive una noche épica este Dom, 9 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "GWI8",
+        "titulo": "SUNDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/240f019f-3c33-466f-154a-fa4321f07d00/w=1350",
+        "fecha": "2026-08-10",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GWI8",
+        "descripcion": "No te pierdas SUNDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Dom, 9 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "ZKGX",
         "titulo": "SALA DE DESPECHO by Madrid No Descansa ",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
@@ -2897,6 +2910,19 @@
         "direccion": "C. de Toledo, 86, Centro, 28005 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9R48",
         "descripcion": "No te pierdas Fucking Monday en Shôko Madrid. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "VD28",
+        "titulo": "SUMMER CANDY AT TIFFANY’S",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ce5f3976-2ed9-4c47-5bdf-7ac7dc73db00/w=1350",
+        "fecha": "2026-08-11",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VD28",
+        "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "1WXX",
