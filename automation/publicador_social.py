@@ -9,7 +9,7 @@ TELEGRAM_CHAT_ID_SOCIAL = os.getenv("TELEGRAM_CHAT_ID_SOCIAL")
 DATABASE_FILE = "base_de_datos_madrid.json"
 MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
-fecha_objetivo = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
 print(f"📆 [SOCIAL] Buscando eventos para: {fecha_objetivo}")
 
 with open(DATABASE_FILE, "r", encoding="utf-8") as f:

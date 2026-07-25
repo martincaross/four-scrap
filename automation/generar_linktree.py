@@ -46,7 +46,11 @@ for e in eventos:
         eventos_futuros.append(e_copy)
 
 # Ordenar eventos cronológicamente (Fecha primero, Hora después)
-eventos_futuros.sort(key=lambda x: (x["date_obj"], x.get("hora", "23:59")))
+def sort_key(x):
+    h = x.get("hora", "23:59")
+    h_ord = f"{int(h[:2]) + 24}:{h[3:]}" if h < "06:00" else h
+    return (x["date_obj"], h_ord)
+eventos_futuros.sort(key=sort_key)
 
 # =========================================================================
 # 📅 2. OBTENER DÍAS ÚNICOS

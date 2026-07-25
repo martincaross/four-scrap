@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import json
 import urllib3
 import os
-
+from datetime import datetime, timedelta
+import shutil
 # Silenciamos los avisos de certificado HTTPS
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -94,6 +95,11 @@ for index, url in enumerate(enlaces_rrpp):
             fecha = data_main.get("startDate", "2026-07-17").split("T")[0]
             hora_apertura = data_main.get("startDate", "18:00:00").split("T")[-1][:5]
             
+            # Si el evento empieza de madrugada (antes de las 06:00), pertenece lógicamente a la noche del día anterior
+            if hora_apertura < "06:00":
+                dt_fecha = datetime.strptime(fecha, "%Y-%m-%d")
+                fecha = (dt_fecha - timedelta(days=1)).strftime("%Y-%m-%d")
+            
             evento_estructurado = {
                 "id": event_id,
                 "titulo": titulo_fiesta,
@@ -120,14 +126,30 @@ for index, url in enumerate(enlaces_rrpp):
         print(f"💥 Error al procesar {event_id}: {e}")
 
 # =========================================================================
-# 📅 4. ORDENADO CRONOLÓGICO SECTORIZADO (Primero Fecha, luego Hora)
+# 📅 4. LIMPIEZA DE HISTORIAL Y ORDENADO CRONOLÓGICO
 # =========================================================================
+hoy_str = datetime.now().strftime("%Y-%m-%d")
+base_de_datos_eventos = [e for e in base_de_datos_eventos if e.get("fecha", "") >= hoy_str]
+
 print("\n📅 Ordenando cartelera por fecha y hora de apertura...")
-base_de_datos_eventos.sort(key=lambda x: (x.get("fecha", "9999-12-31"), x.get("hora", "23:59")))
+def sort_key(x):
+    f = x.get("fecha", "9999-12-31")
+    h = x.get("hora", "23:59")
+    h_ord = f"{int(h[:2]) + 24}:{h[3:]}" if h < "06:00" else h
+    return (f, h_ord)
+    
+base_de_datos_eventos.sort(key=sort_key)
 
 # =========================================================================
-# 💾 5. GUARDAR LA BASE DE DATOS ACTUALIZADA
+# 💾 5. GUARDAR LA BASE DE DATOS ACTUALIZADA CON BACKUP
 # =========================================================================
+backup_dir = "backups"
+if not os.path.exists(backup_dir):
+    os.makedirs(backup_dir)
+if os.path.exists(DATABASE_FILE):
+    backup_file = os.path.join(backup_dir, f"base_de_datos_madrid_{hoy_str}.json")
+    shutil.copy(DATABASE_FILE, backup_file)
+    print(f"💾 Copia de seguridad creada: {backup_file}")
 with open(DATABASE_FILE, "w", encoding="utf-8") as archivo:
     json.dump(base_de_datos_eventos, archivo, indent=4, ensure_ascii=False)
 
