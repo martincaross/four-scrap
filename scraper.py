@@ -50,6 +50,19 @@ with open(URLS_FILE, "r", encoding="utf-8") as f:
 print(f"📋 Analizando lista de {len(enlaces_rrpp)} eventos frente a los guardados...")
 
 # =========================================================================
+# 🧹 2.5 SINCRONIZACIÓN ESTRICTA (Borrar eventos finalizados/cancelados)
+# =========================================================================
+urls_set = set(enlaces_rrpp)
+eventos_mantenidos = [e for e in base_de_datos_eventos if e.get("link_compra_rrpp") in urls_set]
+borrados_sync = len(base_de_datos_eventos) - len(eventos_mantenidos)
+base_de_datos_eventos = eventos_mantenidos
+# Recalculamos los IDs guardados
+ids_ya_guardados = {str(evento.get("id", "")) for evento in base_de_datos_eventos}
+
+if borrados_sync > 0:
+    print(f"🗑️ Se han eliminado {borrados_sync} eventos que ya no existen en Fourvenues.")
+
+# =========================================================================
 # 🔄 3. BUCLE INTELIGENTE (SMART SKIP)
 # =========================================================================
 nuevos_agregados = 0
