@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib3
 import os
+import sys
 
 # Silenciamos los avisos de certificado HTTPS
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -16,8 +17,11 @@ OUTPUT_FILE = "urls.txt"
 print("🕵️‍♂️ Iniciando rastreador de carteleras...")
 print(f"Objetivo: {URL_GENERAL}")
 
+if not ZENROWS_API_KEY:
+    print("❌ Error crítico: no se encontró la variable de entorno ZENROWS_API_KEY.")
+    sys.exit(1)
+
 # Instrucciones en JS nativo para que ZenRows busque el botón y lo pulse
-# Hacemos 2 intentos de clic separados por esperas para desplegar todo el mapa de fiestas
 js_instructions = """
 [
     {"wait_for": "app-root"},
@@ -28,11 +32,11 @@ js_instructions = """
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
     {"wait": 2500},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
-    {"wait": 2000}
+    {"wait": 2000},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
-    {"wait": 2000}
+    {"wait": 2000},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
-    {"wait": 2000}
+    {"wait": 2000},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
     {"wait": 2000}
 ]

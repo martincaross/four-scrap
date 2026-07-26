@@ -1,8 +1,8 @@
-name: 📢 17. Goteo de Mensajes Telegram
+name: Goteo de Mensajes Telegram
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # Todos los días a las 15:00 UTC (17:00h de la tarde en España)
+    - cron: '0 10 * * *'  # Todos los días a las 15:00 UTC (17:00h de la tarde en España)
   workflow_dispatch:      # Botón de ejecución manual
 
 jobs:

@@ -5,7 +5,7 @@ import os
 import time
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_CHAT_ID_SOCIAL = os.getenv("TELEGRAM_CHAT_ID_CHATS") 
+TELEGRAM_CHAT_ID_SOCIAL = os.getenv("TELEGRAM_CHAT_ID_SOCIAL")
 DATABASE_FILE = "base_de_datos_madrid.json"
 MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
