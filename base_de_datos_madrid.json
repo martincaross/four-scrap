@@ -1,96 +1,5 @@
 [
     {
-        "id": "https://www.fourvenues.com/es/nextplan/events/UWMN",
-        "titulo": "MIÉRCOLES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
-        "fecha": "2026-07-29",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UWMN",
-        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/RB0W",
-        "titulo": "JUAN DUQUE + DIMELOFLOW x FITZ",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6a6016aa-be8f-4c6b-9564-a7e89db5e100/w=1350",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/RB0W",
-        "descripcion": "No te pierdas JUAN DUQUE + DIMELOFLOW x FITZ en Fitz Madrid. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/UKDT",
-        "titulo": "MIERCOLES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e9528528-3ca4-4faa-234c-bb8243561f00/w=1350",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UKDT",
-        "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/5K3P",
-        "titulo": "WEDNESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/48eee00c-fdb4-47a3-1a10-807b88923f00/w=1350",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/5K3P",
-        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/QTDN",
-        "titulo": "Miercoles VANDIDO - Rumba Latina",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QTDN",
-        "descripcion": "No te pierdas Miercoles VANDIDO - Rumba Latina en VANDIDO. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/OZK6",
-        "titulo": "MIERCOLES GUNILLA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8811dba8-3461-4e06-f38b-aa0517470a00/w=1350",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Gunilla Club",
-        "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OZK6",
-        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "https://www.fourvenues.com/es/nextplan/events/0HCH",
-        "titulo": "Miércoles",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/191c6853-411f-4522-d904-af420801d300/w=550",
-        "fecha": "2026-07-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "GABANA",
-        "direccion": "Calle de María de Molina, 39, 28006 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/0HCH",
-        "descripcion": "No te pierdas Miércoles en GABANA MUSIC CLUB. Vive una noche épica este Mié, 29 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "https://www.fourvenues.com/es/nextplan/events/0W1G",
         "titulo": "GREEN 2X1 AFTERWORK",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9cba5dad-31a2-4806-00ab-09ef202e9e00/w=1350",
@@ -260,17 +169,17 @@
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Vie, 31 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "https://www.fourvenues.com/es/nextplan/events/02PY",
-        "titulo": "| THE GREEN ROOM |",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6471a33b-f15e-4ec6-4af0-16396da02100/w=1350",
+        "id": "840V",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
         "fecha": "2026-07-31",
-        "hora": "20:00",
+        "hora": "18:00",
         "edad": "+18",
         "vestimenta": "Smart / Arreglado",
         "sala": "Green Castellana",
         "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/02PY",
-        "descripcion": "No te pierdas | THE GREEN ROOM | en Green Social Club. Vive una noche épica este Vie, 31 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/840V",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Vie, 31 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "https://www.fourvenues.com/es/nextplan/events/VBZ1",
@@ -468,6 +377,19 @@
         "descripcion": "No te pierdas Viernes VANDIDO en VANDIDO. Vive una noche épica este Vie, 31 jul en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "SC4A",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-01",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SC4A",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Sáb, 1 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "KFRK",
         "titulo": "COPAS A 3,5€",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ff519774-97a4-433b-573c-c9433367a000/w=1350",
@@ -611,6 +533,32 @@
         "descripcion": "No te pierdas Sábado Fitz en Fitz Madrid. Vive una noche épica este Sáb, 1 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "5HQ9",
+        "titulo": "RUBICON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1e803ce6-7a30-47a7-dc1d-66bf7abf3200/w=1350",
+        "fecha": "2026-08-01",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Rubicon",
+        "direccion": "C. del Cid, 7, 28001 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/5HQ9",
+        "descripcion": "No te pierdas RUBICON en BLURRED. Vive una noche épica este Sáb, 1 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "KSRF",
+        "titulo": "2h BARRA LIBRE Y DESPUÉS COPAS A 3€ TODA LA NOCHE - SÁBADO 01 LEMON MONCLOA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b2527691-f5aa-42e2-006e-fd288353ed00/w=1350",
+        "fecha": "2026-08-01",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "LEMON MADRID BANANA",
+        "direccion": "C. de Meléndez Valdés, 52, Chamberí, 28015 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KSRF",
+        "descripcion": "No te pierdas 2h BARRA LIBRE Y DESPUÉS COPAS A 3€ TODA LA NOCHE - SÁBADO 01 LEMON MONCLOA en LEMON MONCLOA. Vive una noche épica este Sáb, 1 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "DKCV",
         "titulo": "CALLE 365 by MADRID  NO DESCANSA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
@@ -622,6 +570,19 @@
         "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DKCV",
         "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 2 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "K8MG",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-08-02",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/K8MG",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 2 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "AHF0",
@@ -663,6 +624,19 @@
         "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 3 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "9LDE",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-08-03",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9LDE",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 3 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "NG9Y",
         "titulo": "Fucking Monday",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/826d9d6d-82f6-4159-3803-966531092b00/w=1350",
@@ -700,6 +674,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZZBE",
         "descripcion": "No te pierdas FITZ x One World by ESN en Fitz Madrid. Vive una noche épica este Lun, 3 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "FYXT",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-08-04",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FYXT",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "U839",
@@ -752,6 +739,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WT07",
         "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "IMAQ",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-08-05",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IMAQ",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 5 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "S3TG",
@@ -832,6 +832,19 @@
         "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 6 ago en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "CB1V",
+        "titulo": "JUEVES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
+        "fecha": "2026-08-06",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CB1V",
+        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 6 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "8H87",
         "titulo": "JUEVES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/524c9da3-3d2c-47d8-d989-e7e0fe646400/w=1350",
@@ -895,6 +908,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VBZ0",
         "descripcion": "No te pierdas Jueves FITZ en Fitz Madrid. Vive una noche épica este Jue, 6 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8ZEM",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
+        "fecha": "2026-08-07",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8ZEM",
+        "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 7 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "MDE0",
@@ -1053,6 +1079,19 @@
         "descripcion": "No te pierdas Sábado Fitz en Fitz Madrid. Vive una noche épica este Sáb, 8 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "P70G",
+        "titulo": "RUBICON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1e803ce6-7a30-47a7-dc1d-66bf7abf3200/w=1350",
+        "fecha": "2026-08-08",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Rubicon",
+        "direccion": "C. del Cid, 7, 28001 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P70G",
+        "descripcion": "No te pierdas RUBICON en BLURRED. Vive una noche épica este Sáb, 8 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "N0C2",
         "titulo": "CALLE 365 by MADRID  NO DESCANSA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
@@ -1064,6 +1103,19 @@
         "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/N0C2",
         "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 9 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HHOW",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-08-09",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HHOW",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 9 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "KKTV",
@@ -1105,6 +1157,19 @@
         "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "WQUD",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-08-10",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WQUD",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "9R48",
         "titulo": "Fucking Monday",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/726ff0bd-6425-418e-530b-ea61e23c2300/w=1350",
@@ -1142,6 +1207,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JF00",
         "descripcion": "No te pierdas FITZ x One World by ESN en Fitz Madrid. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GQX8",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-08-11",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GQX8",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 11 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "1WXX",
@@ -1207,6 +1285,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/AT3G",
         "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 11 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8N7Q",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-08-12",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8N7Q",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "I3E3",
@@ -1287,6 +1378,19 @@
         "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 13 ago en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "85W8",
+        "titulo": "JUEVES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
+        "fecha": "2026-08-13",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/85W8",
+        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 13 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "7YGU",
         "titulo": "PERRE ON BY TIFFANY’S THE CLUB",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/03c94dff-f06e-4bc5-264d-53417fc04d00/w=1350",
@@ -1350,6 +1454,19 @@
         "direccion": "C. de Orense, 24, 28020 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IG2B",
         "descripcion": "No te pierdas JUEVES en Nazca Club. Vive una noche épica este Jue, 13 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "I69J",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
+        "fecha": "2026-08-14",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/I69J",
+        "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 14 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "O4BQ",
@@ -1495,6 +1612,19 @@
         "descripcion": "No te pierdas SATURDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Sáb, 15 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "ZN9R",
+        "titulo": "RUBICON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1e803ce6-7a30-47a7-dc1d-66bf7abf3200/w=1350",
+        "fecha": "2026-08-15",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Rubicon",
+        "direccion": "C. del Cid, 7, 28001 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZN9R",
+        "descripcion": "No te pierdas RUBICON en BLURRED. Vive una noche épica este Sáb, 15 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "0EML",
         "titulo": "CALLE 365 by MADRID  NO DESCANSA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
@@ -1506,6 +1636,19 @@
         "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/0EML",
         "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 16 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4MBG",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-08-16",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4MBG",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 16 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "GR60",
@@ -1547,6 +1690,19 @@
         "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "EL8S",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/EL8S",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "OYSH",
         "titulo": "Fucking Monday",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9928a86f-2d1b-4c91-06b7-8d766423ee00/w=1350",
@@ -1584,6 +1740,19 @@
         "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KDFZ",
         "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "E7A0",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-08-18",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/E7A0",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 18 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "TL9Q",
@@ -1636,6 +1805,19 @@
         "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TJO9",
         "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 18 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "Q0TB",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-08-19",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Q0TB",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 19 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "NS8I",
@@ -1716,6 +1898,19 @@
         "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 20 ago en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "JWKL",
+        "titulo": "JUEVES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
+        "fecha": "2026-08-20",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JWKL",
+        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 20 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "8E5V",
         "titulo": "JUEVES TODOS SANTOS",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7750f9a4-1e91-46f1-0e57-55a4ea234a00/w=1350",
@@ -1779,6 +1974,19 @@
         "direccion": "C. de Orense, 24, 28020 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WDE5",
         "descripcion": "No te pierdas JUEVES en Nazca Club. Vive una noche épica este Jue, 20 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "R27U",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
+        "fecha": "2026-08-21",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/R27U",
+        "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 21 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "TJHE",
@@ -1911,6 +2119,19 @@
         "descripcion": "No te pierdas SATURDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Sáb, 22 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "M2KM",
+        "titulo": "RUBICON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1e803ce6-7a30-47a7-dc1d-66bf7abf3200/w=1350",
+        "fecha": "2026-08-22",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Rubicon",
+        "direccion": "C. del Cid, 7, 28001 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/M2KM",
+        "descripcion": "No te pierdas RUBICON en BLURRED. Vive una noche épica este Sáb, 22 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "33CA",
         "titulo": "CALLE 365 by MADRID  NO DESCANSA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
@@ -1924,6 +2145,19 @@
         "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 23 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "WJTF",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-08-23",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WJTF",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 23 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "1ZLY",
         "titulo": "DOMINGO",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/851362e9-4ceb-44bc-a7ef-c270d957bf00/w=1350",
@@ -1935,304 +2169,5 @@
         "direccion": "C. de Orense, 24, 28020 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1ZLY",
         "descripcion": "No te pierdas DOMINGO en Nazca Club. Vive una noche épica este Dom, 23 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "5XPE",
-        "titulo": "SUNDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/240f019f-3c33-466f-154a-fa4321f07d00/w=1350",
-        "fecha": "2026-08-23",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/5XPE",
-        "descripcion": "No te pierdas SUNDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Dom, 23 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "TCX4",
-        "titulo": "SALA DE DESPECHO by Madrid No Descansa ",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
-        "fecha": "2026-08-24",
-        "hora": "19:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SALA DE DESPECHO.",
-        "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TCX4",
-        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 24 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "91GD",
-        "titulo": "Fucking Monday",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fc33f273-7798-412e-18b8-e0823ec34400/w=1350",
-        "fecha": "2026-08-24",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Shoko Madrid",
-        "direccion": "C. de Toledo, 86, Centro, 28005 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/91GD",
-        "descripcion": "No te pierdas Fucking Monday en Shôko Madrid. Vive una noche épica este Lun, 24 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "QB21",
-        "titulo": "SUMMER CANDY AT TIFFANY’S",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b9fbdfc1-b9ef-4a47-946c-04de8dad5b00/w=1350",
-        "fecha": "2026-08-24",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QB21",
-        "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 24 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "Z4F5",
-        "titulo": "FITZ x One World by ESN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0aa97a03-a659-4ef7-6399-cbb98a81c800/w=1350",
-        "fecha": "2026-08-24",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Z4F5",
-        "descripcion": "No te pierdas FITZ x One World by ESN en Fitz Madrid. Vive una noche épica este Lun, 24 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "IWIC",
-        "titulo": "TUESDAYS SLVJ x 511",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/dd982f47-8fe4-4619-469d-70db6b833600/w=1350",
-        "fecha": "2026-08-25",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SLVJ",
-        "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IWIC",
-        "descripcion": "No te pierdas TUESDAYS SLVJ x 511 en MADRID NO DESCANSA. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "NCSJ",
-        "titulo": "TUESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68bbfd1c-8b49-4d92-3611-04208482ea00/w=1350",
-        "fecha": "2026-08-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NCSJ",
-        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "F7MV",
-        "titulo": "MARTES DESEO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4bafd147-b710-4c82-949c-80b96ed41700/w=1350",
-        "fecha": "2026-08-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/F7MV",
-        "descripcion": "No te pierdas MARTES DESEO en Nazca Club. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "3NI7",
-        "titulo": "Martes Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3cb807ad-b440-4b35-2242-6023cdcb8900/w=1350",
-        "fecha": "2026-08-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3NI7",
-        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "U4LX",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3c459078-c553-4884-aab8-5145a1ce1700/w=1350",
-        "fecha": "2026-08-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "PERRO NEGRO MADRID",
-        "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/U4LX",
-        "descripcion": "No te pierdas MARTES en PERRO NEGRO MADRID. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "9ROP",
-        "titulo": "Los Jardines del Hipódromo",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5cf48b1b-386e-4e05-266b-097d8aea3200/w=1350",
-        "fecha": "2026-08-26",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Terraza del Hipódromo ",
-        "direccion": "Av. Padre Huidobro, S/N, A6 KM 8, 28023 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9ROP",
-        "descripcion": "No te pierdas Los Jardines del Hipódromo en Los Jardines del Hipodromo. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "76T5",
-        "titulo": "WEDNESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/48eee00c-fdb4-47a3-1a10-807b88923f00/w=1350",
-        "fecha": "2026-08-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/76T5",
-        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "G0X9",
-        "titulo": "MIERCOLES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e9528528-3ca4-4faa-234c-bb8243561f00/w=1350",
-        "fecha": "2026-08-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/G0X9",
-        "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "KC9C",
-        "titulo": "Miercoles VANDIDO - Rumba Latina",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
-        "fecha": "2026-08-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KC9C",
-        "descripcion": "No te pierdas Miercoles VANDIDO - Rumba Latina en VANDIDO. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "G00W",
-        "titulo": "Miércoles Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/15cf9dec-860f-426f-f8a0-25a9d23f9400/w=1350",
-        "fecha": "2026-08-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/G00W",
-        "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "V4Q8",
-        "titulo": "MIERCOLES GUNILLA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8811dba8-3461-4e06-f38b-aa0517470a00/w=1350",
-        "fecha": "2026-08-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Gunilla Club",
-        "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/V4Q8",
-        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "B0A3",
-        "titulo": "JUEVES FENOMENO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2c8fcaa-31df-48a2-99d7-8186f44ea700/w=1350",
-        "fecha": "2026-08-27",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Sala de Despecho",
-        "direccion": "C. de Recoletos, 13, Salamanca, 28001 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/B0A3",
-        "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 27 ago en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "BBTS",
-        "titulo": "PERRE ON BY TIFFANY’S THE CLUB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/2dcea45b-1df7-4728-90fa-2b61bbd81b00/w=1350",
-        "fecha": "2026-08-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BBTS",
-        "descripcion": "No te pierdas PERRE ON BY TIFFANY’S THE CLUB en TIFFANY'S THE CLUB. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "TMW3",
-        "titulo": "JUEVES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/524c9da3-3d2c-47d8-d989-e7e0fe646400/w=1350",
-        "fecha": "2026-08-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TMW3",
-        "descripcion": "No te pierdas JUEVES en Nazca Club. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "2963",
-        "titulo": "Jueves VANDIDO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/83b75068-26fb-461b-987e-bcbea6860900/w=1350",
-        "fecha": "2026-08-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2963",
-        "descripcion": "No te pierdas Jueves VANDIDO en VANDIDO. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "ISTR",
-        "titulo": "Jueves FITZ",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8b797e64-f448-4fbf-e64b-31ea6ef9f000/w=550",
-        "fecha": "2026-08-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ISTR",
-        "descripcion": "No te pierdas Jueves FITZ en Fitz Madrid. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "E19M",
-        "titulo": "VIERNES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/88888bd3-d86b-4a1a-510a-296abc633900/w=1350",
-        "fecha": "2026-08-28",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/E19M",
-        "descripcion": "No te pierdas VIERNES en Nazca Club. Vive una noche épica este Vie, 28 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "71ON",
-        "titulo": "FRIDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8fa68e05-2713-46aa-4def-e990038c8700/w=1350",
-        "fecha": "2026-08-28",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/71ON",
-        "descripcion": "No te pierdas FRIDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Vie, 28 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
