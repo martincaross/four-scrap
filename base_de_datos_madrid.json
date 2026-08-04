@@ -1,83 +1,5 @@
 [
     {
-        "id": "FYXT",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FYXT",
-        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "JIL9",
-        "titulo": "DESEO X NAZCA CLUB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/eecc94b0-0473-480f-26d9-d809d060f000/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "DESEO",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JIL9",
-        "descripcion": "No te pierdas DESEO X NAZCA CLUB en DESEO. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "U839",
-        "titulo": "TUESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68bbfd1c-8b49-4d92-3611-04208482ea00/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/U839",
-        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "VQBO",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3c459078-c553-4884-aab8-5145a1ce1700/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "PERRO NEGRO MADRID",
-        "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VQBO",
-        "descripcion": "No te pierdas MARTES en PERRO NEGRO MADRID. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "3OE8",
-        "titulo": "MARTES DESEO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4bafd147-b710-4c82-949c-80b96ed41700/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3OE8",
-        "descripcion": "No te pierdas MARTES DESEO en Nazca Club. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "WT07",
-        "titulo": "Martes Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3cb807ad-b440-4b35-2242-6023cdcb8900/w=1350",
-        "fecha": "2026-08-04",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WT07",
-        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 4 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "IMAQ",
         "titulo": "MIÉRCOLES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
@@ -154,6 +76,19 @@
         "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OPTE",
         "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 5 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "426K",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-06",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/426K",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Jue, 6 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "VFPB",
@@ -271,6 +206,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/RPPY",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Vie, 7 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "N4AJ",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-07",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/N4AJ",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Vie, 7 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "8ZEM",
@@ -440,6 +388,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JX55",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Sáb, 8 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "O2BS",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-08",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/O2BS",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Sáb, 8 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "FOD3",
@@ -728,19 +689,6 @@
         "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 11 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "PJL4",
-        "titulo": "MARTES DESEO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4bafd147-b710-4c82-949c-80b96ed41700/w=1350",
-        "fecha": "2026-08-11",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PJL4",
-        "descripcion": "No te pierdas MARTES DESEO en Nazca Club. Vive una noche épica este Mar, 11 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "L4LK",
         "titulo": "MARTES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3c459078-c553-4884-aab8-5145a1ce1700/w=1350",
@@ -845,6 +793,19 @@
         "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "812C",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-13",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/812C",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Jue, 13 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "EW4M",
         "titulo": "JUEVES FENOMENO",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2c8fcaa-31df-48a2-99d7-8186f44ea700/w=1350",
@@ -947,6 +908,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8K2T",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Vie, 14 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "C2XJ",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-14",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/C2XJ",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Vie, 14 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "I69J",
@@ -1103,6 +1077,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/A8XO",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Sáb, 15 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GKT1",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-15",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GKT1",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Sáb, 15 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "UTN2",
@@ -1365,19 +1352,6 @@
         "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 18 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "H1WG",
-        "titulo": "MARTES DESEO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4bafd147-b710-4c82-949c-80b96ed41700/w=1350",
-        "fecha": "2026-08-18",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/H1WG",
-        "descripcion": "No te pierdas MARTES DESEO en Nazca Club. Vive una noche épica este Mar, 18 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "TJO9",
         "titulo": "TUESDAY'S at Tiffany's The Club",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68bbfd1c-8b49-4d92-3611-04208482ea00/w=1350",
@@ -1467,6 +1441,19 @@
         "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QZ6M",
         "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 19 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "AXOH",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-20",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/AXOH",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Jue, 20 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "LABD",
@@ -1701,6 +1688,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P9I5",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Sáb, 22 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "XW0F",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-22",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/XW0F",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Sáb, 22 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "8IU8",
@@ -2080,6 +2080,19 @@
         "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 26 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "HGQU",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-27",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HGQU",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "B0A3",
         "titulo": "JUEVES FENOMENO",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2c8fcaa-31df-48a2-99d7-8186f44ea700/w=1350",
@@ -2182,6 +2195,19 @@
         "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KLPG",
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Vie, 28 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "W2G0",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
+        "fecha": "2026-08-28",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/W2G0",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Vie, 28 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "M9PH",
@@ -2314,42 +2340,16 @@
         "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "3BRA",
-        "titulo": "COPAS A 3,5€",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/19ce3bc8-f5fc-4e5c-bc75-b13d4020b000/w=1350",
+        "id": "1DZ0",
+        "titulo": "| GREEN DINNER & CLUB |",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
         "fecha": "2026-08-29",
-        "hora": "23:00",
+        "hora": "18:00",
         "edad": "+18",
         "vestimenta": "Smart / Arreglado",
-        "sala": "BLUE CLUB",
-        "direccion": "C. de Orense, 12, Tetuán, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3BRA",
-        "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "51EG",
-        "titulo": "SABADO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f36a1307-82e6-45d5-13ff-d4c6fa12e300/w=1350",
-        "fecha": "2026-08-29",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/51EG",
-        "descripcion": "No te pierdas SABADO en Nazca Club. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "7974",
-        "titulo": "Sábado VANDIDO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/87b41bb1-72a5-489b-b121-8e9c385e1d00/w=1350",
-        "fecha": "2026-08-29",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/7974",
-        "descripcion": "No te pierdas Sábado VANDIDO en VANDIDO. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+        "sala": "Green Castellana",
+        "direccion": "Paseo de la Castellana, 40, 28046 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1DZ0",
+        "descripcion": "No te pierdas | GREEN DINNER & CLUB | en Green Social Club. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
