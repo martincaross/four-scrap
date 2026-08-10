@@ -1,70 +1,5 @@
 [
     {
-        "id": "ZKGX",
-        "titulo": "SALA DE DESPECHO by Madrid No Descansa ",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
-        "fecha": "2026-08-10",
-        "hora": "19:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SALA DE DESPECHO.",
-        "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZKGX",
-        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "WQUD",
-        "titulo": "LUNES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
-        "fecha": "2026-08-10",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WQUD",
-        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "9R48",
-        "titulo": "Fucking Monday",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/726ff0bd-6425-418e-530b-ea61e23c2300/w=1350",
-        "fecha": "2026-08-10",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Shoko Madrid",
-        "direccion": "C. de Toledo, 86, Centro, 28005 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9R48",
-        "descripcion": "No te pierdas Fucking Monday en Shôko Madrid. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "VD28",
-        "titulo": "SUMMER CANDY AT TIFFANY’S",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ce5f3976-2ed9-4c47-5bdf-7ac7dc73db00/w=1350",
-        "fecha": "2026-08-10",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VD28",
-        "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "JF00",
-        "titulo": "FITZ x One World by ESN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0aa97a03-a659-4ef7-6399-cbb98a81c800/w=1350",
-        "fecha": "2026-08-10",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JF00",
-        "descripcion": "No te pierdas FITZ x One World by ESN en Fitz Madrid. Vive una noche épica este Lun, 10 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "GQX8",
         "titulo": "MARTES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
@@ -2275,6 +2210,19 @@
         "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 3 sept en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "2C4W",
+        "titulo": "JUEVES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
+        "fecha": "2026-09-03",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2C4W",
+        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 3 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "Z5ZI",
         "titulo": "PERRE ON BY TIFFANY’S THE CLUB",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a5850f16-091a-4c9e-99c9-85ba65ed0500/w=1350",
@@ -2327,6 +2275,19 @@
         "descripcion": "No te pierdas BONDED x Spotted - Early Arrivals en BONDED CLUB. Vive una noche épica este Jue, 3 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "A7T7",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
+        "fecha": "2026-09-04",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/A7T7",
+        "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "KWII",
         "titulo": "SAINT CLUB FRIDAYS",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ed364447-f27a-4a7a-46eb-1b0a9a19b000/w=1350",
@@ -2364,5 +2325,31 @@
         "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/I6OT",
         "descripcion": "No te pierdas FRIDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "LZFW",
+        "titulo": "VIERNES RUBICON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7078a49c-b114-4c98-6bcd-255dbbf48000/w=1350",
+        "fecha": "2026-09-04",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Rubicon",
+        "direccion": "C. del Cid, 7, Salamanca, 28001 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/LZFW",
+        "descripcion": "No te pierdas VIERNES RUBICON en MADRID NO DESCANSA. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "5NNM",
+        "titulo": "B12 - ENTRADAS",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_Hllm2chtl02aw01chblog4k6aAEPBBrr.jpeg?versionId=b1HUEmxegtcRkHu1x3zOwqYgY9tbI4Bh",
+        "fecha": "2026-09-04",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca B12 Madrid",
+        "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/5NNM",
+        "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
