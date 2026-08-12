@@ -1,83 +1,5 @@
 [
     {
-        "id": "8N7Q",
-        "titulo": "MIÉRCOLES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
-        "fecha": "2026-08-12",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8N7Q",
-        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "I3E3",
-        "titulo": "WEDNESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/48eee00c-fdb4-47a3-1a10-807b88923f00/w=1350",
-        "fecha": "2026-08-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/I3E3",
-        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "Q4IX",
-        "titulo": "MIERCOLES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e9528528-3ca4-4faa-234c-bb8243561f00/w=1350",
-        "fecha": "2026-08-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "direccion": "C. de Orense, 24, 28020 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Q4IX",
-        "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "JHV6",
-        "titulo": "MIERCOLES GUNILLA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8811dba8-3461-4e06-f38b-aa0517470a00/w=1350",
-        "fecha": "2026-08-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Gunilla Club",
-        "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JHV6",
-        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "8FNZ",
-        "titulo": "Miercoles VANDIDO - Rumba Latina",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
-        "fecha": "2026-08-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8FNZ",
-        "descripcion": "No te pierdas Miercoles VANDIDO - Rumba Latina en VANDIDO. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "8E9C",
-        "titulo": "Miércoles Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/15cf9dec-860f-426f-f8a0-25a9d23f9400/w=1350",
-        "fecha": "2026-08-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8E9C",
-        "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 12 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "812C",
         "titulo": "| GREEN DINNER & CLUB |",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f9feeeee-203a-4e1f-37f8-52cbddbc4500/w=1350",
@@ -2314,6 +2236,19 @@
         "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "9BTS",
+        "titulo": "PERREOLAB & 511",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/757ca179-c58c-456a-23a4-05e137a2ad00/w=1350",
+        "fecha": "2026-09-05",
+        "hora": "23:59",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Teatro Magno",
+        "direccion": "Calle de Cedaceros, 7, 28014 Madrid (Madrid), España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9BTS",
+        "descripcion": "No te pierdas PERREOLAB & 511 en Teatro Magno. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "N2PO",
         "titulo": "CANDELA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/57b3bfab-e9bd-486c-9673-79f0df396c00/w=1350",
@@ -2325,5 +2260,57 @@
         "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/N2PO",
         "descripcion": "No te pierdas CANDELA en SAINT CLUB. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HDOI",
+        "titulo": "SÁBADO MON - GRAN OPENING",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/05eb7fb3-44ca-4b49-ff29-738b71cd5f00/w=1350",
+        "fecha": "2026-09-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HDOI",
+        "descripcion": "No te pierdas SÁBADO MON - GRAN OPENING en Sala MON. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "Y4Z9",
+        "titulo": "SATURDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8fa68e05-2713-46aa-4def-e990038c8700/w=1350",
+        "fecha": "2026-09-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Y4Z9",
+        "descripcion": "No te pierdas SATURDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "M95D",
+        "titulo": "B12 - ENTRADAS",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_Hllm2chtl02aw01chblog4k6aAEPBBrr.jpeg?versionId=b1HUEmxegtcRkHu1x3zOwqYgY9tbI4Bh",
+        "fecha": "2026-09-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca B12 Madrid",
+        "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/M95D",
+        "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "F3OU",
+        "titulo": "CALLE 365 by MADRID  NO DESCANSA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
+        "fecha": "2026-09-06",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "CALLE 365",
+        "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/F3OU",
+        "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 6 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
