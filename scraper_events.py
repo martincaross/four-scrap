@@ -11,7 +11,7 @@ ZENROWS_API_KEY = os.getenv("ZENROWS_API_KEY")
 zenrows_endpoint = "https://api.zenrows.com/v1/"
 
 # La URL de tu landing pública con todas tus promotoras de Madrid
-URL_GENERAL = "https://site.fourvenues.com/es/nextplan/events"
+URL_GENERAL = "https://site.fourvenues.com/es/nextplan"
 OUTPUT_FILE = "urls.txt"
 
 print("🕵️‍♂️ Iniciando rastreador de carteleras...")
