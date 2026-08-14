@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install requests beautifulsoup4 urllib3
+        run: pip install -r requirements.txt
 
       - name: 1. Descubrir eventos activos (1 crédito)
         env:
@@ -33,10 +33,15 @@ jobs:
           ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
         run: python scraper.py
 
-      - name: 3. Actualizar la web de Linktree
+      - name: 3. Sincronizar con Firestore
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: python sync_firestore.py
+
+      - name: 4. Actualizar la web de Linktree
         run: python automation/generar_linktree.py
 
-      - name: 4. Guardar cambios en GitHub
+      - name: 5. Guardar cambios en GitHub
         run: |
           git config --global user.name "NextPlan Bot"
           git config --global user.email "bot@nextplan.es"
