@@ -169,3 +169,10 @@ with open(DATABASE_FILE, "w", encoding="utf-8") as archivo:
 print(f"\n🏁 PROCESO COMPLETADO.")
 print(f"Se han incorporado {nuevos_agregados} nuevos eventos.")
 print(f"Archivo '{DATABASE_FILE}' sincronizado, ordenado y listo. Total: {len(base_de_datos_eventos)} eventos.")
+
+# =========================================================================
+# 📍 6. AÑADIR LATITUD Y LONGITUD (GEOCODIFICACIÓN)
+# =========================================================================
+print("\n🌍 Ejecutando geocodificación de las direcciones...")
+import geocode_db
+geocode_db.main()
