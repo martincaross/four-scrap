@@ -6,7 +6,7 @@ import time
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID_CHATS = os.getenv("TELEGRAM_CHAT_ID_CHATS")
-DATABASE_FILE = "base_de_datos_madrid.json"
+DATABASE_FILE = "data/base_de_datos_madrid.json"
 MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
 fecha_objetivo = datetime.now().strftime("%Y-%m-%d")

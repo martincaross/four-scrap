@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timedelta
 import os
 
-DATABASE_FILE = "base_de_datos_madrid.json"
+DATABASE_FILE = "data/base_de_datos_madrid.json"
 OUTPUT_HTML = "index.html"
 
 # Fecha de hoy (22 de julio de 2026)
