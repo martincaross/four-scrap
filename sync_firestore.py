@@ -98,19 +98,24 @@ def main():
     # 4. Limpieza de eventos caducados/eliminados
     if not args.wipe:
         print("🧹 Buscando eventos caducados o eliminados en Firestore para borrarlos...")
-        docs = collection_ref.stream()
-        delete_batch = db.batch()
-        borrados = 0
-        for doc in docs:
-            if doc.id not in ids_activos:
+        docs = list(collection_ref.stream())
+        docs_a_borrar = [doc for doc in docs if doc.id not in ids_activos]
+        
+        if len(docs_a_borrar) > 30:
+            print(f"⚠️ ¡ALERTA DE SEGURIDAD! Se intentaban borrar {len(docs_a_borrar)} eventos de golpe.")
+            print("Para proteger la base de datos de fallos del scraper, se ha cancelado la limpieza automática.")
+            print("Si realmente necesitas borrar más de 30 eventos de golpe, hazlo de forma manual o usa el flag --wipe.")
+        elif len(docs_a_borrar) > 0:
+            delete_batch = db.batch()
+            borrados = 0
+            for doc in docs_a_borrar:
                 delete_batch.delete(doc.reference)
                 borrados += 1
                 if borrados % 400 == 0:
                     delete_batch.commit()
                     delete_batch = db.batch()
-        if borrados % 400 != 0:
-            delete_batch.commit()
-        if borrados > 0:
+            if borrados % 400 != 0:
+                delete_batch.commit()
             print(f"✅ Se eliminaron {borrados} eventos obsoletos de Firestore.")
         else:
             print("✨ No había eventos obsoletos que limpiar.")
