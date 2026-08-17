@@ -93,6 +93,13 @@ if eventos_borrados_ahora:
 # =========================================================================
 nuevos_agregados = 0
 
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+session = requests.Session()
+retries = Retry(total=2, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+session.mount('https://', HTTPAdapter(max_retries=retries))
+
 for index, url in enumerate(enlaces_rrpp):
     # Extraemos el ID único del enlace (ej: https://.../events/6YDG -> 6YDG)
     event_id = url.split("-")[-1].split("/")[-1]
@@ -107,7 +114,7 @@ for index, url in enumerate(enlaces_rrpp):
     params = {"apikey": ZENROWS_API_KEY, "url": url}
     
     try:
-        response = requests.get(zenrows_endpoint, params=params, verify=False, timeout=30)
+        response = session.get(zenrows_endpoint, params=params, verify=False, timeout=5)
         
         if response.status_code == 404:
             print(f"⚠️ El evento [{event_id}] ya no existe en Fourvenues (404).")
