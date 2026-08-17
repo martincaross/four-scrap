@@ -26,17 +26,17 @@ jobs:
       - name: 1. Descubrir eventos activos (1 crédito)
         env:
           ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
-        run: python scraper_events.py
+        run: python src/scraper_events.py
 
       - name: 2. Descargar SOLO los eventos nuevos (Smart Skip)
         env:
           ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
-        run: python scraper.py
+        run: python src/scraper.py
 
       - name: 3. Sincronizar con Firestore
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-        run: python sync_firestore.py
+        run: python src/sync_firestore.py
 
       - name: 4. Actualizar la web de Linktree
         run: python automation/generar_linktree.py
@@ -45,6 +45,6 @@ jobs:
         run: |
           git config --global user.name "NextPlan Bot"
           git config --global user.email "bot@nextplan.es"
-          git add base_de_datos_madrid.json urls.txt index.html
+          git add data/base_de_datos_madrid.json data/base_de_datos_madrid_old.json data/urls.txt depuracion/
           git diff-index --quiet HEAD || git commit -m "chore: actualización nocturna de cartelera"
           git push origin main
