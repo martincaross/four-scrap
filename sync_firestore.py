@@ -43,14 +43,36 @@ def main():
         
     db = firestore.client()
     collection_ref = db.collection("eventos")
-    
+    import argparse
+    parser = argparse.ArgumentParser(description="Sincronizar eventos con Firestore")
+    parser.add_argument("--wipe", action="store_true", help="Borra todos los eventos en la colección antes de sincronizar")
+    args = parser.parse_args()
+
     # 3. Estructura y volcado en Firestore (Batch Writes)
+    if args.wipe:
+        print("⚠️ Flag --wipe detectado. Borrando todos los documentos existentes en 'eventos'...")
+        docs = collection_ref.stream()
+        delete_batch = db.batch()
+        count = 0
+        for doc in docs:
+            delete_batch.delete(doc.reference)
+            count += 1
+            if count % 400 == 0:
+                delete_batch.commit()
+                delete_batch = db.batch()
+        if count % 400 != 0:
+            delete_batch.commit()
+        print(f"✅ Se borraron {count} documentos antiguos.")
+
     print(f"Iniciando sincronización de {len(eventos)} eventos hacia Firestore...")
     
     total_eventos = len(eventos)
     eventos_procesados = 0
     batch_limit = 400
     
+    # Recopilar todos los IDs que se van a subir para la limpieza posterior
+    ids_activos = set()
+
     for i in range(0, total_eventos, batch_limit):
         batch = db.batch()
         lote_eventos = eventos[i:i + batch_limit]
@@ -60,6 +82,7 @@ def main():
                 continue
                 
             doc_id = str(evento["id"])
+            ids_activos.add(doc_id)
             doc_ref = collection_ref.document(doc_id)
             
             # Usar set con merge=True para actualizar sin duplicar ni borrar campos extra
@@ -72,8 +95,28 @@ def main():
         except Exception as e:
             print(f"Error al enviar lote a Firestore: {e}")
             
-    # 4. Trazabilidad y logs
-    print(f"Sincronización completada exitosamente. Se sincronizaron {eventos_procesados} eventos en total.")
+    # 4. Limpieza de eventos caducados/eliminados
+    if not args.wipe:
+        print("🧹 Buscando eventos caducados o eliminados en Firestore para borrarlos...")
+        docs = collection_ref.stream()
+        delete_batch = db.batch()
+        borrados = 0
+        for doc in docs:
+            if doc.id not in ids_activos:
+                delete_batch.delete(doc.reference)
+                borrados += 1
+                if borrados % 400 == 0:
+                    delete_batch.commit()
+                    delete_batch = db.batch()
+        if borrados % 400 != 0:
+            delete_batch.commit()
+        if borrados > 0:
+            print(f"✅ Se eliminaron {borrados} eventos obsoletos de Firestore.")
+        else:
+            print("✨ No había eventos obsoletos que limpiar.")
+
+    # 5. Trazabilidad y logs
+    print(f"Sincronización completada exitosamente. Se sincronizaron {eventos_procesados} eventos activos.")
 
 if __name__ == "__main__":
     main()

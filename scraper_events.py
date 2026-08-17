@@ -44,42 +44,53 @@ js_instructions = """
 ]
 """
 
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# Configurar reintentos
+session = requests.Session()
+retries = Retry(total=3, backoff_factor=1, status_forcelist=[ 500, 502, 503, 504 ])
+session.mount('https://', HTTPAdapter(max_retries=retries))
+
 enlaces_limpios = []
+fallos_detectados = False
 
 for url in URLS_OBJETIVO:
     print(f"\n🔍 Analizando objetivo: {url}")
     params = {
         "apikey": ZENROWS_API_KEY,
         "url": url,
-        "js_render": "true",           # Abre el navegador virtual
-        "premium_proxy": "true",       # IP residencial premium para camuflar el bot
+        "js_render": "true",
+        "premium_proxy": "true",
         "js_instructions": js_instructions
     }
 
     try:
         print("⏳ Conectando con ZenRows (desplegando botones de la web)...")
-        response = requests.get(zenrows_endpoint, params=params, verify=False, timeout=60)
+        # Aumentamos el timeout a 120s para prevenir cortes abruptos
+        response = session.get(zenrows_endpoint, params=params, verify=False, timeout=120)
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Rastreamos todos los links de la página desplegada
             for tag in soup.find_all("a", href=True):
                 href = tag['href']
-                
-                # Filtramos: Solo nos interesan links que tengan la estructura de un evento
                 if "/events/" in href:
-                    # Si el enlace es relativo (/es/nextplan/events/...), lo volvemos absoluto
                     if href.startswith("/"):
                         href = "https://www.fourvenues.com" + href
-                    
                     if href not in enlaces_limpios:
                         enlaces_limpios.append(href)
         else:
             print(f"❌ Error en el servidor de ZenRows para {url}. Código: {response.status_code}")
+            fallos_detectados = True
 
     except Exception as e:
         print(f"💥 Error al procesar {url}: {e}")
+        fallos_detectados = True
+
+if fallos_detectados:
+    print("⚠️ Hubo fallos en al menos una página. Creando flag de scrapeo parcial.")
+    with open("PARTIAL_SCRAPE.flag", "w") as f:
+        f.write("partial")
 
 if enlaces_limpios:
     # Guardamos los enlaces pisando lo que hubiera antes en urls.txt
@@ -98,3 +109,6 @@ else:
         print("Se ha generado 'debug_landing.html' con el último intento para revisar qué ha visto el bot.")
     except NameError:
         pass
+    
+    # Si no obtuvimos absolutamente nada, salimos con error para detener las actions
+    sys.exit(1)

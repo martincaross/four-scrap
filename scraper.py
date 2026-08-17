@@ -50,17 +50,43 @@ with open(URLS_FILE, "r", encoding="utf-8") as f:
 print(f"📋 Analizando lista de {len(enlaces_rrpp)} eventos frente a los guardados...")
 
 # =========================================================================
-# 🧹 2.5 SINCRONIZACIÓN ESTRICTA (Borrar eventos finalizados/cancelados)
+# 🧹 2.5 SINCRONIZACIÓN ESTRICTA (Mover eventos borrados a old.json)
 # =========================================================================
 urls_set = set(enlaces_rrpp)
-eventos_mantenidos = [e for e in base_de_datos_eventos if e.get("link_compra_rrpp") in urls_set]
-borrados_sync = len(base_de_datos_eventos) - len(eventos_mantenidos)
+eventos_mantenidos = []
+eventos_borrados_ahora = []
+
+# Comprobar si hubo fallo parcial en la obtención de URLs
+scrapeo_parcial = os.path.exists("PARTIAL_SCRAPE.flag")
+if scrapeo_parcial:
+    print("⚠️ Se detectó un scrapeo parcial previo. Se suspende el borrado de eventos que no aparezcan hoy para evitar pérdidas de datos.")
+    # Borramos el flag para la próxima ejecución
+    os.remove("PARTIAL_SCRAPE.flag")
+
+for e in base_de_datos_eventos:
+    # Si scrapeo fue parcial, mantenemos todos los eventos (el filtrado por fecha pasada se hace después)
+    if scrapeo_parcial or e.get("link_compra_rrpp") in urls_set:
+        eventos_mantenidos.append(e)
+    else:
+        eventos_borrados_ahora.append(e)
+
 base_de_datos_eventos = eventos_mantenidos
-# Recalculamos los IDs guardados
 ids_ya_guardados = {str(evento.get("id", "")) for evento in base_de_datos_eventos}
 
-if borrados_sync > 0:
-    print(f"🗑️ Se han eliminado {borrados_sync} eventos que ya no existen en Fourvenues.")
+# Guardar los borrados en old.json
+if eventos_borrados_ahora:
+    old_db_file = "base_de_datos_madrid_old.json"
+    eventos_old = []
+    if os.path.exists(old_db_file):
+        try:
+            with open(old_db_file, "r", encoding="utf-8") as f:
+                eventos_old = json.load(f)
+        except Exception:
+            pass
+    eventos_old.extend(eventos_borrados_ahora)
+    with open(old_db_file, "w", encoding="utf-8") as f:
+        json.dump(eventos_old, f, indent=4, ensure_ascii=False)
+    print(f"🗑️ Se han movido {len(eventos_borrados_ahora)} eventos desaparecidos al archivo histórico (old.json).")
 
 # =========================================================================
 # 🔄 3. BUCLE INTELIGENTE (SMART SKIP)
@@ -122,7 +148,15 @@ for index, url in enumerate(enlaces_rrpp):
                 "edad": edad,
                 "vestimenta": vestimenta,
                 "sala": data_main.get("location", {}).get("name", "Sala Madrid"),
-                "direccion": data_main.get("location", {}).get("address", {}).get("streetAddress", "Madrid, España"),
+                "ubicacion": {
+                    "direccion": data_main.get("location", {}).get("address", {}).get("streetAddress", "Madrid, España"),
+                    "ciudad": "desconocido",
+                    "provincia": "desconocido",
+                    "comunidad": "desconocido",
+                    "pais": "es",
+                    "latitud": None,
+                    "longitud": None
+                },
                 "link_compra_rrpp": url,
                 "descripcion": descripcion
             }
@@ -142,7 +176,30 @@ for index, url in enumerate(enlaces_rrpp):
 # 📅 4. LIMPIEZA DE HISTORIAL Y ORDENADO CRONOLÓGICO
 # =========================================================================
 hoy_str = datetime.now().strftime("%Y-%m-%d")
-base_de_datos_eventos = [e for e in base_de_datos_eventos if e.get("fecha", "") >= hoy_str]
+eventos_futuros = []
+eventos_caducados = []
+
+for e in base_de_datos_eventos:
+    if e.get("fecha", "") >= hoy_str:
+        eventos_futuros.append(e)
+    else:
+        eventos_caducados.append(e)
+
+base_de_datos_eventos = eventos_futuros
+
+if eventos_caducados:
+    old_db_file = "base_de_datos_madrid_old.json"
+    eventos_old = []
+    if os.path.exists(old_db_file):
+        try:
+            with open(old_db_file, "r", encoding="utf-8") as f:
+                eventos_old = json.load(f)
+        except Exception:
+            pass
+    eventos_old.extend(eventos_caducados)
+    with open(old_db_file, "w", encoding="utf-8") as f:
+        json.dump(eventos_old, f, indent=4, ensure_ascii=False)
+    print(f"🗑️ Se han movido {len(eventos_caducados)} eventos pasados al archivo histórico (old.json).")
 
 print("\n📅 Ordenando cartelera por fecha y hora de apertura...")
 def sort_key(x):
