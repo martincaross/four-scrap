@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 06 * * *'  # Todos los días a las 00:00h de Madrid
   workflow_dispatch:
+    inputs:
+      wipe_db:
+        description: '⚠️ Activar para borrar TODOS los eventos antiguos antes de subir los nuevos (Wipe)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,7 +42,12 @@ jobs:
       - name: 3. Sincronizar con Firestore
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-        run: python src/sync_firestore.py
+        run: |
+          if [ "${{ github.event.inputs.wipe_db }}" == "true" ]; then
+            python src/sync_firestore.py --wipe
+          else
+            python src/sync_firestore.py
+          fi
 
       - name: 4. Actualizar la web de Linktree
         run: python automation/generar_linktree.py
