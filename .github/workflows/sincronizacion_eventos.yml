@@ -45,7 +45,7 @@ jobs:
         run: |
           git config --global user.name "NextPlan Bot"
           git config --global user.email "bot@nextplan.es"
-          git add data/base_de_datos_madrid.json data/base_de_datos_madrid_old.json data/urls.txt depuracion/ index.html
+          git add data/ depuracion/ index.html
           git commit -m "chore: actualización nocturna de cartelera" || true
           git pull --rebase origin main
           git push origin main
