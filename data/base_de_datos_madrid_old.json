@@ -124,5 +124,278 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KDFZ",
         "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "N1KT",
+        "titulo": "SALA DE DESPECHO by Madrid No Descansa ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "19:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SALA DE DESPECHO.",
+        "ubicacion": {
+            "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4228377,
+            "longitud": -3.6909403
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/N1KT",
+        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa  en MADRID NO DESCANSA. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "EL8S",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/EL8S",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "OYSH",
+        "titulo": "Fucking Monday",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9928a86f-2d1b-4c91-06b7-8d766423ee00/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Shoko Madrid",
+        "ubicacion": {
+            "direccion": "C. de Toledo, 86, Centro, 28005 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4088216,
+            "longitud": -3.7108619
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OYSH",
+        "descripcion": "No te pierdas Fucking Monday en Shôko Madrid. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "KDFZ",
+        "titulo": "SUMMER CANDY AT TIFFANY’S",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e8e36108-e511-4a43-f205-1fdcc5723e00/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KDFZ",
+        "descripcion": "No te pierdas SUMMER CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "Q2HG",
+        "titulo": "FITZ x One World by ESN - Brasilian midnight carnival",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/64ba3edd-58df-4935-7f05-49cdd597a000/w=1350",
+        "fecha": "2026-08-17",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Q2HG",
+        "descripcion": "No te pierdas FITZ x One World by ESN - Brasilian midnight carnival en Fitz Madrid. Vive una noche épica este Lun, 17 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HZHP",
+        "titulo": "SAINT CLUB X ROOKIES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06e0e9c8-699a-4538-2b1f-677005462d00/w=550",
+        "fecha": "2026-08-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HZHP",
+        "descripcion": "No te pierdas SAINT CLUB X ROOKIES en SAINT CLUB. Vive una noche épica este Jue, 27 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "J7FY",
+        "titulo": "SAINT CLUB FRIDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ed364447-f27a-4a7a-46eb-1b0a9a19b000/w=1350",
+        "fecha": "2026-08-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/J7FY",
+        "descripcion": "No te pierdas SAINT CLUB FRIDAYS en SAINT CLUB. Vive una noche épica este Vie, 28 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "C7GY",
+        "titulo": "CANDELA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e4141f6-c631-41ac-cdd3-88362357d400/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/C7GY",
+        "descripcion": "No te pierdas CANDELA en SAINT CLUB. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "66AH",
+        "titulo": "SAINT CLUB X ROOKIES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06e0e9c8-699a-4538-2b1f-677005462d00/w=550",
+        "fecha": "2026-09-03",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/66AH",
+        "descripcion": "No te pierdas SAINT CLUB X ROOKIES en SAINT CLUB. Vive una noche épica este Jue, 3 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "KWII",
+        "titulo": "SAINT CLUB FRIDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ed364447-f27a-4a7a-46eb-1b0a9a19b000/w=1350",
+        "fecha": "2026-09-04",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KWII",
+        "descripcion": "No te pierdas SAINT CLUB FRIDAYS en SAINT CLUB. Vive una noche épica este Vie, 4 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "N2PO",
+        "titulo": "CANDELA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f3d28ba3-b0e9-4d70-27ca-8aec20484e00/w=1350",
+        "fecha": "2026-09-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/N2PO",
+        "descripcion": "No te pierdas CANDELA en SAINT CLUB. Vive una noche épica este Sáb, 5 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "VZ7Y",
+        "titulo": "SAINT CLUB X ROOKIES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06e0e9c8-699a-4538-2b1f-677005462d00/w=550",
+        "fecha": "2026-09-10",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VZ7Y",
+        "descripcion": "No te pierdas SAINT CLUB X ROOKIES en SAINT CLUB. Vive una noche épica este Jue, 10 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "2TJO",
+        "titulo": "SAINT CLUB FRIDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ed364447-f27a-4a7a-46eb-1b0a9a19b000/w=1350",
+        "fecha": "2026-09-11",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2TJO",
+        "descripcion": "No te pierdas SAINT CLUB FRIDAYS en SAINT CLUB. Vive una noche épica este Vie, 11 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
