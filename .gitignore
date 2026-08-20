@@ -222,6 +222,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Media & Video files
+*.mp4
+*.MOV
+*.mov
+*.avi
+*.mkv
+*.webm
+
 # Firebase & GCP Service Accounts / Secrets
 *firebase-adminsdk*.json
 *serviceAccount*.json
