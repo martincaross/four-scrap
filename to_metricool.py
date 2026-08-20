@@ -328,22 +328,15 @@ if __name__ == "__main__":
             f.write(b"\x00\x00\x00\x18ftypmp42\x00\x00\x00\x00mp42isom<MOCK_VIDEO_DATA>")
         print(f"🎬 Vídeo de prueba creado: '{mock_video_path}'")
 
-        # 2. Intentar subida a Firebase Storage (con fallback mock si no hay credenciales activas)
+        # 2. Intentar subida a Firebase Storage
         video_url = ""
-        has_credentials = bool(os.environ.get("FIREBASE_SERVICE_ACCOUNT") or os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
-        has_bucket = bool(os.environ.get("FIREBASE_STORAGE_BUCKET"))
-
-        if has_credentials and has_bucket:
-            print("🔑 Credenciales de Firebase detectadas. Probando subida real...")
-            try:
-                video_url = upload_to_storage(mock_video_path, "tests/marketing_demo.mp4")
-            except Exception as upload_err:
-                print(f"⚠️ No se pudo completar la subida real ({upload_err}). Usando URL simulada.")
-                video_url = "https://storage.googleapis.com/tu-bucket.appspot.com/marketing_media/test_video.mp4"
-        else:
-            print("ℹ️ Credenciales de Firebase no configuradas en el entorno local.")
-            print("   (Para subidas reales, configura 'FIREBASE_STORAGE_BUCKET' y 'FIREBASE_SERVICE_ACCOUNT').")
-            video_url = "https://storage.googleapis.com/mingle-marketing.appspot.com/marketing_media/demo_reel_2026.mp4"
+        try:
+            print("🔑 Probando subida real a Firebase Storage...")
+            video_url = upload_to_storage(mock_video_path, "tests/marketing_demo.mp4")
+            print(f"✅ Subida exitosa. URL pública: {video_url}")
+        except Exception as upload_err:
+            print(f"⚠️ No se pudo completar la subida real ({upload_err}). Usando URL simulada.")
+            video_url = "https://storage.googleapis.com/mingle-495e0.firebasestorage.app/marketing_media/demo_reel_2026.mp4"
 
         # 3. Definir lista de posts "mock" de prueba para el pipeline de marketing
         posts_demo = [
