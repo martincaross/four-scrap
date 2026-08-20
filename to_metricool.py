@@ -186,71 +186,65 @@ def upload_to_storage(
 def generate_metricool_csv(
     lista_posts: List[Dict[str, Any]],
     output_filename: str = "metricool.csv",
-    base_date: Optional[datetime] = None
+    base_date: Optional[datetime] = None,
+    format_type: str = "multinetwork"
 ) -> str:
     """
-    Genera un archivo CSV con el formato exacto de importación masiva de Metricool.
+    Genera un archivo CSV para la importación masiva de Metricool.
 
-    Cabeceras exactas de Metricool:
-        Date, Time, Text, Image/Video URL, Link, Pinterest board
-
-    Lógica de programación de fechas:
-        - Primer post: Mañana a las 19:00
-        - Segundo post: Pasado mañana a las 19:00
-        - Siguientes posts: +1 día secuencial a las 19:00
-        - Formato Date: DD/MM/YYYY
-        - Formato Time: HH:MM
-
-    Args:
-        lista_posts: Lista de diccionarios con la información de cada post.
-                     Campos soportados:
-                     - 'text' / 'Text' / 'texto': Texto o copia del post.
-                     - 'media_url' / 'Image/Video URL' / 'url': URL del vídeo o imagen.
-                     - 'link' / 'Link': Enlace web de destino (opcional).
-                     - 'pinterest_board' / 'Pinterest board': Tablero de Pinterest (opcional).
-                     - 'date' / 'Date': (Opcional) Sobrescribir fecha calculada.
-                     - 'time' / 'Time': (Opcional) Sobrescribir hora calculada.
-        output_filename: Nombre o ruta del archivo CSV de salida.
-        base_date: Fecha base de referencia (por defecto datetime.now()).
-
-    Returns:
-        str: Ruta absoluta del archivo CSV generado.
+    Soporta dos formatos:
+    1. 'multinetwork' (Recomendado para Instagram/TikTok):
+       Text, Date, Time, Instagram, TikTok, Facebook, Twitter, LinkedIn, Pinterest, YouTube, Picture Url 1, Instagram post type
+    2. 'standard' / 'classic':
+       Date, Time, Text, Image/Video URL, Link, Pinterest board
     """
     try:
         if not lista_posts:
-            logger.warning("⚠️ La lista de posts está vacía. Se creará un CSV solo con cabeceras.")
-
-        # Cabeceras requeridas por la plantilla oficial de Metricool
-        fieldnames = [
-            "Date",
-            "Time",
-            "Text",
-            "Image/Video URL",
-            "Link",
-            "Pinterest board"
-        ]
+            logger.warning("⚠️ La lista de posts está vacía.")
 
         if base_date is None:
             base_date = datetime.now()
 
-        # Asegurar directorio de salida si se especifica una ruta con carpetas
         output_dir = os.path.dirname(output_filename)
         if output_dir and not os.path.exists(output_dir):
             os.makedirs(output_dir, exist_ok=True)
 
+        if format_type == "multinetwork":
+            fieldnames = [
+                "Text",
+                "Date",
+                "Time",
+                "Instagram",
+                "TikTok",
+                "Facebook",
+                "Twitter",
+                "LinkedIn",
+                "Pinterest",
+                "YouTube",
+                "Picture Url 1",
+                "Instagram post type"
+            ]
+        else:
+            fieldnames = [
+                "Date",
+                "Time",
+                "Text",
+                "Image/Video URL",
+                "Link",
+                "Pinterest board"
+            ]
+
         rows_to_write = []
 
         for index, post in enumerate(lista_posts):
-            # 1. Cálculo de fecha secuencial (Post 0 = Mañana, Post 1 = Pasado mañana, etc.)
+            # 1. Fechas y horas
             default_datetime = base_date + timedelta(days=(index + 1))
-            default_date_str = default_datetime.strftime("%d/%m/%Y")  # DD/MM/YYYY
-            default_time_str = "19:00"  # 19:00 HH:MM
+            default_date_str = default_datetime.strftime("%d/%m/%Y")
+            default_time_str = "19:00"
 
-            # Permitir sobrescritura manual si el post ya trae 'Date' o 'Time'
             date_val = post.get("Date") or post.get("date") or default_date_str
             time_val = post.get("Time") or post.get("time") or default_time_str
 
-            # 2. Extracción flexible de campos
             text_val = (
                 post.get("Text")
                 or post.get("text")
@@ -260,7 +254,8 @@ def generate_metricool_csv(
             )
 
             media_val = (
-                post.get("Image/Video URL")
+                post.get("Picture Url 1")
+                or post.get("Image/Video URL")
                 or post.get("media_url")
                 or post.get("image_url")
                 or post.get("video_url")
@@ -268,30 +263,33 @@ def generate_metricool_csv(
                 or ""
             )
 
-            link_val = (
-                post.get("Link")
-                or post.get("link")
-                or post.get("url_evento")
-                or ""
-            )
+            if format_type == "multinetwork":
+                rows_to_write.append({
+                    "Text": str(text_val),
+                    "Date": str(date_val).strip(),
+                    "Time": str(time_val).strip(),
+                    "Instagram": str(post.get("Instagram", "TRUE")).upper(),
+                    "TikTok": str(post.get("TikTok", "TRUE")).upper(),
+                    "Facebook": str(post.get("Facebook", "FALSE")).upper(),
+                    "Twitter": str(post.get("Twitter", "FALSE")).upper(),
+                    "LinkedIn": str(post.get("LinkedIn", "FALSE")).upper(),
+                    "Pinterest": str(post.get("Pinterest", "FALSE")).upper(),
+                    "YouTube": str(post.get("YouTube", "FALSE")).upper(),
+                    "Picture Url 1": str(media_val).strip(),
+                    "Instagram post type": str(post.get("Instagram post type", "REEL"))
+                })
+            else:
+                link_val = post.get("Link") or post.get("link") or ""
+                pinterest_val = post.get("Pinterest board") or post.get("pinterest_board") or ""
+                rows_to_write.append({
+                    "Date": str(date_val).strip(),
+                    "Time": str(time_val).strip(),
+                    "Text": str(text_val),
+                    "Image/Video URL": str(media_val).strip(),
+                    "Link": str(link_val).strip(),
+                    "Pinterest board": str(pinterest_val).strip()
+                })
 
-            pinterest_val = (
-                post.get("Pinterest board")
-                or post.get("pinterest_board")
-                or post.get("board")
-                or ""
-            )
-
-            rows_to_write.append({
-                "Date": str(date_val).strip(),
-                "Time": str(time_val).strip(),
-                "Text": str(text_val),
-                "Image/Video URL": str(media_val).strip(),
-                "Link": str(link_val).strip(),
-                "Pinterest board": str(pinterest_val).strip()
-            })
-
-        # 3. Escritura del archivo CSV con delimitador de coma y codificación UTF-8
         with open(output_filename, mode="w", newline="", encoding="utf-8") as csvfile:
             writer = csv.DictWriter(
                 csvfile,
@@ -304,7 +302,7 @@ def generate_metricool_csv(
                 writer.writerow(row)
 
         abs_path = os.path.abspath(output_filename)
-        logger.info(f"✅ Archivo CSV generado correctamente: {abs_path} ({len(rows_to_write)} posts)")
+        logger.info(f"✅ Archivo CSV generado correctamente ({format_type}): {abs_path}")
         return abs_path
 
     except Exception as e:
