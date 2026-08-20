@@ -183,20 +183,47 @@ def upload_to_storage(
         raise
 
 
+# Cabeceras oficiales completas de la plantilla de Metricool (Mtr_plantilla_calendario.csv)
+OFFICIAL_METRICOOL_HEADERS = [
+    "Text", "Date", "Time", "Draft", "Facebook", "Twitter/X", "LinkedIn", "GBP",
+    "Instagram", "Pinterest", "TikTok", "Youtube", "Threads", "Bluesky",
+    "Picture Url 1", "Picture Url 2", "Picture Url 3", "Picture Url 4", "Picture Url 5",
+    "Picture Url 6", "Picture Url 7", "Picture Url 8", "Picture Url 9", "Picture Url 10",
+    "Alt text picture 1", "Alt text picture 2", "Alt text picture 3", "Alt text picture 4",
+    "Alt text picture 5", "Alt text picture 6", "Alt text picture 7", "Alt text picture 8",
+    "Alt text picture 9", "Alt text picture 10", "Document title", "Shortener",
+    "Video Thumbnail Url", "Video Cover Frame", "Twitter/X Can reply", "Twitter/X Type",
+    "Twitter/X Poll Duration minutes", "Twitter/X Poll Option 1", "Twitter/X Poll Option 2",
+    "Twitter/X Poll Option 3", "Twitter/X Poll Option 4", "Pinterest Board", "Pinterest Pin Title",
+    "Pinterest Pin Link", "Pinterest Pin New Format", "Instagram Post Type", "Instagram Show Reel On Feed",
+    "Instagram Trial Reel Share Automatically", "Youtube Video Title", "Youtube Video Type",
+    "Youtube Video Privacy", "Youtube video for kids", "Youtube AI generated content",
+    "Youtube Video Category", "Youtube Video Tags", "Youtube playlist", "GBP Post Type",
+    "Facebook Post Type", "Facebook Title", "First Comment Text", "TikTok Title",
+    "TikTok disable comments", "TikTok disable duet", "TikTok disable stitch", "TikTok Post Privacy",
+    "TikTok Branded Content", "TikTok Your Brand", "TikTok Auto Add Music", "TikTok Photo Cover Index",
+    "TikTok musicId", "TikTok music title", "TikTok music author", "TikTok music previewUrl",
+    "TikTok music thumbnailUrl", "TikTok music soundVolume", "TikTok music originalVolume",
+    "TikTok music startMillis", "TikTok music endMillis", "TikTok Ai generated content",
+    "LinkedIn Type", "LinkedIn Poll Question", "LinkedIn Poll Option 1", "LinkedIn Poll Option 2",
+    "LinkedIn Poll Option 3", "LinkedIn Poll Option 4", "LinkedIn Poll Duration",
+    "LinkedIn Show link preview", "LinkedIn Images as Carousel", "Threads Reply Control",
+    "Threads Is Spoiler", "Threads Post Type", "Brand name"
+]
+
+
 def generate_metricool_csv(
     lista_posts: List[Dict[str, Any]],
     output_filename: str = "metricool.csv",
     base_date: Optional[datetime] = None,
-    format_type: str = "multinetwork"
+    format_type: str = "official"
 ) -> str:
     """
-    Genera un archivo CSV para la importación masiva de Metricool.
+    Genera un archivo CSV con el formato exacto de la plantilla oficial de Metricool.
 
-    Soporta dos formatos:
-    1. 'multinetwork' (Recomendado para Instagram/TikTok):
-       Text, Date, Time, Instagram, TikTok, Facebook, Twitter, LinkedIn, Pinterest, YouTube, Picture Url 1, Instagram post type
-    2. 'standard' / 'classic':
-       Date, Time, Text, Image/Video URL, Link, Pinterest board
+    Formatos disponibles:
+    - 'official' (Por defecto): Plantilla oficial de Metricool (96 columnas, delimitador ';').
+    - 'standard': Formato clásico simple (6 columnas, delimitador ',').
     """
     try:
         if not lista_posts:
@@ -209,21 +236,9 @@ def generate_metricool_csv(
         if output_dir and not os.path.exists(output_dir):
             os.makedirs(output_dir, exist_ok=True)
 
-        if format_type == "multinetwork":
-            fieldnames = [
-                "Text",
-                "Date",
-                "Time",
-                "Instagram",
-                "TikTok",
-                "Facebook",
-                "Twitter",
-                "LinkedIn",
-                "Pinterest",
-                "YouTube",
-                "Picture Url 1",
-                "Instagram post type"
-            ]
+        if format_type == "official":
+            fieldnames = OFFICIAL_METRICOOL_HEADERS
+            delimiter = ";"
         else:
             fieldnames = [
                 "Date",
@@ -233,17 +248,20 @@ def generate_metricool_csv(
                 "Link",
                 "Pinterest board"
             ]
+            delimiter = ","
 
         rows_to_write = []
 
         for index, post in enumerate(lista_posts):
             # 1. Fechas y horas
             default_datetime = base_date + timedelta(days=(index + 1))
-            default_date_str = default_datetime.strftime("%d/%m/%Y")
-            default_time_str = "19:00"
+            default_date_str = default_datetime.strftime("%Y-%m-%d")
+            default_time_str = "19:00:00"
 
             date_val = post.get("Date") or post.get("date") or default_date_str
             time_val = post.get("Time") or post.get("time") or default_time_str
+            if len(str(time_val)) == 5:  # e.g. "23:05" -> "23:05:00"
+                time_val = f"{time_val}:00"
 
             text_val = (
                 post.get("Text")
@@ -263,21 +281,31 @@ def generate_metricool_csv(
                 or ""
             )
 
-            if format_type == "multinetwork":
-                rows_to_write.append({
-                    "Text": str(text_val),
-                    "Date": str(date_val).strip(),
-                    "Time": str(time_val).strip(),
-                    "Instagram": str(post.get("Instagram", "TRUE")).upper(),
-                    "TikTok": str(post.get("TikTok", "TRUE")).upper(),
-                    "Facebook": str(post.get("Facebook", "FALSE")).upper(),
-                    "Twitter": str(post.get("Twitter", "FALSE")).upper(),
-                    "LinkedIn": str(post.get("LinkedIn", "FALSE")).upper(),
-                    "Pinterest": str(post.get("Pinterest", "FALSE")).upper(),
-                    "YouTube": str(post.get("YouTube", "FALSE")).upper(),
-                    "Picture Url 1": str(media_val).strip(),
-                    "Instagram post type": str(post.get("Instagram post type", "REEL"))
-                })
+            if format_type == "official":
+                row_dict = {col: "" for col in OFFICIAL_METRICOOL_HEADERS}
+                row_dict["Text"] = str(text_val)
+                row_dict["Date"] = str(date_val).strip()
+                row_dict["Time"] = str(time_val).strip()
+                row_dict["Draft"] = str(post.get("Draft", "false")).lower()
+                row_dict["Facebook"] = str(post.get("Facebook", "false")).lower()
+                row_dict["Twitter/X"] = str(post.get("Twitter/X", "false")).lower()
+                row_dict["LinkedIn"] = str(post.get("LinkedIn", "false")).lower()
+                row_dict["GBP"] = str(post.get("GBP", "false")).lower()
+                row_dict["Instagram"] = str(post.get("Instagram", "true")).lower()
+                row_dict["Pinterest"] = str(post.get("Pinterest", "false")).lower()
+                row_dict["TikTok"] = str(post.get("TikTok", "true")).lower()
+                row_dict["Youtube"] = str(post.get("Youtube", "false")).lower()
+                row_dict["Threads"] = str(post.get("Threads", "false")).lower()
+                row_dict["Bluesky"] = str(post.get("Bluesky", "false")).lower()
+                row_dict["Picture Url 1"] = str(media_val).strip()
+                row_dict["Shortener"] = str(post.get("Shortener", "true")).lower()
+                row_dict["Instagram Post Type"] = str(post.get("Instagram Post Type", "REEL"))
+                row_dict["Instagram Show Reel On Feed"] = str(post.get("Instagram Show Reel On Feed", "true")).lower()
+                row_dict["TikTok Post Privacy"] = str(post.get("TikTok Post Privacy", "PUBLIC_TO_EVERYONE"))
+                row_dict["TikTok disable comments"] = str(post.get("TikTok disable comments", "false")).lower()
+                row_dict["TikTok disable duet"] = str(post.get("TikTok disable duet", "false")).lower()
+                row_dict["TikTok disable stitch"] = str(post.get("TikTok disable stitch", "false")).lower()
+                rows_to_write.append(row_dict)
             else:
                 link_val = post.get("Link") or post.get("link") or ""
                 pinterest_val = post.get("Pinterest board") or post.get("pinterest_board") or ""
@@ -294,7 +322,7 @@ def generate_metricool_csv(
             writer = csv.DictWriter(
                 csvfile,
                 fieldnames=fieldnames,
-                delimiter=",",
+                delimiter=delimiter,
                 quoting=csv.QUOTE_MINIMAL
             )
             writer.writeheader()
