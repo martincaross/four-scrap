@@ -1,4 +1,4 @@
-name: Goteo de Mensajes Telegram
+name: Goteo de Mensajes Chats (Telegram & WhatsApp)
 
 on:
   schedule:
@@ -20,13 +20,14 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar Publicadores con Espaciado Real
+      - name: Lanzar Publicador con Espaciado Real
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
-          TELEGRAM_CHAT_ID_SOCIAL: ${{ secrets.TELEGRAM_SECRET_SOCIAL }}
+          WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
+          WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
+          WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
+          WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
           MINUTOS_ESPACIADO: 15  # 👈 Aquí le dejas los 15 minutos reales para producción
         run: |
-          python automation/publicador_chats.py &
-          python automation/publicador_social.py &
-          wait
+          python automation/publicador_chats.py
