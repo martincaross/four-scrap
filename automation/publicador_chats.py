@@ -28,7 +28,12 @@ root_dir = os.path.abspath(os.path.join(script_dir, ".."))
 
 DATABASE_FILE = os.path.join(root_dir, "data/base_de_datos_madrid.json")
 TEMPLATE_FILE = os.path.join(script_dir, "templates/chat_template.txt")
-MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
+
+# Espaciado configurable en segundos o minutos
+if os.getenv("ESPACIADO_SEGUNDOS") is not None:
+    SEGUNDOS_ESPACIADO = float(os.getenv("ESPACIADO_SEGUNDOS"))
+else:
+    SEGUNDOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0)) * 60
 
 
 # ==========================================
@@ -127,9 +132,9 @@ with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
 print(f"🎯 Total eventos encontrados para hoy: {len(eventos_filtrados)}")
 
 for index, evento in enumerate(eventos_filtrados):
-    if index > 0 and MINUTOS_ESPACIADO > 0:
-        print(f"⏳ Esperando {MINUTOS_ESPACIADO} minutos para el siguiente chat...")
-        time.sleep(MINUTOS_ESPACIADO * 60)
+    if index > 0 and SEGUNDOS_ESPACIADO > 0:
+        print(f"⏳ Esperando {int(SEGUNDOS_ESPACIADO)} segundos para el siguiente chat...")
+        time.sleep(SEGUNDOS_ESPACIADO)
         
     # Formateamos el mensaje directo sin cabeceras añadidas (exactamente igual que antes)
     msg_chat = chat_tmpl.format(

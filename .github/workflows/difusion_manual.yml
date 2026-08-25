@@ -1,4 +1,4 @@
-name: Difusión Manual Inmediata (Selectivo)
+name: Difusión Manual (Espaciado seguro 15s)
 
 on:
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar Publicador Inmediato (Sin esperas)
+      - name: Lanzar Publicador con Espaciado Seguro (15 segundos)
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
@@ -38,6 +38,6 @@ jobs:
           WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
           TELEGRAM_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_telegram' }}
           WHATSAPP_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_whatsapp' }}
-          MINUTOS_ESPACIADO: 0
+          ESPACIADO_SEGUNDOS: 15
         run: |
           python automation/publicador_chats.py
