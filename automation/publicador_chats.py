@@ -12,10 +12,11 @@ import sys
 # Telegram (Intacto tal cual funcionaba)
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID_CHATS = os.getenv("TELEGRAM_CHAT_ID_CHATS")
+TELEGRAM_ENABLED = os.getenv("TELEGRAM_ENABLED", "true").lower() in ("true", "1", "yes")
 
 # WhatsApp Server (OpenWA Gateway en VPS)
 WHATSAPP_SERVER_URL = os.getenv("WHATSAPP_SERVER_URL", "http://217.71.201.103:2785").rstrip("/")
-WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID", "59d30296-ead4-4b08-bd20-02328dbff003")
+WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID", "661a38c3-9b18-4c12-99c1-4ac3c13e3439")
 WHATSAPP_API_KEY = os.getenv("WHATSAPP_API_KEY", "openwa_master_secret_key_prod_2026_abcdef123456")
 # Grupo: Next Night Plan 🌙
 WHATSAPP_CHAT_ID_CHATS = os.getenv("WHATSAPP_CHAT_ID_CHATS", "120363408786329052@g.us")
@@ -36,6 +37,9 @@ MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
 def enviar_telegram(msg_chat: str, evento_titulo: str) -> bool:
     """Envía el mensaje exacto a Telegram con la configuración original intacta."""
+    if not TELEGRAM_ENABLED:
+        return False
+
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID_CHATS:
         print(f"⚠️ [Telegram] Omitido para '{evento_titulo}': falta TELEGRAM_TOKEN o TELEGRAM_CHAT_ID_CHATS")
         return False

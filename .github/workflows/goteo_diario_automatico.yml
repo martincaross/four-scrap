@@ -1,0 +1,35 @@
+name: Goteo Diario Automático (Telegram & WhatsApp)
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # Todos los días a las 10:00 UTC (12:00h en España)
+  workflow_dispatch:      # Permite disparo manual con goteo normal
+
+jobs:
+  enviar_goteo_diario:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Lanzar Publicador con Goteo de 15 min
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
+          WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
+          WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
+          WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
+          WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
+          TELEGRAM_ENABLED: true
+          WHATSAPP_ENABLED: true
+          MINUTOS_ESPACIADO: 15
+        run: |
+          python automation/publicador_chats.py

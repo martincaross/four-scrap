@@ -243,3 +243,7 @@ credentials*.json
 
 # Subprojects & Server Repos
 whatsapp-server/
+
+# Test & debug scratch files
+automation/test_*.py
+
