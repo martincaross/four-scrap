@@ -2,4 +2,5 @@ requests
 beautifulsoup4
 urllib3
 firebase-admin
+google-api-core<=2.34.0
 geopy
