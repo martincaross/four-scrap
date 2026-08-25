@@ -70,6 +70,27 @@ def enviar_telegram(msg_chat: str, evento_titulo: str) -> bool:
         return False
 
 
+def obtener_sesion_activa_id() -> str:
+    """Resuelve dinámicamente el ID de la sesión activa de OpenWA."""
+    try:
+        headers = {"X-Api-Key": WHATSAPP_API_KEY} if WHATSAPP_API_KEY else {}
+        resp = requests.get(f"{WHATSAPP_SERVER_URL}/api/sessions", headers=headers, timeout=5)
+        if resp.status_code == 200:
+            sesiones = resp.json()
+            for s in sesiones:
+                if s.get("id") == WHATSAPP_SESSION_ID or s.get("name") in (WHATSAPP_SESSION_ID, "mingle"):
+                    if s.get("status") == "ready":
+                        return s.get("id") or s.get("name")
+            for s in sesiones:
+                if s.get("status") == "ready":
+                    return s.get("id") or s.get("name")
+    except Exception:
+        pass
+    return WHATSAPP_SESSION_ID
+
+SESSION_ACTIVA_ID = obtener_sesion_activa_id()
+
+
 def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
     """Envía el mensaje al grupo de WhatsApp (Next Night Plan 🌙) a través de OpenWA."""
     if not WHATSAPP_ENABLED:
@@ -79,7 +100,7 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
         print(f"⚠️ [WhatsApp] Omitido para '{evento_titulo}': falta WHATSAPP_CHAT_ID_CHATS")
         return False
 
-    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{WHATSAPP_SESSION_ID}/messages/send-text"
+    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{SESSION_ACTIVA_ID}/messages/send-text"
     headers = {"Content-Type": "application/json"}
     if WHATSAPP_API_KEY:
         headers["X-Api-Key"] = WHATSAPP_API_KEY

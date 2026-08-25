@@ -38,8 +38,8 @@ def enviar_alerta_telegram(mensaje: str):
 
 
 def verificar_salud():
-    print(f"🔍 Comprobando estado de la sesión '{WHATSAPP_SESSION_ID}' en {WHATSAPP_SERVER_URL}...")
-    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{WHATSAPP_SESSION_ID}"
+    print(f"🔍 Comprobando sesiones en {WHATSAPP_SERVER_URL}...")
+    url = f"{WHATSAPP_SERVER_URL}/api/sessions"
     headers = {}
     if WHATSAPP_API_KEY:
         headers["X-Api-Key"] = WHATSAPP_API_KEY
@@ -59,19 +59,48 @@ def verificar_salud():
 
     if response.status_code != 200:
         msg = (
-            f"🚨 *ALERTA NEXT PLAN - SESIÓN NO ENCONTRADA*\n\n"
-            f"⚠️ La sesión `{WHATSAPP_SESSION_ID}` respondió con código *{response.status_code}*.\n\n"
+            f"🚨 *ALERTA NEXT PLAN - ERROR EN SERVIDOR WHATSAPP*\n\n"
+            f"⚠️ El endpoint de sesiones respondió con código *{response.status_code}*.\n"
+            f"*Detalle:* `{response.text}`\n\n"
             f"🔗 *Accede al panel para revisarla:* {PANEL_URL}"
         )
-        print(f"❌ Sesión no encontrada: {response.status_code} - {response.text}")
+        print(f"❌ Error al consultar sesiones: {response.status_code} - {response.text}")
         enviar_alerta_telegram(msg)
         sys.exit(1)
 
-    data = response.json()
-    status = data.get("status", "unknown")
-    engine_loaded = data.get("engineLoaded", False)
+    try:
+        sesiones = response.json()
+    except Exception:
+        sesiones = []
 
-    print(f"ℹ️ Estado sesión: {status} | Motor cargado: {engine_loaded}")
+    if not sesiones:
+        msg = (
+            f"🚨 *ALERTA NEXT PLAN - NO HAY SESIONES ACTIVAS*\n\n"
+            f"⚠️ No se encontró ninguna sesión configurada en el servidor de WhatsApp.\n\n"
+            f"📱 *Solución:* Entra al panel y crea/inicia una sesión:\n"
+            f"👉 {PANEL_URL}"
+        )
+        print("❌ No se encontraron sesiones.")
+        enviar_alerta_telegram(msg)
+        sys.exit(1)
+
+    # Buscamos la sesión objetivo por ID o por nombre ("mingle")
+    sesion_objetivo = None
+    for s in sesiones:
+        if s.get("id") == WHATSAPP_SESSION_ID or s.get("name") in (WHATSAPP_SESSION_ID, "mingle"):
+            sesion_objetivo = s
+            break
+    
+    # Si no coincide exactamente, tomamos la primera sesión disponible
+    if not sesion_objetivo:
+        sesion_objetivo = sesiones[0]
+
+    nombre = sesion_objetivo.get("name", "desconocida")
+    status = sesion_objetivo.get("status", "unknown")
+    engine_loaded = sesion_objetivo.get("engineLoaded", False)
+    phone = sesion_objetivo.get("phone", "Sin número")
+
+    print(f"ℹ️ Sesión: {nombre} ({phone}) | Estado: {status} | Motor cargado: {engine_loaded}")
 
     if status == "ready" and engine_loaded:
         print("✅ Sesión de WhatsApp activa, saludable y lista para el goteo de hoy.")
@@ -79,7 +108,7 @@ def verificar_salud():
     else:
         msg = (
             f"🚨 *ALERTA NEXT PLAN - WHATSAPP DESCONECTADO*\n\n"
-            f"⚠️ La sesión de WhatsApp no está lista para los envíos de hoy.\n"
+            f"⚠️ La sesión *{nombre}* no está lista para los envíos de hoy.\n"
             f"📊 *Estado actual:* `{status}` (Motor: `{engine_loaded}`)\n\n"
             f"📱 *Solución rápida desde tu móvil:*\n"
             f"1. Abre el panel: {PANEL_URL}\n"
