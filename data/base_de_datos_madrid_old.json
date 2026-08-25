@@ -1699,5 +1699,278 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NJMY",
         "descripcion": "No te pierdas FITZ x One World by ESN - F1 EDITION en Fitz Madrid. Vive una noche épica este Lun, 14 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "IWIC",
+        "titulo": "TUESDAYS SLVJ x 511",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/dd982f47-8fe4-4619-469d-70db6b833600/w=1350",
+        "fecha": "2026-08-25",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IWIC",
+        "descripcion": "No te pierdas TUESDAYS SLVJ x 511 en MADRID NO DESCANSA. Vive una noche épica este Mar, 25 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "T6P2",
+        "titulo": "TUESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/945b99a2-16cd-4239-ad75-3bb9d2e80000/w=1350",
+        "fecha": "2026-09-15",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/T6P2",
+        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 15 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "ODJ7",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3c459078-c553-4884-aab8-5145a1ce1700/w=1350",
+        "fecha": "2026-09-15",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "PERRO NEGRO MADRID",
+        "ubicacion": {
+            "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4290007,
+            "longitud": -3.682953
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ODJ7",
+        "descripcion": "No te pierdas MARTES en PERRO NEGRO MADRID. Vive una noche épica este Mar, 15 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "PJ9J",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PJ9J",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "3EGO",
+        "titulo": "MIERCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e9528528-3ca4-4faa-234c-bb8243561f00/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513836,
+            "longitud": -3.6944566
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3EGO",
+        "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "DODR",
+        "titulo": "Miércoles Fitz",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/15cf9dec-860f-426f-f8a0-25a9d23f9400/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DODR",
+        "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "CNBG",
+        "titulo": "WEDNESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/98fb311c-aad5-4dfe-9845-4fc4d1081400/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4463878,
+            "longitud": -3.6820354
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CNBG",
+        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "A99X",
+        "titulo": "VANDIDO Wednesdays - Welcome to Madrid",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c16131f7-4da8-46a6-d41e-2f72d634cd00/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/A99X",
+        "descripcion": "No te pierdas VANDIDO Wednesdays - Welcome to Madrid en VANDIDO. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "B7GS",
+        "titulo": "Miércoles",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/191c6853-411f-4522-d904-af420801d300/w=550",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "GABANA",
+        "ubicacion": {
+            "direccion": "Calle de María de Molina, 39, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4378538,
+            "longitud": -3.6797603
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/B7GS",
+        "descripcion": "No te pierdas Miércoles en GABANA MUSIC CLUB. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "JV10",
+        "titulo": "MIERCOLES GUNILLA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8811dba8-3461-4e06-f38b-aa0517470a00/w=1350",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Gunilla Club",
+        "ubicacion": {
+            "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4220053,
+            "longitud": -3.6904171
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JV10",
+        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4RYA",
+        "titulo": "JUEVES FENOMENO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2c8fcaa-31df-48a2-99d7-8186f44ea700/w=1350",
+        "fecha": "2026-09-17",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala de Despecho",
+        "ubicacion": {
+            "direccion": "C. de Recoletos, 13, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4218371,
+            "longitud": -3.6898237
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4RYA",
+        "descripcion": "No te pierdas JUEVES FENOMENO en MADRID NO DESCANSA. Vive una noche épica este Jue, 17 sept en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "PWTM",
+        "titulo": "JUEVES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
+        "fecha": "2026-09-17",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PWTM",
+        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 17 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "7IWZ",
+        "titulo": "JUEVES MON - METE TU BOTELLA SOCIAL PARTY",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0bb87ff4-021d-4277-9d87-a97c14604c00/w=1350",
+        "fecha": "2026-09-17",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "ubicacion": {
+            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4359198,
+            "longitud": -3.7165172
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/7IWZ",
+        "descripcion": "No te pierdas JUEVES MON - METE TU BOTELLA SOCIAL PARTY en DISCOTECA MON MADRID. Vive una noche épica este Jue, 17 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
