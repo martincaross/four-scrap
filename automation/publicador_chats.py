@@ -107,7 +107,8 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
         
     payload = {
         "chatId": WHATSAPP_CHAT_ID_CHATS,
-        "text": msg_chat
+        "text": msg_chat,
+        "linkPreview": False
     }
     
     try:
