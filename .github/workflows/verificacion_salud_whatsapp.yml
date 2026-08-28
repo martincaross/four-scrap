@@ -23,7 +23,7 @@ jobs:
       - name: Ejecutar Health Check de WhatsApp
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
           WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
           WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}

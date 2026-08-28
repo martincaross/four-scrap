@@ -5,6 +5,22 @@ import os
 import time
 import sys
 
+# Cargar .env local si existe (para desarrollo sin exponer credenciales en git)
+def _cargar_env_local():
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    if os.path.exists(env_path):
+        with open(env_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    k = k.strip()
+                    v = v.strip().strip("'\"")
+                    if k not in os.environ:
+                        os.environ[k] = v
+
+_cargar_env_local()
+
 # ==========================================
 # CONFIGURACIÓN
 # ==========================================
@@ -15,11 +31,11 @@ TELEGRAM_CHAT_ID_CHATS = os.getenv("TELEGRAM_CHAT_ID_CHATS")
 TELEGRAM_ENABLED = os.getenv("TELEGRAM_ENABLED", "true").lower() in ("true", "1", "yes")
 
 # WhatsApp Server (OpenWA Gateway en VPS)
-WHATSAPP_SERVER_URL = os.getenv("WHATSAPP_SERVER_URL", "http://217.71.201.103:2785").rstrip("/")
-WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID", "661a38c3-9b18-4c12-99c1-4ac3c13e3439")
-WHATSAPP_API_KEY = os.getenv("WHATSAPP_API_KEY", "openwa_master_secret_key_prod_2026_abcdef123456")
+WHATSAPP_SERVER_URL = (os.getenv("WHATSAPP_SERVER_URL") or "").rstrip("/")
+WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID")
+WHATSAPP_API_KEY = os.getenv("WHATSAPP_API_KEY")
 # Grupo: Next Night Plan 🌙
-WHATSAPP_CHAT_ID_CHATS = os.getenv("WHATSAPP_CHAT_ID_CHATS", "120363408786329052@g.us")
+WHATSAPP_CHAT_ID_CHATS = os.getenv("WHATSAPP_CHAT_ID_CHATS")
 WHATSAPP_ENABLED = os.getenv("WHATSAPP_ENABLED", "true").lower() in ("true", "1", "yes")
 
 # Rutas y tiempos
