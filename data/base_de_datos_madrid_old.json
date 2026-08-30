@@ -3211,5 +3211,173 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4I6P",
         "descripcion": "No te pierdas PANDA WE’RE BACK en PANDA CLUB. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "CS0O",
+        "titulo": "Terraza Karau",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0a6e6bfd-d233-4d4f-3c67-957b405ce400/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "18:00",
+        "edad": "+23",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Karau",
+        "ubicacion": {
+            "direccion": "P.º de Recoletos, 2, Salamanca, 28014 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4201241,
+            "longitud": -3.6921502
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CS0O",
+        "descripcion": "No te pierdas Terraza Karau en Yatengoplan. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4OJ3",
+        "titulo": "Saturday nights",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a9998ccd-dffc-45d4-21cd-143c675dde00/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Dekada Madrid",
+        "ubicacion": {
+            "direccion": "Calle de San Vicente Ferrer, 34, 28004 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.425831,
+            "longitud": -3.7041699
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4OJ3",
+        "descripcion": "No te pierdas Saturday nights en DEKADA. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "3BRA",
+        "titulo": "COPAS A 3,5€",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/19ce3bc8-f5fc-4e5c-bc75-b13d4020b000/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BLUE CLUB",
+        "ubicacion": {
+            "direccion": "C. de Orense, 12, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4491181,
+            "longitud": -3.6951019
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3BRA",
+        "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "51EG",
+        "titulo": "SABADO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f36a1307-82e6-45d5-13ff-d4c6fa12e300/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513836,
+            "longitud": -3.6944566
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/51EG",
+        "descripcion": "No te pierdas SABADO en Nazca Club. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "JDZX",
+        "titulo": "Summer Nights by Mökai",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9a84cf25-0010-45d6-14b6-d17b36a75b00/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Mokai Beach Club",
+        "ubicacion": {
+            "direccion": "C. Ignacio Zuloaga, 6, 28522 Rivas-Vaciamadrid, Madrid, España",
+            "ciudad": "rivas-vaciamadrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.3454052,
+            "longitud": -3.5359966
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JDZX",
+        "descripcion": "No te pierdas Summer Nights by Mökai en Mokai Beach Club. Vive una noche épica este Sáb, 29 ago en Rivas-Vaciamadrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "B65Z",
+        "titulo": "CLOSING SUMMER - MOCOLOCO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/21611b7e-a677-44a3-215c-528b6303f400/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "ubicacion": {
+            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4359198,
+            "longitud": -3.7165172
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/B65Z",
+        "descripcion": "No te pierdas CLOSING SUMMER - MOCOLOCO en Sala MON. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "21PS",
+        "titulo": "PERREOLAB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/757ca179-c58c-456a-23a4-05e137a2ad00/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:59",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Teatro Magno",
+        "ubicacion": {
+            "direccion": "Calle de Cedaceros, 7, 28014 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4172928,
+            "longitud": -3.6983671
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/21PS",
+        "descripcion": "No te pierdas PERREOLAB en Teatro Magno. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "42P8",
+        "titulo": "CANDY GOODBYE SUMMER | BABYLON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/aa11f7a5-f2f1-47d9-22e7-21ee970ead00/w=1350",
+        "fecha": "2026-08-29",
+        "hora": "23:59",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Teatro Magno",
+        "ubicacion": {
+            "direccion": "Calle de Cedaceros, 7, 28014 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4172928,
+            "longitud": -3.6983671
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/42P8",
+        "descripcion": "No te pierdas CANDY GOODBYE SUMMER | BABYLON en Teatro Magno. Vive una noche épica este Sáb, 29 ago en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
