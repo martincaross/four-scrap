@@ -9,8 +9,13 @@ TELEGRAM_CHAT_ID_SOCIAL = os.getenv("TELEGRAM_CHAT_ID_SOCIAL")
 DATABASE_FILE = "data/base_de_datos_madrid.json"
 MINUTOS_ESPACIADO = float(os.getenv("MINUTOS_ESPACIADO", 0))
 
-fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
-print(f"📆 [SOCIAL] Buscando eventos para: {fecha_objetivo}")
+try:
+    from zoneinfo import ZoneInfo
+    fecha_objetivo = datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+except Exception:
+    fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
+
+print(f"📆 [SOCIAL] Buscando eventos para: {fecha_objetivo} (Hora España)")
 
 with open(DATABASE_FILE, "r", encoding="utf-8") as f:
     eventos = json.load(f)

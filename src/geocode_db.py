@@ -72,10 +72,13 @@ def main():
 
     print(f"🔍 Iniciando geocodificación y reestructuración de {len(events)} eventos...")
 
-    # Anulaciones manuales para direcciones enrevesadas (hipódromo)
+    # Anulaciones manuales para direcciones enrevesadas (hipódromo, pabblo/torre picasso)
     MANUAL_COORDS_MAP = {
         "hipodromo": (40.4578, -3.7533, "madrid", "madrid", "comunidad de madrid", "es"),
-        "hipódromo": (40.4578, -3.7533, "madrid", "madrid", "comunidad de madrid", "es")
+        "hipódromo": (40.4578, -3.7533, "madrid", "madrid", "comunidad de madrid", "es"),
+        "pabblo": (40.4503, -3.6934, "madrid", "madrid", "comunidad de madrid", "es"),
+        "pablo ruiz picasso": (40.4503, -3.6934, "madrid", "madrid", "comunidad de madrid", "es"),
+        "torre picasso": (40.4503, -3.6934, "madrid", "madrid", "comunidad de madrid", "es")
     }
 
     for event in events:

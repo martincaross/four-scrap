@@ -5,8 +5,12 @@ import os
 DATABASE_FILE = "data/base_de_datos_madrid.json"
 OUTPUT_HTML = "index.html"
 
-# Fecha de hoy (22 de julio de 2026)
-hoy_dt = datetime.now()
+# Fecha de hoy (Hora oficial de Espana)
+try:
+    from zoneinfo import ZoneInfo
+    hoy_dt = datetime.now(ZoneInfo("Europe/Madrid"))
+except Exception:
+    hoy_dt = datetime.now()
 hoy_date = hoy_dt.date()
 hoy_str = hoy_date.strftime("%Y-%m-%d")
 
