@@ -63,9 +63,14 @@ if scrapeo_parcial:
     # Borramos el flag para la próxima ejecución
     os.remove("depuracion/PARTIAL_SCRAPE.flag")
 
+hoy_actual_str = datetime.now().strftime("%Y-%m-%d")
+
 for e in base_de_datos_eventos:
-    # Si scrapeo fue parcial, mantenemos todos los eventos (el filtrado por fecha pasada se hace después)
-    if scrapeo_parcial or e.get("link_compra_rrpp") in urls_set:
+    # Si scrapeo fue parcial, o la URL está en urls_set, o el evento es de HOY, se mantiene.
+    # Los eventos de hoy nunca deben borrarse en el día del evento (las discotecas suelen
+    # cerrar venta anticipada o Fourvenues cambia su visualización el mismo día).
+    # La caducidad real se hace al día siguiente en el Paso 4.
+    if scrapeo_parcial or e.get("link_compra_rrpp") in urls_set or e.get("fecha") == hoy_actual_str:
         eventos_mantenidos.append(e)
     else:
         eventos_borrados_ahora.append(e)

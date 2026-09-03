@@ -26,7 +26,7 @@ if not ZENROWS_API_KEY:
 # Instrucciones en JS nativo para que ZenRows busque el botón y lo pulse
 js_instructions = """
 [
-    {"wait_for": "app-root"},
+    {"wait_for": "a[href*='/events/']"},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
     {"wait": 2500},
     {"evaluate": "const btn = [...document.querySelectorAll('button')].find(b => b.textContent.includes('Cargar más')); if(btn) btn.click();"},
@@ -72,6 +72,7 @@ for url in URLS_OBJETIVO:
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
+            enlaces_nuevos_pagina = 0
             for tag in soup.find_all("a", href=True):
                 href = tag['href']
                 if "/events/" in href:
@@ -79,6 +80,8 @@ for url in URLS_OBJETIVO:
                         href = "https://www.fourvenues.com" + href
                     if href not in enlaces_limpios:
                         enlaces_limpios.append(href)
+                        enlaces_nuevos_pagina += 1
+            print(f"   ↳ {enlaces_nuevos_pagina} nuevos enlaces extraídos de esta página.")
         else:
             print(f"❌ Error en el servidor de ZenRows para {url}. Código: {response.status_code}")
             fallos_detectados = True
