@@ -155,37 +155,20 @@ def verificar_salud():
         motor_responde = probar_motor_activo(sid, headers)
         if motor_responde:
             print("✅ Motor Chromium activo y respondiendo correctamente.")
-            msg_ok = (
-                f"🟢 *WHATSAPP STATUS OK*\n\n"
-                f"✅ Sesión *{nombre}* ({phone}) activa y conectada.\n"
-                f"⚡ Motor Chromium respondiendo correctamente.\n"
-                f"🕒 Verificación: `{hora_actual}`"
-            )
+            msg_ok = f"🟢 w-sync: {nombre} [ok] • {hora_actual}"
             enviar_telegram(msg_ok)
             sys.exit(0)
         else:
-            print("⚠️ Sesión en 'ready' pero Chromium congelado (error de contexto). Probando auto-reinicio...")
+            print("⚠️ Sesión en 'ready' pero Chromium congelado. Probando auto-reinicio...")
             recuperado = intentar_auto_reinicio(sid, headers)
             if recuperado:
-                msg_recuperado = (
-                    f"🟡 *WHATSAPP AUTO-RECUPERADO*\n\n"
-                    f"⚠️ El motor Chromium se había quedado congelado por inactividad, pero el sistema lo ha reiniciado y reconectado automáticamente con éxito.\n"
-                    f"🕒 Hora: `{hora_actual}`"
-                )
+                msg_recuperado = f"🟡 w-sync: {nombre} [reboot ok] • {hora_actual}"
                 print("✅ Sesión recuperada automáticamente.")
                 enviar_telegram(msg_recuperado)
                 sys.exit(0)
 
     # 2. Si el estado es fallido o no respondió al auto-reinicio
-    msg_alerta = (
-        f"🚨 *ALERTA NEXT PLAN - WHATSAPP REQUIERE ATENCIÓN*\n\n"
-        f"⚠️ La sesión *{nombre}* ({phone}) no está disponible para envíos.\n"
-        f"📊 *Estado:* `{status}`\n\n"
-        f"📱 *Solución rápida (1 minuto):*\n"
-        f"1. Abre el panel: {PANEL_URL}\n"
-        f"2. Si está en *failed*, pulsa *Eliminar* y vuelve a *Crear sesión* con nombre `mingle`.\n"
-        f"3. Escanea el código QR con tu WhatsApp."
-    )
+    msg_alerta = f"🔴 w-sync: {nombre} [{status}] • {hora_actual}\n{PANEL_URL}"
     print("❌ Sesión no operativa. Enviando alerta a Telegram.")
     enviar_telegram(msg_alerta)
     sys.exit(1)
