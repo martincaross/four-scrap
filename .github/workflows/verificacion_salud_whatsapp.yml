@@ -1,9 +1,9 @@
-name: Verificación Salud WhatsApp (12:00h Diaria)
+name: 4. Monitorizacion - Estado de Sesion WhatsApp
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Todos los días a las 10:00 UTC (12:00h de España)
-  workflow_dispatch:      # Permite comprobación manual en cualquier momento
+    - cron: '0 10 * * *'  # Diario a las 10:00 UTC (12:00h en Espana)
+  workflow_dispatch:
 
 jobs:
   comprobar_salud:
@@ -20,7 +20,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Ejecutar Health Check de WhatsApp
+      - name: Comprobar estado de sesion WhatsApp
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}

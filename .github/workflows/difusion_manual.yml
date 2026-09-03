@@ -1,10 +1,10 @@
-name: Difusión Manual (Espaciado seguro 15s)
+name: 3. Difusion - Envio Manual Inmediato (WhatsApp y Telegram)
 
 on:
   workflow_dispatch:
     inputs:
       canal:
-        description: 'Canal de difusión'
+        description: 'Canal de difusion'
         required: true
         default: 'solo_whatsapp'
         type: choice
@@ -28,7 +28,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar Publicador con Espaciado Seguro (15 segundos)
+      - name: Lanzar difusion con espaciado de 15 segundos
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}

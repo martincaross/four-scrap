@@ -1,9 +1,9 @@
-name: Goteo Diario Automático (Telegram & WhatsApp)
+name: 2. Difusion - Goteo Diario Programado (WhatsApp y Telegram)
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Todos los días a las 10:00 UTC (12:00h en España)
-  workflow_dispatch:      # Permite disparo manual con goteo normal
+    - cron: '0 10 * * *'  # Diario a las 10:00 UTC (12:00h en Espana)
+  workflow_dispatch:
 
 jobs:
   enviar_goteo_diario:
@@ -20,7 +20,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar Publicador con Goteo de 15 min
+      - name: Lanzar difusion con goteo de 15 minutos
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
