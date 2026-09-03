@@ -22,7 +22,7 @@ _cargar_env_local()
 
 # Configuración
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_ADMIN_CHAT_ID = os.getenv("TELEGRAM_ADMIN_CHAT_ID")
+TELEGRAM_ADMIN_CHAT_ID = os.getenv("TELEGRAM_ADMIN_CHAT_ID") or "8769199362"
 
 WHATSAPP_SERVER_URL = (os.getenv("WHATSAPP_SERVER_URL") or "").rstrip("/")
 WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID")
