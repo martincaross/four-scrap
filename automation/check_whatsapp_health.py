@@ -1,6 +1,8 @@
 import requests
 import os
 import sys
+import time
+from datetime import datetime
 
 # Cargar .env local si existe (para desarrollo sin exponer credenciales en git)
 def _cargar_env_local():
@@ -26,13 +28,13 @@ WHATSAPP_SERVER_URL = (os.getenv("WHATSAPP_SERVER_URL") or "").rstrip("/")
 WHATSAPP_SESSION_ID = os.getenv("WHATSAPP_SESSION_ID")
 WHATSAPP_API_KEY = os.getenv("WHATSAPP_API_KEY")
 
-PANEL_URL = f"{WHATSAPP_SERVER_URL}/sessions" if WHATSAPP_SERVER_URL else "Panel WhatsApp"
+PANEL_URL = f"{WHATSAPP_SERVER_URL}/dashboard" if WHATSAPP_SERVER_URL else "Panel WhatsApp"
 
 
-def enviar_alerta_telegram(mensaje: str):
-    """Envía la alerta directa a tu chat privado de Telegram."""
+def enviar_telegram(mensaje: str):
+    """Envía un mensaje directo a tu chat privado de Telegram."""
     if not TELEGRAM_TOKEN or not TELEGRAM_ADMIN_CHAT_ID:
-        print("⚠️ [Alerta] Falta TELEGRAM_TOKEN o TELEGRAM_ADMIN_CHAT_ID para enviar notificación.")
+        print("⚠️ [Telegram] Falta TELEGRAM_TOKEN o TELEGRAM_ADMIN_CHAT_ID para enviar notificación.")
         return
 
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
@@ -46,17 +48,44 @@ def enviar_alerta_telegram(mensaje: str):
     try:
         response = requests.post(url, json=payload, timeout=15)
         if response.status_code == 200:
-            print(f"✅ Alerta enviada a Telegram privado ({TELEGRAM_ADMIN_CHAT_ID}) con éxito.")
+            print(f"✅ Notificación enviada a Telegram privado ({TELEGRAM_ADMIN_CHAT_ID}).")
         else:
-            print(f"❌ Error al enviar alerta a Telegram: {response.status_code} - {response.text}")
+            print(f"❌ Error al enviar a Telegram: {response.status_code} - {response.text}")
     except Exception as e:
-        print(f"❌ Excepción al enviar alerta a Telegram: {e}")
+        print(f"❌ Excepción al enviar a Telegram: {e}")
+
+
+def probar_motor_activo(session_id: str, headers: dict) -> bool:
+    """Realiza una petición real al motor Chromium (Keep-Alive activo)."""
+    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/chats?limit=1"
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
+
+def intentar_auto_reinicio(session_id: str, headers: dict) -> bool:
+    """Intenta auto-recuperar un Chromium congelado mediante ciclo stop -> start."""
+    print(f"🔄 Intentando auto-recuperación de la sesión '{session_id}'...")
+    try:
+        requests.post(f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/stop", headers=headers, timeout=10)
+        time.sleep(3)
+        start_resp = requests.post(f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/start", headers=headers, timeout=15)
+        if start_resp.status_code in (200, 201):
+            time.sleep(5)
+            return probar_motor_activo(session_id, headers)
+    except Exception as e:
+        print(f"⚠️ Fallo durante auto-reinicio: {e}")
+    return False
 
 
 def verificar_salud():
-    print(f"🔍 Comprobando sesiones en {WHATSAPP_SERVER_URL}...")
+    hora_actual = datetime.now().strftime("%H:%M:%S")
+    print(f"🔍 [{hora_actual}] Comprobando salud activa de WhatsApp en {WHATSAPP_SERVER_URL}...")
+    
     url = f"{WHATSAPP_SERVER_URL}/api/sessions"
-    headers = {}
+    headers = {"Content-Type": "application/json"}
     if WHATSAPP_API_KEY:
         headers["X-Api-Key"] = WHATSAPP_API_KEY
 
@@ -65,23 +94,23 @@ def verificar_salud():
     except Exception as e:
         msg = (
             f"🚨 *ALERTA NEXT PLAN - SERVIDOR WHATSAPP INACCESIBLE*\n\n"
-            f"❌ No se pudo conectar al servidor de OpenWA en `{WHATSAPP_SERVER_URL}`.\n"
+            f"❌ No se pudo conectar con `{WHATSAPP_SERVER_URL}`.\n"
             f"*Error de red:* `{e}`\n\n"
             f"🔗 *Panel:* {PANEL_URL}"
         )
         print(f"❌ Fallo de conexión: {e}")
-        enviar_alerta_telegram(msg)
+        enviar_telegram(msg)
         sys.exit(1)
 
     if response.status_code != 200:
         msg = (
             f"🚨 *ALERTA NEXT PLAN - ERROR EN SERVIDOR WHATSAPP*\n\n"
-            f"⚠️ El endpoint de sesiones respondió con código *{response.status_code}*.\n"
+            f"⚠️ El servidor respondió con código *{response.status_code}*.\n"
             f"*Detalle:* `{response.text}`\n\n"
-            f"🔗 *Accede al panel para revisarla:* {PANEL_URL}"
+            f"🔗 *Panel:* {PANEL_URL}"
         )
-        print(f"❌ Error al consultar sesiones: {response.status_code} - {response.text}")
-        enviar_alerta_telegram(msg)
+        print(f"❌ Error HTTP {response.status_code}: {response.text}")
+        enviar_telegram(msg)
         sys.exit(1)
 
     try:
@@ -92,47 +121,69 @@ def verificar_salud():
     if not sesiones:
         msg = (
             f"🚨 *ALERTA NEXT PLAN - NO HAY SESIONES ACTIVAS*\n\n"
-            f"⚠️ No se encontró ninguna sesión configurada en el servidor de WhatsApp.\n\n"
-            f"📱 *Solución:* Entra al panel y crea/inicia una sesión:\n"
+            f"⚠️ No se encontró ninguna sesión configurada en el servidor.\n\n"
+            f"📱 *Solución:* Entra al panel y crea la sesión `mingle`:\n"
             f"👉 {PANEL_URL}"
         )
         print("❌ No se encontraron sesiones.")
-        enviar_alerta_telegram(msg)
+        enviar_telegram(msg)
         sys.exit(1)
 
-    # Buscamos la sesión objetivo por ID o por nombre ("mingle")
+    # Buscar la sesión objetivo
     sesion_objetivo = None
     for s in sesiones:
         if s.get("id") == WHATSAPP_SESSION_ID or s.get("name") in (WHATSAPP_SESSION_ID, "mingle"):
             sesion_objetivo = s
             break
-    
-    # Si no coincide exactamente, tomamos la primera sesión disponible
     if not sesion_objetivo:
         sesion_objetivo = sesiones[0]
 
+    sid = sesion_objetivo.get("id") or sesion_objetivo.get("name")
     nombre = sesion_objetivo.get("name", "desconocida")
     status = sesion_objetivo.get("status", "unknown")
-    engine_loaded = sesion_objetivo.get("engineLoaded", False)
     phone = sesion_objetivo.get("phone", "Sin número")
 
-    print(f"ℹ️ Sesión: {nombre} ({phone}) | Estado: {status} | Motor cargado: {engine_loaded}")
+    print(f"ℹ️ Sesión detectada: {nombre} ({phone}) | Estado reportado: {status}")
 
-    if status == "ready" and engine_loaded:
-        print("✅ Sesión de WhatsApp activa, saludable y lista para el goteo de hoy.")
-        sys.exit(0)
-    else:
-        msg = (
-            f"🚨 *ALERTA NEXT PLAN - WHATSAPP DESCONECTADO*\n\n"
-            f"⚠️ La sesión *{nombre}* no está lista para los envíos de hoy.\n"
-            f"📊 *Estado actual:* `{status}` (Motor: `{engine_loaded}`)\n\n"
-            f"📱 *Solución rápida desde tu móvil:*\n"
-            f"1. Abre el panel: {PANEL_URL}\n"
-            f"2. Si está en *Iniciando/Bloqueada*, pulsa *Detener* y luego *Iniciar*.\n"
-            f"3. Si pide código QR, vuelve a escanearlo."
-        )
-        enviar_alerta_telegram(msg)
-        sys.exit(1)
+    # 1. Si la sesión está reportada como ready, probamos el motor real
+    if status == "ready":
+        motor_responde = probar_motor_activo(sid, headers)
+        if motor_responde:
+            print("✅ Motor Chromium activo y respondiendo correctamente.")
+            msg_ok = (
+                f"🟢 *WHATSAPP STATUS OK*\n\n"
+                f"✅ Sesión *{nombre}* ({phone}) activa y conectada.\n"
+                f"⚡ Motor Chromium respondiendo correctamente.\n"
+                f"🕒 Verificación: `{hora_actual}`"
+            )
+            enviar_telegram(msg_ok)
+            sys.exit(0)
+        else:
+            print("⚠️ Sesión en 'ready' pero Chromium congelado (error de contexto). Probando auto-reinicio...")
+            recuperado = intentar_auto_reinicio(sid, headers)
+            if recuperado:
+                msg_recuperado = (
+                    f"🟡 *WHATSAPP AUTO-RECUPERADO*\n\n"
+                    f"⚠️ El motor Chromium se había quedado congelado por inactividad, pero el sistema lo ha reiniciado y reconectado automáticamente con éxito.\n"
+                    f"🕒 Hora: `{hora_actual}`"
+                )
+                print("✅ Sesión recuperada automáticamente.")
+                enviar_telegram(msg_recuperado)
+                sys.exit(0)
+
+    # 2. Si el estado es fallido o no respondió al auto-reinicio
+    msg_alerta = (
+        f"🚨 *ALERTA NEXT PLAN - WHATSAPP REQUIERE ATENCIÓN*\n\n"
+        f"⚠️ La sesión *{nombre}* ({phone}) no está disponible para envíos.\n"
+        f"📊 *Estado:* `{status}`\n\n"
+        f"📱 *Solución rápida (1 minuto):*\n"
+        f"1. Abre el panel: {PANEL_URL}\n"
+        f"2. Si está en *failed*, pulsa *Eliminar* y vuelve a *Crear sesión* con nombre `mingle`.\n"
+        f"3. Escanea el código QR con tu WhatsApp."
+    )
+    print("❌ Sesión no operativa. Enviando alerta a Telegram.")
+    enviar_telegram(msg_alerta)
+    sys.exit(1)
 
 
 if __name__ == "__main__":

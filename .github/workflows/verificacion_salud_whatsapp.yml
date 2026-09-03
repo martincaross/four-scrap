@@ -2,7 +2,7 @@ name: 4. Monitorizacion - Estado de Sesion WhatsApp
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Diario a las 10:00 UTC (12:00h en Espana)
+    - cron: '0 6,10,16 * * *'  # 08:00h, 12:00h y 18:00h en Espana (Keep-Alive y monitorizacion)
   workflow_dispatch:
 
 jobs:
