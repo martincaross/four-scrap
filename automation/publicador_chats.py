@@ -108,7 +108,7 @@ SESSION_ACTIVA_ID = obtener_sesion_activa_id()
 
 
 def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
-    """Envía el mensaje al grupo de WhatsApp (Next Night Plan 🌙) a través de OpenWA."""
+    """Envía el mensaje al grupo de WhatsApp con reintento automático si WhatsApp Web se recarga."""
     if not WHATSAPP_ENABLED:
         return False
         
@@ -127,17 +127,29 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
         "linkPreview": False
     }
     
-    try:
-        response = requests.post(url, json=payload, headers=headers, timeout=15)
-        if response.status_code in (200, 201):
-            print(f"✅ [WhatsApp] Enviado a grupo 'Next Night Plan 🌙' para: {evento_titulo}")
-            return True
-        else:
-            print(f"❌ Error en WhatsApp para {evento_titulo}. Código: {response.status_code}. Respuesta: {response.text}")
+    for intento in range(3):
+        try:
+            response = requests.post(url, json=payload, headers=headers, timeout=15)
+            if response.status_code in (200, 201):
+                print(f"✅ [WhatsApp] Enviado a grupo 'Next Night Plan 🌙' para: {evento_titulo}")
+                return True
+            elif response.status_code == 409:
+                print(f"⏳ WhatsApp Web está recargando página (409). Esperando 8s para reintentar '{evento_titulo}'...")
+                time.sleep(8)
+                continue
+            elif response.status_code == 500 and intento < 2:
+                time.sleep(5)
+                continue
+            else:
+                print(f"❌ Error en WhatsApp para {evento_titulo}. Código: {response.status_code}. Respuesta: {response.text}")
+                return False
+        except Exception as e:
+            if intento < 2:
+                time.sleep(5)
+                continue
+            print(f"❌ Excepción en WhatsApp para {evento_titulo}: {e}")
             return False
-    except Exception as e:
-        print(f"❌ Excepción en WhatsApp para {evento_titulo}: {e}")
-        return False
+    return False
 
 
 # ==========================================
