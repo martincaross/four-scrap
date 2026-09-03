@@ -3,6 +3,11 @@ import os
 import sys
 import time
 from datetime import datetime
+try:
+    from zoneinfo import ZoneInfo
+    TZ_MADRID = ZoneInfo("Europe/Madrid")
+except Exception:
+    TZ_MADRID = None
 
 # Cargar .env local si existe (para desarrollo sin exponer credenciales en git)
 def _cargar_env_local():
@@ -81,8 +86,8 @@ def intentar_auto_reinicio(session_id: str, headers: dict) -> bool:
 
 
 def verificar_salud():
-    hora_actual = datetime.now().strftime("%H:%M:%S")
-    print(f"🔍 [{hora_actual}] Comprobando salud activa de WhatsApp en {WHATSAPP_SERVER_URL}...")
+    hora_actual = datetime.now(TZ_MADRID).strftime("%H:%M:%S") if TZ_MADRID else datetime.now().strftime("%H:%M:%S")
+    print(f"🔍 [{hora_actual} (Madrid)] Comprobando salud activa de WhatsApp en {WHATSAPP_SERVER_URL}...")
     
     url = f"{WHATSAPP_SERVER_URL}/api/sessions"
     headers = {"Content-Type": "application/json"}

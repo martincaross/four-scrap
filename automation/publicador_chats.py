@@ -144,8 +144,13 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
 # FLUJO PRINCIPAL
 # ==========================================
 
-fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
-print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo}")
+try:
+    from zoneinfo import ZoneInfo
+    fecha_objetivo = datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+except Exception:
+    fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
+
+print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo} (Hora España)")
 
 if not os.path.exists(DATABASE_FILE):
     print(f"❌ No se encontró el archivo de base de datos en: {DATABASE_FILE}")
