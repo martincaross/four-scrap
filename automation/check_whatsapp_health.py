@@ -61,27 +61,36 @@ def enviar_telegram(mensaje: str):
 
 
 def probar_motor_activo(session_id: str, headers: dict) -> bool:
-    """Realiza una petición real al motor Chromium (Keep-Alive activo)."""
-    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/chats?limit=1"
+    """Comprueba de forma no destructiva que el motor y la API responden correctamente."""
     try:
-        resp = requests.get(url, headers=headers, timeout=10)
-        return resp.status_code == 200
-    except Exception:
+        # 1. Comprobar estado del motor en la sesión
+        url_session = f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}"
+        resp_session = requests.get(url_session, headers=headers, timeout=10)
+        if resp_session.status_code != 200:
+            return False
+        data = resp_session.json()
+        if data.get("status") != "ready" or not data.get("engineLoaded"):
+            return False
+
+        # 2. Comprobar que la capa de mensajes responde
+        url_msgs = f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/messages?limit=1"
+        resp_msgs = requests.get(url_msgs, headers=headers, timeout=10)
+        return resp_msgs.status_code == 200
+    except Exception as e:
+        print(f"⚠️ Excepción en probe de motor: {e}")
         return False
 
 
-def intentar_auto_reinicio(session_id: str, headers: dict) -> bool:
-    """Intenta auto-recuperar un Chromium congelado mediante ciclo stop -> start."""
-    print(f"🔄 Intentando auto-recuperación de la sesión '{session_id}'...")
+def intentar_auto_arranque(session_id: str, headers: dict) -> bool:
+    """Intenta arrancar limpiamente una sesión detenida o desconectada (p. ej. tras reinicio del VPS)."""
+    print(f"🔄 Intentando arranque limpio de la sesión '{session_id}'...")
     try:
-        requests.post(f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/stop", headers=headers, timeout=10)
-        time.sleep(3)
-        start_resp = requests.post(f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/start", headers=headers, timeout=15)
+        start_resp = requests.post(f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/start", headers=headers, timeout=25)
         if start_resp.status_code in (200, 201):
             time.sleep(5)
             return probar_motor_activo(session_id, headers)
     except Exception as e:
-        print(f"⚠️ Fallo durante auto-reinicio: {e}")
+        print(f"⚠️ Fallo durante auto-arranque: {e}")
     return False
 
 
@@ -134,42 +143,59 @@ def verificar_salud():
         enviar_telegram(msg)
         sys.exit(1)
 
-    # Buscar la sesión objetivo
+    # 1. Resolución dinámica robusta de la sesión objetivo (prioriza nombre 'mingle')
     sesion_objetivo = None
     for s in sesiones:
-        if s.get("id") == WHATSAPP_SESSION_ID or s.get("name") in (WHATSAPP_SESSION_ID, "mingle"):
+        if s.get("name") == "mingle" and s.get("status") == "ready":
             sesion_objetivo = s
             break
     if not sesion_objetivo:
+        for s in sesiones:
+            if s.get("name") == "mingle":
+                sesion_objetivo = s
+                break
+    if not sesion_objetivo:
+        for s in sesiones:
+            if s.get("id") == WHATSAPP_SESSION_ID:
+                sesion_objetivo = s
+                break
+    if not sesion_objetivo:
+        for s in sesiones:
+            if s.get("status") == "ready":
+                sesion_objetivo = s
+                break
+    if not sesion_objetivo:
         sesion_objetivo = sesiones[0]
 
-    sid = sesion_objetivo.get("id") or sesion_objetivo.get("name")
+    sid = sesion_objetivo.get("id")
     nombre = sesion_objetivo.get("name", "desconocida")
     status = sesion_objetivo.get("status", "unknown")
     phone = sesion_objetivo.get("phone", "Sin número")
 
-    print(f"ℹ️ Sesión detectada: {nombre} ({phone}) | Estado reportado: {status}")
+    print(f"ℹ️ Sesión detectada: {nombre} ({sid}) ({phone}) | Estado reportado: {status}")
 
-    # 1. Si la sesión está reportada como ready, probamos el motor real
+    # 2. Si la sesión está en 'ready', validamos que el motor responda
     if status == "ready":
-        motor_responde = probar_motor_activo(sid, headers)
-        if motor_responde:
+        if probar_motor_activo(sid, headers):
             print("✅ Motor Chromium activo y respondiendo correctamente.")
             msg_ok = f"🟢 w-sync: {nombre} [ok] • {hora_actual}"
             enviar_telegram(msg_ok)
             sys.exit(0)
         else:
-            print("⚠️ Sesión en 'ready' pero Chromium congelado. Probando auto-reinicio...")
-            recuperado = intentar_auto_reinicio(sid, headers)
-            if recuperado:
-                msg_recuperado = f"🟡 w-sync: {nombre} [reboot ok] • {hora_actual}"
-                print("✅ Sesión recuperada automáticamente.")
-                enviar_telegram(msg_recuperado)
-                sys.exit(0)
+            print("⚠️ Sesión reportada en 'ready' pero no respondió a las pruebas.")
 
-    # 2. Si el estado es fallido o no respondió al auto-reinicio
+    # 3. Si la sesión está detenida o desconectada (ej. tras reinicio VPS), auto-arrancamos limpiamente
+    if status in ("stopped", "disconnected"):
+        print(f"ℹ️ Sesión '{nombre}' en estado '{status}'. Intentando auto-arranque pasivo...")
+        if intentar_auto_arranque(sid, headers):
+            msg_recuperado = f"🟡 w-sync: {nombre} [auto-start ok] • {hora_actual}"
+            print("✅ Sesión auto-arrancada con éxito sin intervención manual.")
+            enviar_telegram(msg_recuperado)
+            sys.exit(0)
+
+    # 4. Si el estado es qr_ready, failed o no arrancó, avisamos con enlace al panel
     msg_alerta = f"🔴 w-sync: {nombre} [{status}] • {hora_actual}\n{PANEL_URL}"
-    print("❌ Sesión no operativa. Enviando alerta a Telegram.")
+    print(f"❌ Sesión no operativa [{status}]. Enviando alerta a Telegram.")
     enviar_telegram(msg_alerta)
     sys.exit(1)
 

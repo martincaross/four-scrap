@@ -3,6 +3,7 @@ import requests
 from datetime import datetime
 import os
 import time
+import random
 import sys
 
 # Cargar .env local si existe (para desarrollo sin exponer credenciales en git)
@@ -87,28 +88,33 @@ def enviar_telegram(msg_chat: str, evento_titulo: str) -> bool:
 
 
 def obtener_sesion_activa_id() -> str:
-    """Resuelve dinámicamente el ID de la sesión activa de OpenWA."""
+    """Resuelve dinámicamente el ID de la sesión activa de OpenWA (priorizando 'mingle' en estado ready)."""
     try:
         headers = {"X-Api-Key": WHATSAPP_API_KEY} if WHATSAPP_API_KEY else {}
-        resp = requests.get(f"{WHATSAPP_SERVER_URL}/api/sessions", headers=headers, timeout=5)
+        resp = requests.get(f"{WHATSAPP_SERVER_URL}/api/sessions", headers=headers, timeout=10)
         if resp.status_code == 200:
             sesiones = resp.json()
+            # 1. Sesión 'mingle' que esté en ready
             for s in sesiones:
-                if s.get("id") == WHATSAPP_SESSION_ID or s.get("name") in (WHATSAPP_SESSION_ID, "mingle"):
-                    if s.get("status") == "ready":
-                        return s.get("id") or s.get("name")
+                if s.get("name") == "mingle" and s.get("status") == "ready":
+                    return s.get("id")
+            # 2. Cualquier sesión que esté en ready
             for s in sesiones:
                 if s.get("status") == "ready":
-                    return s.get("id") or s.get("name")
-    except Exception:
-        pass
-    return WHATSAPP_SESSION_ID
-
-SESSION_ACTIVA_ID = obtener_sesion_activa_id()
+                    return s.get("id")
+            # 3. Sesión 'mingle' o que coincida con WHATSAPP_SESSION_ID
+            for s in sesiones:
+                if s.get("name") == "mingle" or s.get("id") == WHATSAPP_SESSION_ID:
+                    return s.get("id")
+            if sesiones:
+                return sesiones[0].get("id")
+    except Exception as e:
+        print(f"⚠️ Error resolviendo sesión activa de WhatsApp: {e}")
+    return WHATSAPP_SESSION_ID or ""
 
 
 def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
-    """Envía el mensaje al grupo de WhatsApp con reintento automático si WhatsApp Web se recarga."""
+    """Envía el mensaje al grupo de WhatsApp con simulación de presencia humana y reintentos robustos."""
     if not WHATSAPP_ENABLED:
         return False
         
@@ -116,11 +122,28 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
         print(f"⚠️ [WhatsApp] Omitido para '{evento_titulo}': falta WHATSAPP_CHAT_ID_CHATS")
         return False
 
-    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{SESSION_ACTIVA_ID}/messages/send-text"
+    session_id = obtener_sesion_activa_id()
+    if not session_id:
+        print(f"⚠️ [WhatsApp] Omitido para '{evento_titulo}': no se encontró sesión activa en el servidor")
+        return False
+
     headers = {"Content-Type": "application/json"}
     if WHATSAPP_API_KEY:
         headers["X-Api-Key"] = WHATSAPP_API_KEY
-        
+
+    # 1. Simulación de presencia humana ('escribiendo...') para evitar algoritmos anti-bot
+    try:
+        requests.post(
+            f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/chats/typing",
+            json={"chatId": WHATSAPP_CHAT_ID_CHATS, "state": "typing"},
+            headers=headers,
+            timeout=5
+        )
+        time.sleep(2)
+    except Exception:
+        pass
+
+    url = f"{WHATSAPP_SERVER_URL}/api/sessions/{session_id}/messages/send-text"
     payload = {
         "chatId": WHATSAPP_CHAT_ID_CHATS,
         "text": msg_chat,
@@ -129,23 +152,23 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
     
     for intento in range(3):
         try:
-            response = requests.post(url, json=payload, headers=headers, timeout=15)
+            response = requests.post(url, json=payload, headers=headers, timeout=20)
             if response.status_code in (200, 201):
                 print(f"✅ [WhatsApp] Enviado a grupo 'Next Night Plan 🌙' para: {evento_titulo}")
                 return True
             elif response.status_code == 409:
-                print(f"⏳ WhatsApp Web está recargando página (409). Esperando 8s para reintentar '{evento_titulo}'...")
-                time.sleep(8)
+                print(f"⏳ WhatsApp Web está recargando página (409). Esperando 25s a que finalice reinyección para '{evento_titulo}'...")
+                time.sleep(25)
                 continue
             elif response.status_code == 500 and intento < 2:
-                time.sleep(5)
+                time.sleep(8)
                 continue
             else:
                 print(f"❌ Error en WhatsApp para {evento_titulo}. Código: {response.status_code}. Respuesta: {response.text}")
                 return False
         except Exception as e:
             if intento < 2:
-                time.sleep(5)
+                time.sleep(8)
                 continue
             print(f"❌ Excepción en WhatsApp para {evento_titulo}: {e}")
             return False
@@ -156,56 +179,63 @@ def enviar_whatsapp(msg_chat: str, evento_titulo: str) -> bool:
 # FLUJO PRINCIPAL
 # ==========================================
 
-try:
-    from zoneinfo import ZoneInfo
-    fecha_objetivo = datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
-except Exception:
-    fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
+def ejecutar_publicacion():
+    try:
+        from zoneinfo import ZoneInfo
+        fecha_objetivo = datetime.now(ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+    except Exception:
+        fecha_objetivo = datetime.now().strftime("%Y-%m-%d")
 
-print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo} (Hora España)")
+    print(f"📆 [CHATS] Buscando eventos para: {fecha_objetivo} (Hora España)")
 
-if not os.path.exists(DATABASE_FILE):
-    print(f"❌ No se encontró el archivo de base de datos en: {DATABASE_FILE}")
-    sys.exit(1)
+    if not os.path.exists(DATABASE_FILE):
+        print(f"❌ No se encontró el archivo de base de datos en: {DATABASE_FILE}")
+        sys.exit(1)
 
-with open(DATABASE_FILE, "r", encoding="utf-8") as f:
-    eventos = json.load(f)
+    with open(DATABASE_FILE, "r", encoding="utf-8") as f:
+        eventos = json.load(f)
 
-eventos_filtrados = [e for e in eventos if e.get("fecha") == fecha_objetivo]
+    eventos_filtrados = [e for e in eventos if e.get("fecha") == fecha_objetivo]
 
-if not eventos_filtrados:
-    print("💤 No hay eventos para el grupo de chats hoy.")
-    sys.exit(0)
+    if not eventos_filtrados:
+        print("💤 No hay eventos para el grupo de chats hoy.")
+        sys.exit(0)
 
-if not os.path.exists(TEMPLATE_FILE):
-    print(f"❌ No se encontró la plantilla de chat en: {TEMPLATE_FILE}")
-    sys.exit(1)
+    if not os.path.exists(TEMPLATE_FILE):
+        print(f"❌ No se encontró la plantilla de chat en: {TEMPLATE_FILE}")
+        sys.exit(1)
 
-with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
-    chat_tmpl = f.read()
+    with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
+        chat_tmpl = f.read()
 
-print(f"🎯 Total eventos encontrados para hoy: {len(eventos_filtrados)}")
+    print(f"🎯 Total eventos encontrados para hoy: {len(eventos_filtrados)}")
 
-for index, evento in enumerate(eventos_filtrados):
-    if index > 0 and SEGUNDOS_ESPACIADO > 0:
-        print(f"⏳ Esperando {int(SEGUNDOS_ESPACIADO)} segundos para el siguiente chat...")
-        time.sleep(SEGUNDOS_ESPACIADO)
+    for index, evento in enumerate(eventos_filtrados):
+        if index > 0 and SEGUNDOS_ESPACIADO > 0:
+            jitter = random.randint(3, 10) if SEGUNDOS_ESPACIADO >= 15 else 0
+            espera_total = SEGUNDOS_ESPACIADO + jitter
+            print(f"⏳ Esperando {int(espera_total)} segundos (con variación humana) para el siguiente chat...")
+            time.sleep(espera_total)
+            
+        # Formateamos el mensaje directo sin cabeceras añadidas (exactamente igual que antes)
+        msg_chat = chat_tmpl.format(
+            titulo=evento.get('titulo', ''),
+            descripcion=evento.get('descripcion', ''),
+            hora=evento.get('hora', ''),
+            edad=evento.get('edad', ''),
+            vestimenta=evento.get('vestimenta', ''),
+            sala=evento.get('sala', ''),
+            link_compra_rrpp=evento.get('link_compra_rrpp', '')
+        )
         
-    # Formateamos el mensaje directo sin cabeceras añadidas (exactamente igual que antes)
-    msg_chat = chat_tmpl.format(
-        titulo=evento.get('titulo', ''),
-        descripcion=evento.get('descripcion', ''),
-        hora=evento.get('hora', ''),
-        edad=evento.get('edad', ''),
-        vestimenta=evento.get('vestimenta', ''),
-        sala=evento.get('sala', ''),
-        link_compra_rrpp=evento.get('link_compra_rrpp', '')
-    )
-    
-    titulo_evento = evento.get('titulo', 'Sin título')
-    
-    # 1. Enviar a Telegram (mismo payload, headers y formato)
-    enviar_telegram(msg_chat, titulo_evento)
-    
-    # 2. Enviar a WhatsApp
-    enviar_whatsapp(msg_chat, titulo_evento)
+        titulo_evento = evento.get('titulo', 'Sin título')
+        
+        # 1. Enviar a Telegram (mismo payload, headers y formato)
+        enviar_telegram(msg_chat, titulo_evento)
+        
+        # 2. Enviar a WhatsApp
+        enviar_whatsapp(msg_chat, titulo_evento)
+
+
+if __name__ == "__main__":
+    ejecutar_publicacion()

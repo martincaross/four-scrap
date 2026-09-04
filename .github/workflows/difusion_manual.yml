@@ -28,7 +28,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar difusion con espaciado de 15 segundos
+      - name: Lanzar difusion con espaciado seguro de 45 segundos
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
@@ -38,6 +38,6 @@ jobs:
           WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
           TELEGRAM_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_telegram' }}
           WHATSAPP_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_whatsapp' }}
-          ESPACIADO_SEGUNDOS: 15
+          ESPACIADO_SEGUNDOS: 45
         run: |
           python automation/publicador_chats.py
