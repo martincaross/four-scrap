@@ -2,8 +2,13 @@ name: 2. Difusion - Goteo Diario Programado (WhatsApp y Telegram)
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Diario a las 10:00 UTC (12:00h en Espana)
+    - cron: '0 11 * * *'  # Diario a las 11:00 UTC (13:00h en Espana)
   workflow_dispatch:
+    inputs:
+      minutos_espaciado:
+        description: 'Minutos de espaciado entre eventos'
+        required: false
+        default: '15'
 
 jobs:
   enviar_goteo_diario:
@@ -20,7 +25,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Lanzar difusion con goteo de 15 minutos
+      - name: Lanzar difusion con goteo programado
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
@@ -30,6 +35,7 @@ jobs:
           WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
           TELEGRAM_ENABLED: true
           WHATSAPP_ENABLED: true
-          MINUTOS_ESPACIADO: 15
+          MINUTOS_ESPACIADO: ${{ github.event.inputs.minutos_espaciado || 15 }}
         run: |
           python automation/publicador_chats.py
+

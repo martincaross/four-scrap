@@ -178,8 +178,12 @@ def verificar_salud():
     if status == "ready":
         if probar_motor_activo(sid, headers):
             print("✅ Motor Chromium activo y respondiendo correctamente.")
-            msg_ok = f"🟢 w-sync: {nombre} [ok] • {hora_actual}"
-            enviar_telegram(msg_ok)
+            silenciar = os.getenv("SILENCIAR_SI_OK", "false").lower() in ("true", "1", "yes")
+            if not silenciar:
+                msg_ok = f"🟢 w-sync: {nombre} [ok] • {hora_actual}"
+                enviar_telegram(msg_ok)
+            else:
+                print("ℹ️ Notificación rutinaria silenciada porque hay paso de previa posterior.")
             sys.exit(0)
         else:
             print("⚠️ Sesión reportada en 'ready' pero no respondió a las pruebas.")

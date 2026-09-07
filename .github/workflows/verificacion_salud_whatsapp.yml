@@ -2,8 +2,15 @@ name: 4. Monitorizacion - Estado de Sesion WhatsApp
 
 on:
   schedule:
-    - cron: '0 6,10,16 * * *'  # 08:00h, 12:00h y 18:00h en Espana (Keep-Alive y monitorizacion)
+    - cron: '30 6,17 * * *'  # 08:30h y 19:30h en Espana (Keep-Alive y monitorizacion)
+    - cron: '30 10 * * *'    # 12:30h en Espana (Media hora antes del goteo: Previa de eventos + salud)
   workflow_dispatch:
+    inputs:
+      enviar_previa:
+        description: 'Enviar tambien la lista previa de eventos de hoy'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   comprobar_salud:
@@ -26,5 +33,16 @@ jobs:
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
           WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
           WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
+          SILENCIAR_SI_OK: ${{ github.event.schedule == '30 10 * * *' || github.event.inputs.enviar_previa == 'true' }}
         run: |
           python automation/check_whatsapp_health.py
+
+      - name: Enviar previa de eventos (12:30h o bajo demanda)
+        if: github.event.schedule == '30 10 * * *' || github.event.inputs.enviar_previa == 'true'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
+          WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
+          WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
+        run: |
+          python automation/aviso_previo_goteo.py
