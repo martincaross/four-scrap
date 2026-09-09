@@ -37,8 +37,8 @@ jobs:
           WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
           WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
           WHATSAPP_CHAT_ID_CHATS: ${{ secrets.WHATSAPP_CHAT_ID_CHATS }}
-          TELEGRAM_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_telegram' }}
-          WHATSAPP_ENABLED: ${{ inputs.canal == 'ambos' || inputs.canal == 'solo_whatsapp' }}
+          TELEGRAM_ENABLED: ${{ github.event.inputs.canal == 'ambos' || github.event.inputs.canal == 'solo_telegram' }}
+          WHATSAPP_ENABLED: ${{ github.event.inputs.canal == 'ambos' || github.event.inputs.canal == 'solo_whatsapp' }}
           ESPACIADO_SEGUNDOS: 45
         run: |
           python automation/publicador_chats.py

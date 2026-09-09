@@ -3,7 +3,7 @@ name: Monitor - Estado de WhatsApp (Rutina Diaria / Varios Chequeos)
 on:
   schedule:
     - cron: '33 6,17 * * *'  # 08:33h y 19:33h en España (Keep-Alive y monitorizacion)
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
   comprobar_salud:

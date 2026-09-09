@@ -3,7 +3,7 @@ name: 2. Previa - Aviso Previo al Goteo
 on:
   schedule:
     - cron: '22 6 * * *'  # Diario a las 06:22 UTC (08:22h en España)
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
   enviar_previa:
