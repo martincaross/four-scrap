@@ -3,10 +3,7 @@ name: 4. Monitorizacion - Estado de Sesion WhatsApp
 on:
   schedule:
     - cron: '33 6,17 * * *'  # 08:33h y 19:33h en Espana (Keep-Alive y monitorizacion)
-    - cron: '37 10 * * *'  # 12:37h en España (Previa de eventos + salud)
-  push:
-    paths:
-      - '.github/workflows/verificacion_salud_whatsapp.yml'
+    - cron: '35 10 * * *'  # 12:35h en España (Previa de eventos + salud)
   workflow_dispatch:
     inputs:
       enviar_previa:
@@ -33,17 +30,19 @@ jobs:
       - name: Comprobar estado de sesion WhatsApp
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
           WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
           WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
-          SILENCIAR_SI_OK: ${{ github.event.schedule == '30 10 * * *' || github.event.inputs.enviar_previa == 'true' }}
+          SILENCIAR_SI_OK: ${{ github.event.schedule != '33 6,17 * * *' }}
         run: |
           python automation/check_whatsapp_health.py
 
-      - name: Enviar previa de eventos (12:30h o bajo demanda)
-        if: github.event.schedule == '30 10 * * *' || github.event.inputs.enviar_previa == 'true'
+      - name: Enviar previa de eventos (12:35h o bajo demanda)
+        if: github.event.schedule != '33 6,17 * * *'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
           WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
           WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}

@@ -2,7 +2,7 @@ name: 2. Difusion - Goteo Diario Programado (WhatsApp y Telegram)
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # Diario a las 11:00 UTC (13:00h en Espana)
+    - cron: '05 11 * * *'  # Diario a las 11:05 UTC (13:05h en Espana)
   workflow_dispatch:
     inputs:
       minutos_espaciado:
@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install requests
+        run: pip install requests tzdata
 
       - name: Lanzar difusion con goteo programado
         env:
