@@ -2,8 +2,11 @@ name: 4. Monitorizacion - Estado de Sesion WhatsApp
 
 on:
   schedule:
-    - cron: '30 6,17 * * *'  # 08:30h y 19:30h en Espana (Keep-Alive y monitorizacion)
-    - cron: '30 10 * * *'    # 12:30h en Espana (Media hora antes del goteo: Previa de eventos + salud)
+    - cron: '33 6,17 * * *'  # 08:33h y 19:33h en Espana (Keep-Alive y monitorizacion)
+    - cron: '37 10 * * *'  # 12:37h en España (Previa de eventos + salud)
+  push:
+    paths:
+      - '.github/workflows/verificacion_salud_whatsapp.yml'
   workflow_dispatch:
     inputs:
       enviar_previa:
@@ -25,7 +28,7 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install requests
+        run: pip install requests tzdata
 
       - name: Comprobar estado de sesion WhatsApp
         env:
