@@ -1,0 +1,33 @@
+name: 5. Monitor - Estado de WhatsApp (Keep-Alive)
+
+on:
+  schedule:
+    - cron: '33 6,17 * * *'  # 08:33h y 19:33h en España (Keep-Alive y monitorizacion)
+  workflow_dispatch:
+
+jobs:
+  comprobar_salud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests tzdata
+
+      - name: Comprobar estado de sesion WhatsApp
+        env:
+          PYTHONUNBUFFERED: "1"
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
+          WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
+          WHATSAPP_SESSION_ID: ${{ secrets.WHATSAPP_SESSION_ID }}
+          WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
+          SILENCIAR_SI_OK: "false"
+        run: |
+          python automation/check_whatsapp_health.py

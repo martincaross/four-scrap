@@ -1,4 +1,4 @@
-name: 2. Difusion - Goteo Diario Programado (WhatsApp y Telegram)
+name: 3. Difusion - Goteo Diario Programado (WhatsApp y Telegram)
 
 on:
   schedule:
@@ -39,4 +39,3 @@ jobs:
           MINUTOS_ESPACIADO: ${{ github.event.inputs.minutos_espaciado || 15 }}
         run: |
           python automation/publicador_chats.py
-

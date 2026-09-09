@@ -1,4 +1,4 @@
-name: 3. Difusion - Envio Manual Inmediato (WhatsApp y Telegram)
+name: 4. Difusion - Envio Manual Inmediato (WhatsApp y Telegram)
 
 on:
   workflow_dispatch:
