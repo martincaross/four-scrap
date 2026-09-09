@@ -1,173 +1,5 @@
 [
     {
-        "id": "AL2Q",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/AL2Q",
-        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "C6P1",
-        "titulo": "DESEO X NAZCA CLUB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/eecc94b0-0473-480f-26d9-d809d060f000/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "DESEO",
-        "ubicacion": {
-            "direccion": "C. de Orense, 24, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4513836,
-            "longitud": -3.6944566
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/C6P1",
-        "descripcion": "No te pierdas DESEO X NAZCA CLUB en DESEO. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "CPXB",
-        "titulo": "MARTES 8sept NOVATEO BARRA LIBRE COPAS CATS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/790452d0-3a62-46b7-b150-e2fbcb3f9b00/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "DISCOTECA CATS",
-        "ubicacion": {
-            "direccion": "Calle Julián Romea, 4, 28003 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4427538,
-            "longitud": -3.7135343
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CPXB",
-        "descripcion": "No te pierdas MARTES 8sept NOVATEO BARRA LIBRE COPAS CATS en CATS MADRID. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "HXPO",
-        "titulo": "TUESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fab97114-8dbe-424c-12fd-c9dab323d700/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4463878,
-            "longitud": -3.6820354
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HXPO",
-        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "TP5K",
-        "titulo": "Martes Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3cb807ad-b440-4b35-2242-6023cdcb8900/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4244822,
-            "longitud": -3.7120419
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TP5K",
-        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "U15Y",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3c459078-c553-4884-aab8-5145a1ce1700/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "PERRO NEGRO MADRID",
-        "ubicacion": {
-            "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4290007,
-            "longitud": -3.682953
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/U15Y",
-        "descripcion": "No te pierdas MARTES en PERRO NEGRO MADRID. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "6CM6",
-        "titulo": "MARTES DESEO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/732d5863-7072-4f1f-9749-dddcd276ec00/w=1350",
-        "fecha": "2026-09-08",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "ubicacion": {
-            "direccion": "C. de Orense, 24, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4513098,
-            "longitud": -3.6949808
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/6CM6",
-        "descripcion": "No te pierdas MARTES DESEO en Nazca Club. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "D98B",
-        "titulo": "B12 - ENTRADAS",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_Hllm2chtl02aw01chblog4k6aAEPBBrr.jpeg?versionId=b1HUEmxegtcRkHu1x3zOwqYgY9tbI4Bh",
-        "fecha": "2026-09-08",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca B12 Madrid",
-        "ubicacion": {
-            "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4439381,
-            "longitud": -3.6842658
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/D98B",
-        "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Mar, 8 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "BZGR",
         "titulo": "Fiesta Barco Valladolid",
         "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_Rl94racxz0f4601ar1o26fl3fZcDhLpl.jpeg?versionId=pUZaKCKlgsyOOTrz.bnvwz.fDOqqv.MG",
@@ -2016,6 +1848,48 @@
         "descripcion": "No te pierdas MARVEL SATURDAYS en Marvel Madrid. Vive una noche épica este Sáb, 12 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "SPUV",
+        "titulo": "LAP OVERTIME-GOLDEN ROOM",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/87b41bb1-72a5-489b-b121-8e9c385e1d00/w=1350",
+        "fecha": "2026-09-12",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SPUV",
+        "descripcion": "No te pierdas LAP OVERTIME-GOLDEN ROOM en VANDIDO. Vive una noche épica este Sáb, 12 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "TYQJ",
+        "titulo": "EQUIS La Riviera",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6b5800cb-3592-48c2-8df8-153ca25bc300/w=1350",
+        "fecha": "2026-09-12",
+        "hora": "00:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala La Riviera",
+        "ubicacion": {
+            "direccion": "Paseo Bajo de la Virgen del Puerto, 28005 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4141756,
+            "longitud": -3.7213166
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TYQJ",
+        "descripcion": "No te pierdas EQUIS La Riviera en Sala La Riviera. Vive una noche épica este Sáb, 12 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "JDHF",
         "titulo": "CALLE 365 by MADRID  NO DESCANSA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
@@ -2518,6 +2392,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DODR",
         "descripcion": "No te pierdas Miércoles Fitz en Fitz Madrid. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4OTH",
+        "titulo": "WEDNESDAY SOCIETY X SAINT CLUB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06e0e9c8-699a-4538-2b1f-677005462d00/w=550",
+        "fecha": "2026-09-16",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4OTH",
+        "descripcion": "No te pierdas WEDNESDAY SOCIETY X SAINT CLUB en SAINT CLUB. Vive una noche épica este Mié, 16 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "UZ4H",
@@ -3045,6 +2940,27 @@
         "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Vie, 18 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "J9P8",
+        "titulo": "LIO MADRID",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/349244cf-120f-4731-3bbd-d2d35030b400/w=1350",
+        "fecha": "2026-09-18",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/J9P8",
+        "descripcion": "No te pierdas LIO MADRID en EPOKA THE CLUB. Vive una noche épica este Vie, 18 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "IBKR",
         "titulo": "VIERNES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/88888bd3-d86b-4a1a-510a-296abc633900/w=1350",
@@ -3528,6 +3444,27 @@
         "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "2KE5",
+        "titulo": "REGGAETON WEEKEND",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4d2f9bf5-98ff-4975-c2cc-b4d5d9f85c00/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2KE5",
+        "descripcion": "No te pierdas REGGAETON WEEKEND en EPOKA THE CLUB. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "Z4ST",
         "titulo": "SABADO",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f36a1307-82e6-45d5-13ff-d4c6fa12e300/w=1350",
@@ -3778,5 +3715,215 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/597E",
         "descripcion": "No te pierdas CHAMAN en CHAMÁN. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "WGMN",
+        "titulo": "PANDA SÁBADO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/aba0d3ad-2766-41cc-3075-bbaf5f75d400/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Panda Club",
+        "ubicacion": {
+            "direccion": "C. de Hernani, 75, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4481581,
+            "longitud": -3.6959855
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WGMN",
+        "descripcion": "No te pierdas PANDA SÁBADO en DISCOTECA PANDA CLUB. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "XUZ7",
+        "titulo": "SATURDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8fa68e05-2713-46aa-4def-e990038c8700/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/XUZ7",
+        "descripcion": "No te pierdas SATURDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "ZHJQ",
+        "titulo": "WE ARE BACK",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/64da6a8d-652c-4213-0a94-d6860eb14900/w=550",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "LE CLUB SOMOSAGUAS ",
+        "ubicacion": {
+            "direccion": "C. Madrid, 2, 28223 Húmera, Madrid, España",
+            "ciudad": "pozuelo de alarcon",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4287954,
+            "longitud": -3.7859167
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZHJQ",
+        "descripcion": "No te pierdas WE ARE BACK en LE CLUB SOMOSAGUAS. Vive una noche épica este Sáb, 19 sept en Pozuelo de Alarcón. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "SARA",
+        "titulo": "MARVEL SATURDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5648561b-a70e-4b04-bdb8-5302aa59a200/w=550",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "MARVEL MADRID",
+        "ubicacion": {
+            "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4439381,
+            "longitud": -3.6842658
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SARA",
+        "descripcion": "No te pierdas MARVEL SATURDAYS en Marvel Madrid. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "0UK8",
+        "titulo": "PERREOLAB X THE LAB CLUB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/33ea0d94-ade5-4c0d-8558-9e9db8c6e600/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "The Lab Club",
+        "ubicacion": {
+            "direccion": "Estación de Chamartín, Chamartín, 28036 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4741664,
+            "longitud": -3.6849985
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/0UK8",
+        "descripcion": "No te pierdas PERREOLAB X THE LAB CLUB en MADRID NO DESCANSA. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "BLG6",
+        "titulo": "HARVY VALENCIA x FITZ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8a46c748-6d2e-487d-f58d-2272718bf600/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BLG6",
+        "descripcion": "No te pierdas HARVY VALENCIA x FITZ en Fitz Madrid. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HJPG",
+        "titulo": "MARABU SÁBADO - TENEMOS SITIO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7bcc73a8-7985-4376-a72d-aeb47b9afc00/w=1350",
+        "fecha": "2026-09-19",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Marabú",
+        "ubicacion": {
+            "direccion": "Calle de Ponzano, 37, 28003 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4424748,
+            "longitud": -3.6990086
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HJPG",
+        "descripcion": "No te pierdas MARABU SÁBADO - TENEMOS SITIO en Marabú. Vive una noche épica este Sáb, 19 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "ACQ8",
+        "titulo": "CALLE 365 by MADRID  NO DESCANSA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
+        "fecha": "2026-09-20",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "CALLE 365",
+        "ubicacion": {
+            "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4151775,
+            "longitud": -3.6996408
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ACQ8",
+        "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 20 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "56N5",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-09-20",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/56N5",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 20 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "77BI",
+        "titulo": "THE HOME OF PERREO at Tiffany's",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/50730794-1599-48a3-2098-f968adc0ff00/w=1350",
+        "fecha": "2026-09-20",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/77BI",
+        "descripcion": "No te pierdas THE HOME OF PERREO at Tiffany's en TIFFANY'S THE CLUB. Vive una noche épica este Dom, 20 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
