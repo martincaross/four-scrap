@@ -30,6 +30,7 @@ jobs:
 
       - name: Lanzar difusion con espaciado seguro de 45 segundos
         env:
+          PYTHONUNBUFFERED: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID_CHATS: ${{ secrets.TELEGRAM_SECRET_CHATS }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}

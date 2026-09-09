@@ -29,6 +29,7 @@ jobs:
 
       - name: Comprobar estado de sesion WhatsApp
         env:
+          PYTHONUNBUFFERED: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
@@ -41,6 +42,7 @@ jobs:
       - name: Enviar previa de eventos (12:35h o bajo demanda)
         if: github.event.schedule != '33 6,17 * * *'
         env:
+          PYTHONUNBUFFERED: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID || '8769199362' }}
           WHATSAPP_SERVER_URL: ${{ secrets.WHATSAPP_SERVER_URL }}
