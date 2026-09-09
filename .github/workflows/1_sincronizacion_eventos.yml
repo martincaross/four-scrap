@@ -2,7 +2,7 @@ name: 1. Sincronizacion - Scraping, Base de Datos y Web
 
 on:
   schedule:
-    - cron: '30 5 * * *'  # Diario a las 05:30 UTC (07:30h en Espana)
+    - cron: '31 5 * * *'  # Diario a las 05:31 UTC (07:31h en Espana)
   workflow_dispatch:
     inputs:
       wipe_db:

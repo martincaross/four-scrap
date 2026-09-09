@@ -1,4 +1,4 @@
-name: 5. Monitor - Estado de WhatsApp (Keep-Alive)
+name: Monitor - Estado de WhatsApp (Rutina Diaria / Varios Chequeos)
 
 on:
   schedule:
