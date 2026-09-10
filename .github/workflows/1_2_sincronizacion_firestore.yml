@@ -1,0 +1,53 @@
+name: 1.2 Firestore - Sincronizacion Base de Datos Mingle
+
+on:
+  workflow_run:
+    workflows: ["1.1 Scraping - Fourvenues"]
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      wipe_db:
+        description: 'Borrar todos los eventos antiguos antes de subir los nuevos (Wipe)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  sincronizar_firestore:
+    runs-on: ubuntu-latest
+    # Solo se ejecuta si el workflow_run anterior fue un éxito o si se lanzó manualmente
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: 1. Sincronizar Firestore
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [ "${{ github.event.inputs.wipe_db }}" == "true" ]; then
+            python src/sync_firestore.py --wipe
+          else
+            python src/sync_firestore.py
+          fi
+
+      - name: 🚨 Notificar fallo por Telegram
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: |
+          MENSAJE="🚨 *Error en GitHub Actions* 🚨%0A%0A*Workflow*: ${{ github.workflow }}%0A*Run*: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}%0A%0AFalló la sincronización con Firebase Firestore."
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_ADMIN_CHAT_ID}" \
+            -d text="${MENSAJE}" \
+            -d parse_mode="Markdown"

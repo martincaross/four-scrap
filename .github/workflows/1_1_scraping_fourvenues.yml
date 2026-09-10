@@ -1,0 +1,73 @@
+name: 1.1 Scraping - Fourvenues
+
+on:
+  schedule:
+    - cron: '31 5 * * *'  # Diario a las 05:31 UTC (07:31h en Espana)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scraping_y_fallback:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: 1. Ejecutar Scraper de Fourvenues
+        id: scraper
+        env:
+          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
+        run: |
+          if python src/scraper_events.py && python src/scraper.py; then
+            echo "Scraping completado con éxito."
+          else
+            echo "Error en el scraping. Activando fallback..."
+            echo "scraper_failed=true" >> $GITHUB_ENV
+          fi
+
+      - name: 2. Fallback de Emergencia (Limpieza de eventos pasados)
+        if: env.scraper_failed == 'true'
+        run: |
+          echo "⚠️ El scraper de Fourvenues falló. Limpiando eventos caducados de la base de datos local como plan de contingencia."
+          python src/limpiar_eventos_pasados.py
+
+      - name: 3. Guardar cambios en repositorio (Protegido contra conflictos)
+        run: |
+          git config --global user.name "NextPlan Bot"
+          git config --global user.email "bot@nextplan.es"
+          
+          # Actualizamos con origin para evitar conflictos si hubiese commits ajenos
+          git fetch origin main
+          
+          git add data/ depuracion/
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): actualización de cartelera y eventos Fourvenues"
+            # Hacemos rebase forzando nuestros datos generados en caso de conflicto
+            git pull --rebase -X theirs origin main || (git rebase --abort && git pull -X theirs --no-edit origin main)
+            git push origin main
+          else
+            echo "Sin cambios en los datos de cartelera."
+          fi
+
+      - name: 🚨 Notificar fallo por Telegram
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: |
+          MENSAJE="🚨 *Error Crítico en GitHub Actions* 🚨%0A%0A*Workflow*: ${{ github.workflow }}%0A*Run*: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}%0A%0AEl proceso de scraping o guardado en el repo ha fallado."
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_ADMIN_CHAT_ID}" \
+            -d text="${MENSAJE}" \
+            -d parse_mode="Markdown"
