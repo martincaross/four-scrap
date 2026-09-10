@@ -30,13 +30,14 @@ jobs:
         run: |
           if python src/scraper_events.py && python src/scraper.py; then
             echo "Scraping completado con éxito."
+            echo "scraper_failed=false" >> "$GITHUB_OUTPUT"
           else
             echo "Error en el scraping. Activando fallback..."
-            echo "scraper_failed=true" >> $GITHUB_ENV
+            echo "scraper_failed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 2. Fallback de Emergencia (Limpieza de eventos pasados)
-        if: env.scraper_failed == 'true'
+        if: steps.scraper.outputs.scraper_failed == 'true'
         run: |
           echo "⚠️ El scraper de Fourvenues falló. Limpiando eventos caducados de la base de datos local como plan de contingencia."
           python src/limpiar_eventos_pasados.py
