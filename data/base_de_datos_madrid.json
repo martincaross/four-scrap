@@ -1302,6 +1302,27 @@
         "descripcion": "No te pierdas GABANA F1     Special guest DJ NANO 🇪🇸 en GABANA MUSIC CLUB. Vive una noche épica este Dom, 13 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "2MZY",
+        "titulo": "Domingo VANDIDO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/83b75068-26fb-461b-987e-bcbea6860900/w=1350",
+        "fecha": "2026-09-13",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2MZY",
+        "descripcion": "No te pierdas Domingo VANDIDO en VANDIDO. Vive una noche épica este Dom, 13 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "VESK",
         "titulo": "SALA DE DESPECHO by Madrid No Descansa EL GRITO 🇲🇽",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
@@ -4261,47 +4282,5 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UUGP",
         "descripcion": "No te pierdas PERRA ERA en CrisTo Social Club. Vive una noche épica este Vie, 25 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "PL2S",
-        "titulo": "BELLAQUEO LAB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/28d52d01-0312-4be4-a18f-9bf972840300/w=1350",
-        "fecha": "2026-09-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Cristo Social Club ",
-        "ubicacion": {
-            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4326916,
-            "longitud": -3.679384
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PL2S",
-        "descripcion": "No te pierdas BELLAQUEO LAB en CrisTo Social Club. Vive una noche épica este Vie, 25 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "75ZX",
-        "titulo": "VIERNES COPERNICO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b27fd245-df44-466c-65cc-c050a6ea9800/w=1350",
-        "fecha": "2026-09-25",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Copernico",
-        "ubicacion": {
-            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4352677,
-            "longitud": -3.7135817
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/75ZX",
-        "descripcion": "No te pierdas VIERNES COPERNICO en Copérnico The Club. Vive una noche épica este Vie, 25 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]

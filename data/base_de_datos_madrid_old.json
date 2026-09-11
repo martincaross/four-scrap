@@ -6655,5 +6655,47 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9MGW",
         "descripcion": "No te pierdas SANTOS MONDAYS en BLURRED. Vive una noche épica este Lun, 21 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "PL2S",
+        "titulo": "BELLAQUEO LAB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/28d52d01-0312-4be4-a18f-9bf972840300/w=1350",
+        "fecha": "2026-09-25",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Cristo Social Club ",
+        "ubicacion": {
+            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4326916,
+            "longitud": -3.679384
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PL2S",
+        "descripcion": "No te pierdas BELLAQUEO LAB en CrisTo Social Club. Vive una noche épica este Vie, 25 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "75ZX",
+        "titulo": "VIERNES COPERNICO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b27fd245-df44-466c-65cc-c050a6ea9800/w=1350",
+        "fecha": "2026-09-25",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Copernico",
+        "ubicacion": {
+            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4352677,
+            "longitud": -3.7135817
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/75ZX",
+        "descripcion": "No te pierdas VIERNES COPERNICO en Copérnico The Club. Vive una noche épica este Vie, 25 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
