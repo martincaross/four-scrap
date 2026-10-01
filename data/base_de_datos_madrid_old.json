@@ -14110,5 +14110,194 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/J9G9",
         "descripcion": "No te pierdas MARTES PERRO NEGRO X MADRID NO DESCANSA en PERRO NEGRO MADRID. Vive una noche épica este Mar, 6 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8Q5I",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8Q5I",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "UE66",
+        "titulo": "CARLOH x FITZ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/15cf9dec-860f-426f-f8a0-25a9d23f9400/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4247168,
+            "longitud": -3.7122142
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UE66",
+        "descripcion": "No te pierdas CARLOH x FITZ en Fitz Madrid. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "FUDL",
+        "titulo": "VANDIDO Wednesdays",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a4e09f01-6033-49ac-1786-cd8f81acba00/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FUDL",
+        "descripcion": "No te pierdas VANDIDO Wednesdays en VANDIDO. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "NVTY",
+        "titulo": "MIERCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e9528528-3ca4-4faa-234c-bb8243561f00/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513098,
+            "longitud": -3.6949808
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NVTY",
+        "descripcion": "No te pierdas MIERCOLES en Nazca Club. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "50LK",
+        "titulo": "Miércoles",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/191c6853-411f-4522-d904-af420801d300/w=550",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "GABANA",
+        "ubicacion": {
+            "direccion": "Calle de María de Molina, 39, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4378538,
+            "longitud": -3.6797603
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/50LK",
+        "descripcion": "No te pierdas Miércoles en GABANA MUSIC CLUB. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "KMKT",
+        "titulo": "MIERCOLES GUNILLA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8811dba8-3461-4e06-f38b-aa0517470a00/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Gunilla Club",
+        "ubicacion": {
+            "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4220053,
+            "longitud": -3.6904171
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KMKT",
+        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "IZ5C",
+        "titulo": "WEDNESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/d2ce18f6-e41b-47dd-f112-2426ba3bf600/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IZ5C",
+        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "78IE",
+        "titulo": "MIERCOLES COPERNICO X SKANDALO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/14598cea-6dbd-4246-ba10-f9437fd36200/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Copernico",
+        "ubicacion": {
+            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4352712,
+            "longitud": -3.7136635
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/78IE",
+        "descripcion": "No te pierdas MIERCOLES COPERNICO X SKANDALO en Copérnico The Club. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "5DGS",
+        "titulo": "Miércoles Golden Room",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ff3fbf3a-5159-4897-dc8f-081b5fb3df00/w=1350",
+        "fecha": "2026-09-30",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/5DGS",
+        "descripcion": "No te pierdas Miércoles Golden Room en VANDIDO. Vive una noche épica este Mié, 30 sept en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
