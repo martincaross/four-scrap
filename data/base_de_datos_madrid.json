@@ -1,110 +1,5 @@
 [
     {
-        "id": "U9D9",
-        "titulo": "SALA DE DESPECHO by Madrid No Descansa",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
-        "fecha": "2026-10-12",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SALA DE DESPECHO.",
-        "ubicacion": {
-            "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4228377,
-            "longitud": -3.6909403
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/U9D9",
-        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa en MADRID NO DESCANSA. Vive una noche épica este Lun, 12 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "IRD9",
-        "titulo": "LUNES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
-        "fecha": "2026-10-12",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IRD9",
-        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 12 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "KKND",
-        "titulo": "ONE WORLD - Salsa & Bachata Lessons by ESN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a9ca9853-aa15-43a4-ade6-a20721fbc500/w=1350",
-        "fecha": "2026-10-12",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4244822,
-            "longitud": -3.7120419
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KKND",
-        "descripcion": "No te pierdas ONE WORLD - Salsa & Bachata Lessons by ESN en Fitz Madrid. Vive una noche épica este Lun, 12 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "GB29",
-        "titulo": "FITZ x One World by ESN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8b797e64-f448-4fbf-e64b-31ea6ef9f000/w=550",
-        "fecha": "2026-10-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4247168,
-            "longitud": -3.7122142
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GB29",
-        "descripcion": "No te pierdas FITZ x One World by ESN en Fitz Madrid. Vive una noche épica este Lun, 12 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "I7TU",
-        "titulo": "CANDY AT TIFFANY’S",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fa66782e-f288-4a09-c95e-1f269ffdb400/w=1350",
-        "fecha": "2026-10-12",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4487517,
-            "longitud": -3.6790399
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/I7TU",
-        "descripcion": "No te pierdas CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 12 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "79CU",
         "titulo": "MARTES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
@@ -420,6 +315,27 @@
         "descripcion": "No te pierdas Bum Bum Funky Room en BONDED CLUB. Vive una noche épica este Mié, 14 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "2WVN",
+        "titulo": "SANTEE X SAINT CLUB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e4a74d01-4821-474e-3146-7c34e88e0000/w=1350",
+        "fecha": "2026-10-14",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2WVN",
+        "descripcion": "No te pierdas SANTEE X SAINT CLUB en SAINT CLUB. Vive una noche épica este Mié, 14 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "MMA2",
         "titulo": "Fiesta residentes",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9868de7d-3750-40cc-921c-225148b3d800/w=1350",
@@ -565,27 +481,6 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/Z2MC",
         "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Jue, 15 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "6QZG",
-        "titulo": "JUEVES JOY ESLAVA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/44cf8bbf-e847-4dbf-c919-af79fb4c0200/w=1350",
-        "fecha": "2026-10-15",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "JOY ESLAVA",
-        "ubicacion": {
-            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4171669,
-            "longitud": -3.7065415
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/6QZG",
-        "descripcion": "No te pierdas JUEVES JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Jue, 15 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "A9UO",
@@ -987,6 +882,27 @@
         "descripcion": "No te pierdas Viernes malasañero en DEKADA. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "737A",
+        "titulo": "ONLY 2000s HITS BY TALIA ROUX AND JULIA HALCON",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/80579ab1-0f52-403b-27ca-76156ed90d00/w=1350",
+        "fecha": "2026-10-16",
+        "hora": "21:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BONDED CLUB",
+        "ubicacion": {
+            "direccion": "C. de Miguel Ángel, 9, 28010 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4331996,
+            "longitud": -3.6913379
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/737A",
+        "descripcion": "No te pierdas ONLY 2000s HITS BY TALIA ROUX AND JULIA HALCON en BONDED CLUB. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "1KR4",
         "titulo": "VIERNES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
@@ -1155,6 +1071,27 @@
         "descripcion": "No te pierdas VIERNES POSH ⭐️ en Posh Club. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "BKUD",
+        "titulo": "DESEO (NAZCA CLUB)",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f656977d-3bbb-4589-10ed-2879edc98000/w=1350",
+        "fecha": "2026-10-16",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "DESEO",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513098,
+            "longitud": -3.6949808
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BKUD",
+        "descripcion": "No te pierdas DESEO (NAZCA CLUB) en DESEO. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "JAC4",
         "titulo": "CHAMAN",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2f6b026-8a70-4ffd-b53a-feea5e09f000/w=550",
@@ -1279,27 +1216,6 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/0TBZ",
         "descripcion": "No te pierdas Alcoholimpiadas x KALEA en ETNIA. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "XVFC",
-        "titulo": "VIERNES GRAF",
-        "imagen": "",
-        "fecha": "2026-10-16",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "GRAF",
-        "ubicacion": {
-            "direccion": "Calle de María de Molina, 50, 28006 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4373279,
-            "longitud": -3.6808025
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/XVFC",
-        "descripcion": "No te pierdas VIERNES GRAF en PATILLA MGMT. Vive una noche épica este Vie, 16 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "VRXY",
@@ -1699,6 +1615,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HTP6",
         "descripcion": "No te pierdas MAJARETA TARDEO en KUBE. Vive una noche épica este Sáb, 17 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "LIHI",
+        "titulo": "TARDEOLÉ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/14f221a1-0a4f-4b7a-f8b4-8644b8960200/w=1350",
+        "fecha": "2026-10-17",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Cristo Social Club ",
+        "ubicacion": {
+            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4327116,
+            "longitud": -3.6826075
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/LIHI",
+        "descripcion": "No te pierdas TARDEOLÉ en CrisTo Social Club. Vive una noche épica este Sáb, 17 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "WHBM",
@@ -2287,6 +2224,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BNG6",
         "descripcion": "No te pierdas LATIDO LATINO en CrisTo Social Club. Vive una noche épica este Sáb, 17 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "FNPA",
+        "titulo": "PERRA ERA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fc879775-6bc1-47f7-a124-88b8ca918c00/w=1350",
+        "fecha": "2026-10-17",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Cristo Social Club ",
+        "ubicacion": {
+            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4327116,
+            "longitud": -3.6826075
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FNPA",
+        "descripcion": "No te pierdas PERRA ERA en CrisTo Social Club. Vive una noche épica este Sáb, 17 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "W7CO",
@@ -3171,6 +3129,27 @@
         "descripcion": "No te pierdas \"THE 120 CLUB\" GOLDEN ROOM VANDIDO en VANDIDO. Vive una noche épica este Jue, 22 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "FMP7",
+        "titulo": "JUEVES JOY ESLAVA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/bbb4290e-448c-49f9-1ff2-53e7f0e55c00/w=1350",
+        "fecha": "2026-10-22",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "JOY ESLAVA",
+        "ubicacion": {
+            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4171669,
+            "longitud": -3.7065415
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FMP7",
+        "descripcion": "No te pierdas JUEVES JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Jue, 22 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "6XCG",
         "titulo": "Green Viernes",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/d844b3ca-3c68-4c66-3fb0-b50188ba6d00/w=1350",
@@ -3549,48 +3528,6 @@
         "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "41VE",
-        "titulo": "VIERNES GRAF",
-        "imagen": "",
-        "fecha": "2026-10-23",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Despecho ",
-        "ubicacion": {
-            "direccion": "C. de Hernani, 75, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4481581,
-            "longitud": -3.6959855
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/41VE",
-        "descripcion": "No te pierdas VIERNES GRAF en PATILLA MGMT. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "FKOU",
-        "titulo": "VIERNES RUBICON",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7078a49c-b114-4c98-6bcd-255dbbf48000/w=1350",
-        "fecha": "2026-10-23",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Rubicon",
-        "ubicacion": {
-            "direccion": "C. del Cid, 7, Salamanca, 28001 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4221539,
-            "longitud": -3.6898761
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FKOU",
-        "descripcion": "No te pierdas VIERNES RUBICON en MADRID NO DESCANSA. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "IPY0",
         "titulo": "MARVEL VIERNES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5648561b-a70e-4b04-bdb8-5302aa59a200/w=550",
@@ -3610,5 +3547,68 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IPY0",
         "descripcion": "No te pierdas MARVEL VIERNES en Marvel Madrid. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "YOOF",
+        "titulo": "FRIDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9220a62d-6b03-46f2-746d-8690a55e5000/w=1350",
+        "fecha": "2026-10-23",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YOOF",
+        "descripcion": "No te pierdas FRIDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "TXMR",
+        "titulo": "MISSION 2 KALEA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/cf9aa884-9187-4b6e-1a33-0117f3768700/w=1350",
+        "fecha": "2026-10-23",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "etnia",
+        "ubicacion": {
+            "direccion": "C. de Orense, 12, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4492364,
+            "longitud": -3.6950889
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TXMR",
+        "descripcion": "No te pierdas MISSION 2 KALEA en ETNIA. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "YL5F",
+        "titulo": "MARABU VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/000d2dac-f2a8-43d2-27e7-e404452bcb00/w=1350",
+        "fecha": "2026-10-23",
+        "hora": "00:00",
+        "edad": "+23",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Marabú",
+        "ubicacion": {
+            "direccion": "Calle de Ponzano, 37, 28003 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4424748,
+            "longitud": -3.6990086
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YL5F",
+        "descripcion": "No te pierdas MARABU VIERNES en Marabú. Vive una noche épica este Vie, 23 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
