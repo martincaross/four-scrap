@@ -24967,5 +24967,110 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DN7H",
         "descripcion": "No te pierdas PERREOLAB HALLOWEN SURPRISE ARTIST en Teatro Magno. Vive una noche épica este Sáb, 31 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "ZYP5",
+        "titulo": "SALA DE DESPECHO by Madrid No Descansa",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
+        "fecha": "2026-10-26",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SALA DE DESPECHO.",
+        "ubicacion": {
+            "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4228377,
+            "longitud": -3.6909403
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZYP5",
+        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa en MADRID NO DESCANSA. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "H5N3",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-10-26",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/H5N3",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "IKFE",
+        "titulo": "ONE WORLD - Salsa & Bachata Lessons by ESN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/85a2415e-fbb8-4c4c-08f0-c44aa1740700/w=1350",
+        "fecha": "2026-10-26",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4247168,
+            "longitud": -3.7122142
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IKFE",
+        "descripcion": "No te pierdas ONE WORLD - Salsa & Bachata Lessons by ESN en Fitz Madrid. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "IZQU",
+        "titulo": "CANDY AT TIFFANY’S",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fa66782e-f288-4a09-c95e-1f269ffdb400/w=1350",
+        "fecha": "2026-10-26",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IZQU",
+        "descripcion": "No te pierdas CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "9FZN",
+        "titulo": "ANGELS & DEMONS x One World by ESN - Halloween edition",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9cd9b009-1463-4e6d-2225-4e1d0392b500/w=1350",
+        "fecha": "2026-10-26",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FZN",
+        "descripcion": "No te pierdas ANGELS & DEMONS x One World by ESN - Halloween edition en Fitz Madrid. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]

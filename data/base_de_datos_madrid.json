@@ -1,110 +1,5 @@
 [
     {
-        "id": "ZYP5",
-        "titulo": "SALA DE DESPECHO by Madrid No Descansa",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
-        "fecha": "2026-10-26",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SALA DE DESPECHO.",
-        "ubicacion": {
-            "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4228377,
-            "longitud": -3.6909403
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZYP5",
-        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa en MADRID NO DESCANSA. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "H5N3",
-        "titulo": "LUNES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
-        "fecha": "2026-10-26",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/H5N3",
-        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "IKFE",
-        "titulo": "ONE WORLD - Salsa & Bachata Lessons by ESN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/85a2415e-fbb8-4c4c-08f0-c44aa1740700/w=1350",
-        "fecha": "2026-10-26",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4247168,
-            "longitud": -3.7122142
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IKFE",
-        "descripcion": "No te pierdas ONE WORLD - Salsa & Bachata Lessons by ESN en Fitz Madrid. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "IZQU",
-        "titulo": "CANDY AT TIFFANY’S",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fa66782e-f288-4a09-c95e-1f269ffdb400/w=1350",
-        "fecha": "2026-10-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4487517,
-            "longitud": -3.6790399
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IZQU",
-        "descripcion": "No te pierdas CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "9FZN",
-        "titulo": "ANGELS & DEMONS x One World by ESN - Halloween edition",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9cd9b009-1463-4e6d-2225-4e1d0392b500/w=1350",
-        "fecha": "2026-10-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4244822,
-            "longitud": -3.7120419
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FZN",
-        "descripcion": "No te pierdas ANGELS & DEMONS x One World by ESN - Halloween edition en Fitz Madrid. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "9FGG",
         "titulo": "MARTES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
@@ -166,5 +61,110 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QTK9",
         "descripcion": "No te pierdas Martes VANDIDO en VANDIDO. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "YD79",
+        "titulo": "Martes Fitz",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7eed2268-33c6-4f07-d6c0-622d90c45a00/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YD79",
+        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "NW4B",
+        "titulo": "MARTES PERRO NEGRO X MADRID NO DESCANSA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ebd0367f-7c10-4deb-4631-cf9d0f14f800/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "PERRO NEGRO MADRID",
+        "ubicacion": {
+            "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4290007,
+            "longitud": -3.682953
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NW4B",
+        "descripcion": "No te pierdas MARTES PERRO NEGRO X MADRID NO DESCANSA en PERRO NEGRO MADRID. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "PRMF",
+        "titulo": "AFTERLANDING HALLOWEEN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a8759dff-6e92-4b5f-2c59-c82adc990700/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/PRMF",
+        "descripcion": "No te pierdas AFTERLANDING HALLOWEEN en MADRID NO DESCANSA. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "D6WL",
+        "titulo": "ONE MORE X IE MiF - END OF EXAMS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/116ae0a6-9301-4923-6bce-b5cfa45c3a00/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala de Despecho",
+        "ubicacion": {
+            "direccion": "C. de Recoletos, 13, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4218371,
+            "longitud": -3.6898237
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/D6WL",
+        "descripcion": "No te pierdas ONE MORE X IE MiF - END OF EXAMS en MADRID NO DESCANSA. Vive una noche épica este Mié, 28 oct en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "49HO",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/49HO",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
