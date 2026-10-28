@@ -1,110 +1,5 @@
 [
     {
-        "id": "9FGG",
-        "titulo": "MARTES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
-        "fecha": "2026-10-27",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FGG",
-        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "08G3",
-        "titulo": "TUESDAY'S at Tiffany's The Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/945b99a2-16cd-4239-ad75-3bb9d2e80000/w=1350",
-        "fecha": "2026-10-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4487517,
-            "longitud": -3.6790399
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/08G3",
-        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "QTK9",
-        "titulo": "Martes VANDIDO",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
-        "fecha": "2026-10-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "ubicacion": {
-            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4251864,
-            "longitud": -3.6780181
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QTK9",
-        "descripcion": "No te pierdas Martes VANDIDO en VANDIDO. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "YD79",
-        "titulo": "Martes Fitz",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7eed2268-33c6-4f07-d6c0-622d90c45a00/w=1350",
-        "fecha": "2026-10-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4244822,
-            "longitud": -3.7120419
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YD79",
-        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "NW4B",
-        "titulo": "MARTES PERRO NEGRO X MADRID NO DESCANSA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ebd0367f-7c10-4deb-4631-cf9d0f14f800/w=1350",
-        "fecha": "2026-10-27",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "PERRO NEGRO MADRID",
-        "ubicacion": {
-            "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4290007,
-            "longitud": -3.682953
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NW4B",
-        "descripcion": "No te pierdas MARTES PERRO NEGRO X MADRID NO DESCANSA en PERRO NEGRO MADRID. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "PRMF",
         "titulo": "AFTERLANDING HALLOWEEN",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a8759dff-6e92-4b5f-2c59-c82adc990700/w=1350",
@@ -166,5 +61,110 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/49HO",
         "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "24PU",
+        "titulo": "LA BEATA JOY ESLAVA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4a73e5c5-b8b8-4aeb-3ce7-e95526196200/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "23:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "JOY ESLAVA",
+        "ubicacion": {
+            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4171669,
+            "longitud": -3.7065415
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/24PU",
+        "descripcion": "No te pierdas LA BEATA JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "CVU5",
+        "titulo": "WEDNESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/08c86edb-0b0c-4980-4015-8c4df804c100/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CVU5",
+        "descripcion": "No te pierdas WEDNESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "AAAE",
+        "titulo": "Miércoles",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/103f76b0-30e9-421f-3376-6a58e8f8b800/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "GABANA",
+        "ubicacion": {
+            "direccion": "Calle de María de Molina, 39, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4378538,
+            "longitud": -3.6797603
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/AAAE",
+        "descripcion": "No te pierdas Miércoles en GABANA MUSIC CLUB. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "P72M",
+        "titulo": "Bum Bum - Halloween Edition",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0dca82e7-a9a5-41bd-eab0-7fb7e2e25b00/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Miguel Ángel,9",
+        "ubicacion": {
+            "direccion": "C. de Miguel Ángel, 14, 28010 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4355097,
+            "longitud": -3.6910828
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P72M",
+        "descripcion": "No te pierdas Bum Bum - Halloween Edition en BONDED CLUB. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "NSYR",
+        "titulo": "MIERCOLES GUNILLA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6580239f-7a0f-441f-5514-d78bc9fbce00/w=1350",
+        "fecha": "2026-10-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Gunilla Club",
+        "ubicacion": {
+            "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4220053,
+            "longitud": -3.6904171
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NSYR",
+        "descripcion": "No te pierdas MIERCOLES GUNILLA en Gunilla Club. Vive una noche épica este Mié, 28 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]

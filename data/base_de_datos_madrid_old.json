@@ -25072,5 +25072,110 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FZN",
         "descripcion": "No te pierdas ANGELS & DEMONS x One World by ESN - Halloween edition en Fitz Madrid. Vive una noche épica este Lun, 26 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "9FGG",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FGG",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "08G3",
+        "titulo": "TUESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/945b99a2-16cd-4239-ad75-3bb9d2e80000/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/08G3",
+        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "QTK9",
+        "titulo": "Martes VANDIDO",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QTK9",
+        "descripcion": "No te pierdas Martes VANDIDO en VANDIDO. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "YD79",
+        "titulo": "Martes Fitz",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7eed2268-33c6-4f07-d6c0-622d90c45a00/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YD79",
+        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "NW4B",
+        "titulo": "MARTES PERRO NEGRO X MADRID NO DESCANSA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ebd0367f-7c10-4deb-4631-cf9d0f14f800/w=1350",
+        "fecha": "2026-10-27",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "PERRO NEGRO MADRID",
+        "ubicacion": {
+            "direccion": "Calle de Don Ramón de la Cruz, 28, Salamanca, 28001 Madrid, Spain",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4290007,
+            "longitud": -3.682953
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NW4B",
+        "descripcion": "No te pierdas MARTES PERRO NEGRO X MADRID NO DESCANSA en PERRO NEGRO MADRID. Vive una noche épica este Mar, 27 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
