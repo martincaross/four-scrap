@@ -25513,5 +25513,173 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/MAZU",
         "descripcion": "No te pierdas JUEVES TODOS SANTOS en Todos Santos. Vive una noche épica este Jue, 29 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "BLQY",
+        "titulo": "Green Viernes",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/d844b3ca-3c68-4c66-3fb0-b50188ba6d00/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "19:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Green",
+        "ubicacion": {
+            "direccion": "P.º de la Castellana, 40 BIS, Salamanca, 28046 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4260043,
+            "longitud": -3.6898228
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BLQY",
+        "descripcion": "No te pierdas Green Viernes en Yatengoplan. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8LN2",
+        "titulo": "PRE-HALLOWEEN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/04a8ceb9-2b4d-4ef8-b8db-7ec1fe6a1e00/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Dekada Madrid",
+        "ubicacion": {
+            "direccion": "Calle de San Vicente Ferrer, 34, 28004 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.425831,
+            "longitud": -3.7041699
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8LN2",
+        "descripcion": "No te pierdas PRE-HALLOWEEN en DEKADA. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "TXGJ",
+        "titulo": "HALLOWEEN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/614f71f2-7eaa-4d49-daaa-6b360be8f700/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "KUBE Madrid",
+        "ubicacion": {
+            "direccion": "C. del Poeta Joan Maragall, 38, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.459781,
+            "longitud": -3.6918002
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TXGJ",
+        "descripcion": "No te pierdas HALLOWEEN en KUBE. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "7EZO",
+        "titulo": "SHARK™ HALLOWEEN 🦈 FABRIK",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/750fead0-75a3-441f-b9ee-e2c5aa35a300/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "22:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fabrik",
+        "ubicacion": {
+            "direccion": "Av. de la Industria, 82, 28970 Humanes de Madrid, Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.2653008,
+            "longitud": -3.8405653
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/7EZO",
+        "descripcion": "No te pierdas SHARK™ HALLOWEEN 🦈 FABRIK en SHARK EVENTS. Vive una noche épica este Vie, 30 oct en Humanes de Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "1PXP",
+        "titulo": "VIERNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1PXP",
+        "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HTMD",
+        "titulo": "EPOKA - PRE-HALLOWEEN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/53fd0c5c-dbc5-4e39-1037-8cfaebe0db00/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HTMD",
+        "descripcion": "No te pierdas EPOKA - PRE-HALLOWEEN en EPOKA THE CLUB. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "HA04",
+        "titulo": "DESEO HALLOWEEN (NAZCA CLUB)",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7d8858a3-ac4e-4d0f-856d-86f41914ab00/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "DESEO",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513836,
+            "longitud": -3.6944566
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HA04",
+        "descripcion": "No te pierdas DESEO HALLOWEEN (NAZCA CLUB) en DESEO. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GHHT",
+        "titulo": "VIERNES HALLOWEEN | POSH ⭐️",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2fce730-4b2d-48cb-90a6-72b6e7759b00/w=1350",
+        "fecha": "2026-10-30",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Posh Club",
+        "ubicacion": {
+            "direccion": "Calle de Orense, 18, 28020 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4517518,
+            "longitud": -3.6950473
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GHHT",
+        "descripcion": "No te pierdas VIERNES HALLOWEEN | POSH ⭐️ en Posh Club. Vive una noche épica este Vie, 30 oct en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
