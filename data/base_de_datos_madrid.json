@@ -1,425 +1,5 @@
 [
     {
-        "id": "R0CL",
-        "titulo": "CALLE 365 by MADRID  NO DESCANSA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "18:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "CALLE 365",
-        "ubicacion": {
-            "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4151775,
-            "longitud": -3.6996408
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/R0CL",
-        "descripcion": "No te pierdas CALLE 365 by MADRID  NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "QH9E",
-        "titulo": "KOKO SPAIN X SAINT CLUB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/dcfda516-1072-46c4-7ff8-8123c7f89e00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "18:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SAINT CLUB",
-        "ubicacion": {
-            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4284048,
-            "longitud": -3.6836756
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QH9E",
-        "descripcion": "No te pierdas KOKO SPAIN X SAINT CLUB en SAINT CLUB. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "VGLS",
-        "titulo": "Tardeo ASI SONABA by Jose AM",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/54f96323-343c-4912-338a-08b5c212d300/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "18:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "etnia",
-        "ubicacion": {
-            "direccion": "C. de Orense, 12, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4492364,
-            "longitud": -3.6950889
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VGLS",
-        "descripcion": "No te pierdas Tardeo ASI SONABA by Jose AM en ETNIA. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "1PN0",
-        "titulo": "HALLOWEEN SVRVRV MADRID",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/25c91461-182f-4693-b05e-2818ee16d500/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "22:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Teatro Magno",
-        "ubicacion": {
-            "direccion": "Calle de Cedaceros, 7, 28014 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4172928,
-            "longitud": -3.6983671
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1PN0",
-        "descripcion": "No te pierdas HALLOWEEN SVRVRV MADRID en Teatro Magno. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "DTOP",
-        "titulo": "DOMINGO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DTOP",
-        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "0VKV",
-        "titulo": "DOMINGO TODOS SANTOS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/da5a3d08-e685-410b-2d35-9af775a59e00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Todos Santos",
-        "ubicacion": {
-            "direccion": "Calle de Génova, 28, Centro, 28004 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.425343,
-            "longitud": -3.6917581
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/0VKV",
-        "descripcion": "No te pierdas DOMINGO TODOS SANTOS en Todos Santos. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "L4PN",
-        "titulo": "DOMINGO MON - COPAS A 2€ - HALLOWEEN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/747db97f-9245-43bc-c775-befad958ff00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Sala Mon",
-        "ubicacion": {
-            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4359198,
-            "longitud": -3.7165172
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/L4PN",
-        "descripcion": "No te pierdas DOMINGO MON - COPAS A 2€ - HALLOWEEN en DISCOTECA MON MADRID. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "V0PC",
-        "titulo": "☣️ 𝐓𝐎𝐗𝐈𝐂 𝐇𝐀𝐋𝐋𝐎𝐖𝐄𝐄𝐍 💚 𝐒𝐇𝐀𝐃𝐎𝐖𝐏𝐋𝐀𝐘",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/39418fbc-dc6f-4450-e6e0-d199637cf800/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "VARVI",
-        "ubicacion": {
-            "direccion": "P.º del Pintor Rosales, 30, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4270512,
-            "longitud": -3.7196009
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/V0PC",
-        "descripcion": "No te pierdas ☣️ 𝐓𝐎𝐗𝐈𝐂 𝐇𝐀𝐋𝐋𝐎𝐖𝐄𝐄𝐍 💚 𝐒𝐇𝐀𝐃𝐎𝐖𝐏𝐋𝐀𝐘 en VARVI . Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "QKT2",
-        "titulo": "COPAS A 3,5€",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e73e1e3a-8ff3-4c40-49c9-21f4c47ef200/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "BLUE CLUB",
-        "ubicacion": {
-            "direccion": "C. de Orense, 12, Tetuán, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4492364,
-            "longitud": -3.6950889
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QKT2",
-        "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "OIIH",
-        "titulo": "DOMINGO JOY ESLAVA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/66953316-4c7b-4a01-db1e-34a470642500/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "JOY ESLAVA",
-        "ubicacion": {
-            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4171669,
-            "longitud": -3.7065415
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OIIH",
-        "descripcion": "No te pierdas DOMINGO JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "US2F",
-        "titulo": "WE LOVE REGGAETON- DIA DE LOS MUERTOS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/15195e30-05ae-431a-8d32-9c26b360b800/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "VENNUS Madrid ",
-        "ubicacion": {
-            "direccion": "C. Sofía, 3, 28232 Las Rozas de Madrid, Madrid, España",
-            "ciudad": "las rozas de madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4997651,
-            "longitud": -3.8931305
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/US2F",
-        "descripcion": "No te pierdas WE LOVE REGGAETON- DIA DE LOS MUERTOS en VENNUS MADRID. Vive una noche épica este Dom, 1 nov en Las Rozas de Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "UNUG",
-        "titulo": "B12 - ENTRADAS",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_Hllm2chtl02aw01chblog4k6aAEPBBrr.jpeg?versionId=b1HUEmxegtcRkHu1x3zOwqYgY9tbI4Bh",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca B12 Madrid",
-        "ubicacion": {
-            "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4439381,
-            "longitud": -3.6842658
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UNUG",
-        "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "1MTO",
-        "titulo": "JALEITO-HALLOWEEN EDITION x VANDIDO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/178ac440-b064-460d-07ca-8731f9868700/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "ubicacion": {
-            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4251864,
-            "longitud": -3.6780181
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1MTO",
-        "descripcion": "No te pierdas JALEITO-HALLOWEEN EDITION x VANDIDO en VANDIDO. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "UGEN",
-        "titulo": "THE HOME OF PERREO at Tiffany's",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5e08fc22-dec6-4c22-3a08-17de562f4d00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4487517,
-            "longitud": -3.6790399
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UGEN",
-        "descripcion": "No te pierdas THE HOME OF PERREO at Tiffany's en TIFFANY'S THE CLUB. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "DZF8",
-        "titulo": "DOMINGO COPERNICO | La Nocturna Halloween",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9349680b-eb07-4d63-4ddd-4ec813482300/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Copernico",
-        "ubicacion": {
-            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4352712,
-            "longitud": -3.7136635
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DZF8",
-        "descripcion": "No te pierdas DOMINGO COPERNICO | La Nocturna Halloween en Copérnico The Club. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "OKXB",
-        "titulo": "DOMINGO 1 NOVIEMBRE EVENTO PRIVADO",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/events/cover/Flfwej2ct017e018tffsm0nc7GEzRBAs.jpeg?versionId=F0a_.AOK4HBSP5Ad7OuGu4KX5EWlUHyE",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "DISCOTECA CATS",
-        "ubicacion": {
-            "direccion": "Calle Julián Romea, 4, 28003 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4427753,
-            "longitud": -3.7134348
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OKXB",
-        "descripcion": "No te pierdas DOMINGO 1 NOVIEMBRE EVENTO PRIVADO en CATS MADRID. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "GKDV",
-        "titulo": "domingo",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/524c9da3-3d2c-47d8-d989-e7e0fe646400/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "ubicacion": {
-            "direccion": "C. de Orense, 24, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4513098,
-            "longitud": -3.6949808
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GKDV",
-        "descripcion": "No te pierdas domingo en Nazca Club. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "X559",
-        "titulo": "ØRIGEN - Domingo Bonded",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/2e916a49-fb4b-454e-06ae-3829b875b400/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "BONDED CLUB",
-        "ubicacion": {
-            "direccion": "C. de Miguel Ángel, 9, 28010 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4331996,
-            "longitud": -3.6913379
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/X559",
-        "descripcion": "No te pierdas ØRIGEN - Domingo Bonded en BONDED CLUB. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "S5ND",
-        "titulo": "CHANGO AFTERHALLOWEEN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/89c7b8e1-a625-4740-27b1-8822992dfe00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Calle de Covarrubias, 42, Chamberí, 28010 Madrid",
-        "ubicacion": {
-            "direccion": "Calle de Covarrubias, 42, 28010 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4316829,
-            "longitud": -3.6981854
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/S5ND",
-        "descripcion": "No te pierdas CHANGO AFTERHALLOWEEN en CHANGO MADRID. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "TRU7",
-        "titulo": "LA CASA DEL PERREO | PERRA ERA",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/23bceb6e-b18e-4372-acd3-6f7f3a5d5b00/w=1350",
-        "fecha": "2026-11-01",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Cristo Social Club ",
-        "ubicacion": {
-            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4327116,
-            "longitud": -3.6826075
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TRU7",
-        "descripcion": "No te pierdas LA CASA DEL PERREO | PERRA ERA en CrisTo Social Club. Vive una noche épica este Dom, 1 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "QET8",
         "titulo": "SALA DE DESPECHO by Madrid No Descansa",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
@@ -649,6 +229,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VO2U",
         "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 3 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "2SKI",
+        "titulo": "AFTERLANDING: WILD WEDNESDAY",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a7a99036-9e37-44f8-8ddd-7425163fe900/w=1350",
+        "fecha": "2026-11-04",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2SKI",
+        "descripcion": "No te pierdas AFTERLANDING: WILD WEDNESDAY en MADRID NO DESCANSA. Vive una noche épica este Mié, 4 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "OBX9",
@@ -1260,6 +861,27 @@
         "descripcion": "No te pierdas Green Viernes en Yatengoplan. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "KSXA",
+        "titulo": "Viernes malasañero",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/96b4c678-8698-495f-4884-863689ee5900/w=1350",
+        "fecha": "2026-11-06",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Dekada Madrid",
+        "ubicacion": {
+            "direccion": "Calle de San Vicente Ferrer, 34, 28004 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4258509,
+            "longitud": -3.7041505
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KSXA",
+        "descripcion": "No te pierdas Viernes malasañero en DEKADA. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "66RV",
         "titulo": "VIERNES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
@@ -1279,6 +901,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/66RV",
         "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "QV83",
+        "titulo": "THE FACULTY ( UNIVERSITY PARTY)",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/edc0c714-5207-4fba-85a3-8a7aa18fba00/w=1350",
+        "fecha": "2026-11-06",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QV83",
+        "descripcion": "No te pierdas THE FACULTY ( UNIVERSITY PARTY) en EPOKA THE CLUB. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "CPN4",
@@ -1722,6 +1365,27 @@
         "descripcion": "No te pierdas MARVEL VIERNES en Marvel Madrid. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "CVD8",
+        "titulo": "REGGAETÓN 2000 - BELLAQUEOLAB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/108da37a-54c5-4017-70af-05b135fa4800/w=1350",
+        "fecha": "2026-11-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Zoe ",
+        "ubicacion": {
+            "direccion": "Calle de José Abascal, 8, Chamberí, 28003 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4383553,
+            "longitud": -3.7007985
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CVD8",
+        "descripcion": "No te pierdas REGGAETÓN 2000 - BELLAQUEOLAB en Bellaqueolab. Vive una noche épica este Vie, 6 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "RIYM",
         "titulo": "Linkers x Bumbum no tan duro",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/56e9f4a8-969c-4a9a-ecb9-03aefcbb2a00/w=1350",
@@ -1785,6 +1449,27 @@
         "descripcion": "No te pierdas LA DESPECHÁ - TARDEO MARABÚ SABADO en Marabú. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "LGH6",
+        "titulo": "MAJARETA TARDEO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1182383e-8f11-4af9-ebbb-de80ed27f100/w=1350",
+        "fecha": "2026-11-07",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "KUBE Madrid",
+        "ubicacion": {
+            "direccion": "C. del Poeta Joan Maragall, 38, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.459842,
+            "longitud": -3.691713
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/LGH6",
+        "descripcion": "No te pierdas MAJARETA TARDEO en KUBE. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "9M2J",
         "titulo": "Tardeo La Alta Sociedad JOY ESLAVA",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ce35d7a4-f24c-4ce1-ebb8-fcafb0b5f200/w=1350",
@@ -1806,6 +1491,48 @@
         "descripcion": "No te pierdas Tardeo La Alta Sociedad JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "LYLH",
+        "titulo": "AFROBIBI Essence: GUEST DJ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a2780503-91b0-4b22-851d-8b8ec922d500/w=1350",
+        "fecha": "2026-11-07",
+        "hora": "19:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BIBO Club",
+        "ubicacion": {
+            "direccion": "P.º de la Castellana, 52, Salamanca, 28046 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4356993,
+            "longitud": -3.6882216
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/LYLH",
+        "descripcion": "No te pierdas AFROBIBI Essence: GUEST DJ en BIBO MADRID. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "2OSP",
+        "titulo": "Saturday nights",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/123adf8f-f291-46a9-ecb8-594bf3602900/w=1350",
+        "fecha": "2026-11-07",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Dekada Madrid",
+        "ubicacion": {
+            "direccion": "Calle de San Vicente Ferrer, 34, 28004 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4258509,
+            "longitud": -3.7041505
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2OSP",
+        "descripcion": "No te pierdas Saturday nights en DEKADA. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "GR2S",
         "titulo": "Green Sabado",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b6bc0c94-5ca1-4cef-0612-b8f788886300/w=1350",
@@ -1825,6 +1552,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GR2S",
         "descripcion": "No te pierdas Green Sabado en Yatengoplan. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "APRU",
+        "titulo": "REGGAETON WEEKEND",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6f0fe9c2-47d6-4838-9c61-a519417d1800/w=1350",
+        "fecha": "2026-11-07",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/APRU",
+        "descripcion": "No te pierdas REGGAETON WEEKEND en EPOKA THE CLUB. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "FSSR",
@@ -2245,6 +1993,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CQVA",
         "descripcion": "No te pierdas REGGAETON VS TRAP KALEA en ETNIA. Vive una noche épica este Sáb, 7 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "AAYJ",
+        "titulo": "Le club Saturdays",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/73d7bdd2-d633-4c05-138b-ade7ad1ac000/w=1350",
+        "fecha": "2026-11-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "LE CLUB SOMOSAGUAS ",
+        "ubicacion": {
+            "direccion": "C. Madrid, 2, 28223 Húmera, Madrid, España",
+            "ciudad": "pozuelo de alarcon",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4287954,
+            "longitud": -3.7859167
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/AAYJ",
+        "descripcion": "No te pierdas Le club Saturdays en LE CLUB SOMOSAGUAS. Vive una noche épica este Sáb, 7 nov en Pozuelo de Alarcón. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "C5S2",
@@ -3276,6 +3045,27 @@
         "descripcion": "No te pierdas Green Viernes en Yatengoplan. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "H9UG",
+        "titulo": "Viernes malasañero",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/96b4c678-8698-495f-4884-863689ee5900/w=1350",
+        "fecha": "2026-11-13",
+        "hora": "21:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Dekada Madrid",
+        "ubicacion": {
+            "direccion": "Calle de San Vicente Ferrer, 34, 28004 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4258509,
+            "longitud": -3.7041505
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/H9UG",
+        "descripcion": "No te pierdas Viernes malasañero en DEKADA. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "WBX3",
         "titulo": "VIERNES",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b7386aa-913e-46d9-1a0a-f55fe703e500/w=1350",
@@ -3316,6 +3106,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VKGS",
         "descripcion": "No te pierdas FOREVER YOUNG 👑 | Reggaetón Old School y Hits 2000–2010 en Marvel Madrid. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "O23G",
+        "titulo": "THE FACULTY ( UNIVERSITY PARTY)",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/89b5bac0-1896-4055-f3b7-8b3f48403b00/w=1350",
+        "fecha": "2026-11-13",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/O23G",
+        "descripcion": "No te pierdas THE FACULTY ( UNIVERSITY PARTY) en EPOKA THE CLUB. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "RIJN",
@@ -3738,87 +3549,24 @@
         "descripcion": "No te pierdas ALCOHOLIMPIADAS en ETNIA. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
-        "id": "GB1S",
-        "titulo": "MANUELAS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8e6c711a-5b19-44ff-2626-dc0742457500/w=1350",
-        "fecha": "2026-11-14",
-        "hora": "18:00",
+        "id": "NQDT",
+        "titulo": "EL MACH DEL PERREO - BELLAQUEOLAB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c157035b-2a4f-45e5-2de5-73765efc0b00/w=1350",
+        "fecha": "2026-11-13",
+        "hora": "00:00",
         "edad": "+18",
         "vestimenta": "Smart / Arreglado",
-        "sala": "JOY ESLAVA",
+        "sala": "Sala Zoe ",
         "ubicacion": {
-            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
+            "direccion": "Calle de José Abascal, 8, Chamberí, 28003 Madrid, España",
             "ciudad": "madrid",
             "provincia": "madrid",
             "comunidad": "comunidad de madrid",
             "pais": "es",
-            "latitud": 40.4171669,
-            "longitud": -3.7065415
+            "latitud": 40.4383553,
+            "longitud": -3.7007985
         },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GB1S",
-        "descripcion": "No te pierdas MANUELAS en JOY ESLAVA. Vive una noche épica este Sáb, 14 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "ZR8C",
-        "titulo": "Tardeo Yatengoplan x Saint Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5ca7fcb4-2362-4442-8c02-869dac012d00/w=1350",
-        "fecha": "2026-11-14",
-        "hora": "18:00",
-        "edad": "+23",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "SAINT CLUB",
-        "ubicacion": {
-            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4284048,
-            "longitud": -3.6836756
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZR8C",
-        "descripcion": "No te pierdas Tardeo Yatengoplan x Saint Club en SAINT CLUB. Vive una noche épica este Sáb, 14 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "O9YW",
-        "titulo": "LA DESPECHÁ - TARDEO MARABÚ SABADO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9d7316bd-750a-41ef-12d8-1012afe8e200/w=1350",
-        "fecha": "2026-11-14",
-        "hora": "18:00",
-        "edad": "+23",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Marabú",
-        "ubicacion": {
-            "direccion": "Calle de Ponzano, 37, 28003 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4424748,
-            "longitud": -3.6990086
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/O9YW",
-        "descripcion": "No te pierdas LA DESPECHÁ - TARDEO MARABÚ SABADO en Marabú. Vive una noche épica este Sáb, 14 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "QU7E",
-        "titulo": "Green Sabado",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b6bc0c94-5ca1-4cef-0612-b8f788886300/w=1350",
-        "fecha": "2026-11-14",
-        "hora": "22:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Green",
-        "ubicacion": {
-            "direccion": "P.º de la Castellana, 40 BIS, Salamanca, 28046 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4347547,
-            "longitud": -3.6882831
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QU7E",
-        "descripcion": "No te pierdas Green Sabado en Yatengoplan. Vive una noche épica este Sáb, 14 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NQDT",
+        "descripcion": "No te pierdas EL MACH DEL PERREO - BELLAQUEOLAB en Bellaqueolab. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
