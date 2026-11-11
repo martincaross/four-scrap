@@ -29377,5 +29377,215 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/O84I",
         "descripcion": "No te pierdas JUEVES JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Jue, 12 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "M5QD",
+        "titulo": "AFTERLANDING: WILD TUESDAY",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a7a99036-9e37-44f8-8ddd-7425163fe900/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/M5QD",
+        "descripcion": "No te pierdas AFTERLANDING: WILD TUESDAY en MADRID NO DESCANSA. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "SPXV",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SPXV",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GSUJ",
+        "titulo": "MARTES SALVAJE",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0f7d27ec-9d4c-4a7b-2ea0-94fd20f10e00/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "23:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GSUJ",
+        "descripcion": "No te pierdas MARTES SALVAJE en MADRID NO DESCANSA. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "RFL0",
+        "titulo": "COPAS A 3,5€",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9378444a-8dab-47e5-eb2c-b88402bbb100/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BLUE CLUB",
+        "ubicacion": {
+            "direccion": "C. de Orense, 12, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4491181,
+            "longitud": -3.6951019
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/RFL0",
+        "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GQXW",
+        "titulo": "Martes VANDIDO",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/sm_el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=5pguOH3o7bqZJPfEFT7nu5G04XGarnqs",
+        "fecha": "2026-11-10",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GQXW",
+        "descripcion": "No te pierdas Martes VANDIDO en VANDIDO. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "JHAZ",
+        "titulo": "TUESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/945b99a2-16cd-4239-ad75-3bb9d2e80000/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4487517,
+            "longitud": -3.6790399
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JHAZ",
+        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "9FSK",
+        "titulo": "Martes Fitz",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/73d44f3b-e073-442c-44bd-77f5fa046800/w=1350",
+        "fecha": "2026-11-10",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4247168,
+            "longitud": -3.7122142
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9FSK",
+        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 10 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "COAR",
+        "titulo": "SAINT CLUB X ROOKIES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06e0e9c8-699a-4538-2b1f-677005462d00/w=550",
+        "fecha": "2026-11-12",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/COAR",
+        "descripcion": "No te pierdas SAINT CLUB X ROOKIES en SAINT CLUB. Vive una noche épica este Jue, 12 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "23MK",
+        "titulo": "SAINT CLUB FRIDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/ed364447-f27a-4a7a-46eb-1b0a9a19b000/w=1350",
+        "fecha": "2026-11-13",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/23MK",
+        "descripcion": "No te pierdas SAINT CLUB FRIDAYS en SAINT CLUB. Vive una noche épica este Vie, 13 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "P5I9",
+        "titulo": "MARABU VIERNES NOCHE",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8f78cef5-793d-4416-00dd-42874d590800/w=1350",
+        "fecha": "2026-11-20",
+        "hora": "00:00",
+        "edad": "+23",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Marabú",
+        "ubicacion": {
+            "direccion": "Calle de Ponzano, 37, 28003 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4424748,
+            "longitud": -3.6990086
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P5I9",
+        "descripcion": "No te pierdas MARABU VIERNES NOCHE en Marabú. Vive una noche épica este Vie, 20 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
