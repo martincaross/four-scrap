@@ -1,467 +1,5 @@
 [
     {
-        "id": "TQEL",
-        "titulo": "Afterwork Pabblo Club",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/575d6aa8-c3d8-4611-88a5-445a53c80e00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "18:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Pabblo",
-        "ubicacion": {
-            "direccion": "Pl. Pablo Ruiz Picasso, 1, Tetuán, 28020 Madrid, Spain",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4503,
-            "longitud": -3.6934
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/TQEL",
-        "descripcion": "No te pierdas Afterwork Pabblo Club en Yatengoplan. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "E12B",
-        "titulo": "Afterwork Green",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/84cfbae6-89bf-4bf9-7b7e-3f8aae8b4400/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "19:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Green",
-        "ubicacion": {
-            "direccion": "P.º de la Castellana, 40 BIS, Salamanca, 28046 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.436767,
-            "longitud": -3.6894109
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/E12B",
-        "descripcion": "No te pierdas Afterwork Green en Yatengoplan. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "P9ZH",
-        "titulo": "ONE MORE X THANKSGIVING",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7426651c-a116-479e-4bff-a7a45bff0000/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Sala de Despecho",
-        "ubicacion": {
-            "direccion": "C. de Recoletos, 13, Salamanca, 28001 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4218371,
-            "longitud": -3.6898237
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P9ZH",
-        "descripcion": "No te pierdas ONE MORE X THANKSGIVING en MADRID NO DESCANSA. Vive una noche épica este Jue, 26 nov en . Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "C297",
-        "titulo": "AFTERWORK PONZANO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b1cfc325-e4f6-4ffd-66fc-ae817627d100/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "20:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Marabú",
-        "ubicacion": {
-            "direccion": "Calle de Ponzano, 37, 28003 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4424748,
-            "longitud": -3.6990086
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/C297",
-        "descripcion": "No te pierdas AFTERWORK PONZANO en Marabú. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "IBC7",
-        "titulo": "JUEVES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a1a143d7-3558-4783-3f96-1aa51080db00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "22:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca Manama",
-        "ubicacion": {
-            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4150915,
-            "longitud": -3.7026052
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/IBC7",
-        "descripcion": "No te pierdas JUEVES en Manama Disco. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "38JI",
-        "titulo": "JUEVES TODOS SANTOS X THANKSGIVING",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7750f9a4-1e91-46f1-0e57-55a4ea234a00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Todos Santos",
-        "ubicacion": {
-            "direccion": "Calle de Génova, 28, Centro, 28004 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.425343,
-            "longitud": -3.6917581
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/38JI",
-        "descripcion": "No te pierdas JUEVES TODOS SANTOS X THANKSGIVING en Todos Santos. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "VHFB",
-        "titulo": "JUEVES LIBERTY",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/41241cf3-6cea-4e26-ce07-339d0740d700/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "23:30",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Liberty",
-        "ubicacion": {
-            "direccion": "Calle de Juan Bravo, 31, 28006 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4327679,
-            "longitud": -3.6789308
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VHFB",
-        "descripcion": "No te pierdas JUEVES LIBERTY en Liberty. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "XOC4",
-        "titulo": "JUEVES Last Night X Mon - RESACÓN",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5e660b43-2cc4-4ad4-12d8-16cd86a07a00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Sala Mon",
-        "ubicacion": {
-            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4359198,
-            "longitud": -3.7165172
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/XOC4",
-        "descripcion": "No te pierdas JUEVES Last Night X Mon - RESACÓN en DISCOTECA MON MADRID. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "R86Z",
-        "titulo": "COPAS A 3,5€",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/a019f004-a8c2-4118-dd7c-c36565b73300/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "BLUE CLUB",
-        "ubicacion": {
-            "direccion": "C. de Orense, 12, Tetuán, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4492364,
-            "longitud": -3.6950889
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/R86Z",
-        "descripcion": "No te pierdas COPAS A 3,5€ en BLUE CLUB. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "P8IY",
-        "titulo": "JUEVES 26nov CANALLEO BARRA LIBRE COPAS CATS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/65f68d55-96f9-4737-600e-39f7989a4c00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "23:45",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "DISCOTECA CATS",
-        "ubicacion": {
-            "direccion": "Calle Julián Romea, 4, 28003 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4427538,
-            "longitud": -3.7135343
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/P8IY",
-        "descripcion": "No te pierdas JUEVES 26nov CANALLEO BARRA LIBRE COPAS CATS en CATS MADRID. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "BQLH",
-        "titulo": "B12 - ENTRADAS",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/Hllm2chtl02aw01chblog4k6aAEPBBrr.jpeg?versionId=WgvUaD2ydv0J3OKVFjCr43byEJs6fyeR",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Discoteca B12 Madrid",
-        "ubicacion": {
-            "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4451938,
-            "longitud": -3.6854611
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BQLH",
-        "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "6JC9",
-        "titulo": "Jueves VANDIDO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/83b75068-26fb-461b-987e-bcbea6860900/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "ubicacion": {
-            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4251864,
-            "longitud": -3.6780181
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/6JC9",
-        "descripcion": "No te pierdas Jueves VANDIDO en VANDIDO. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "9SBP",
-        "titulo": "BONDED x Spotted",
-        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/Ills0up3h00r601c10ta15191g4iRC0k.jpeg?versionId=8g.QFEuvUHEV2qY2GlsFMvrujmTPuSWu",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Miguel Ángel,9",
-        "ubicacion": {
-            "direccion": "C. de Miguel Ángel, 14, 28010 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4355097,
-            "longitud": -3.6910828
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/9SBP",
-        "descripcion": "No te pierdas BONDED x Spotted en BONDED CLUB. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "YOQ0",
-        "titulo": "JUEVES COPERNICO | La Nocturna",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0b5bb2f2-1ea1-40f7-997f-64c038013200/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Copernico",
-        "ubicacion": {
-            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4352712,
-            "longitud": -3.7136635
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YOQ0",
-        "descripcion": "No te pierdas JUEVES COPERNICO | La Nocturna en Copérnico The Club. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "BFRN",
-        "titulo": "Orbit Shift x HDAD",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/009f328b-a029-4815-03bc-d4e7a35c5900/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+23",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Cristo Social Club ",
-        "ubicacion": {
-            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4326916,
-            "longitud": -3.679384
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/BFRN",
-        "descripcion": "No te pierdas Orbit Shift x HDAD en CrisTo Social Club. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "1R04",
-        "titulo": "PERRE ON BY TIFFANY’S THE CLUB",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/358a82e2-b540-47cc-8484-464a3d5e1d00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Tiffany's The Club",
-        "ubicacion": {
-            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4463878,
-            "longitud": -3.6820354
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1R04",
-        "descripcion": "No te pierdas PERRE ON BY TIFFANY’S THE CLUB en TIFFANY'S THE CLUB. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "OTPU",
-        "titulo": "VENENO - TOP SECRET",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c8dfa2a7-5009-470c-44b3-635170457200/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Art Madrid Club",
-        "ubicacion": {
-            "direccion": "P.º de la Florida, 2, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4221458,
-            "longitud": -3.7204964
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/OTPU",
-        "descripcion": "No te pierdas VENENO - TOP SECRET en Veneno The Club. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "ZGBL",
-        "titulo": "JUEVES",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/524c9da3-3d2c-47d8-d989-e7e0fe646400/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Nazca Club",
-        "ubicacion": {
-            "direccion": "C. de Orense, 24, 28020 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4513836,
-            "longitud": -3.6944566
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZGBL",
-        "descripcion": "No te pierdas JUEVES en Nazca Club. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "MRR2",
-        "titulo": "Jueves FITZ",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/143e7a58-e6b7-4f37-78c2-6b354acc4e00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Fitz Club",
-        "ubicacion": {
-            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4247168,
-            "longitud": -3.7122142
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/MRR2",
-        "descripcion": "No te pierdas Jueves FITZ en Fitz Madrid. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "E321",
-        "titulo": "PROVENZA JUEVES X LINGO EVENTS",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/6f2b3cc4-58a2-469f-073d-8291fe60f100/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+23",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Provenza",
-        "ubicacion": {
-            "direccion": "P.º de Recoletos, 16, Salamanca, 28001 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4225632,
-            "longitud": -3.6909002
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/E321",
-        "descripcion": "No te pierdas PROVENZA JUEVES X LINGO EVENTS en PROVENZA. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "K4E8",
-        "titulo": "Oferta Black Friday 2X8€",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/bb85a16e-b366-445d-498c-503a0d52dc00/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "MARVEL MADRID",
-        "ubicacion": {
-            "direccion": "C. de Joaquín Costa, 27, 28002 Madrid, España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4451938,
-            "longitud": -3.6854611
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/K4E8",
-        "descripcion": "No te pierdas Oferta Black Friday 2X8€ en Marvel Madrid. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
-        "id": "I5UM",
-        "titulo": "\"THE 120 CLUB\" GOLDEN ROOM VANDIDO",
-        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/abeff0fc-07f6-408b-3886-efe92613b400/w=1350",
-        "fecha": "2026-11-26",
-        "hora": "00:00",
-        "edad": "+18",
-        "vestimenta": "Smart / Arreglado",
-        "sala": "Vandido",
-        "ubicacion": {
-            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
-            "ciudad": "madrid",
-            "provincia": "madrid",
-            "comunidad": "comunidad de madrid",
-            "pais": "es",
-            "latitud": 40.4251864,
-            "longitud": -3.6780181
-        },
-        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/I5UM",
-        "descripcion": "No te pierdas \"THE 120 CLUB\" GOLDEN ROOM VANDIDO en VANDIDO. Vive una noche épica este Jue, 26 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
-    },
-    {
         "id": "G5NK",
         "titulo": "Green Viernes",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/d844b3ca-3c68-4c66-3fb0-b50188ba6d00/w=1350",
@@ -1806,6 +1344,27 @@
         "descripcion": "No te pierdas Sabado 29nov BLACK SATURDAY CATS en CATS MADRID. Vive una noche épica este Sáb, 28 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "SR5V",
+        "titulo": "SAINT SATURDAYS",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/79944819-9dc8-4148-2e92-aa35df8f4200/w=1350",
+        "fecha": "2026-11-28",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SAINT CLUB",
+        "ubicacion": {
+            "direccion": "Calle Velázquez, 64, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4284048,
+            "longitud": -3.6836756
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SR5V",
+        "descripcion": "No te pierdas SAINT SATURDAYS en SAINT CLUB. Vive una noche épica este Sáb, 28 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "WCTZ",
         "titulo": "KOKO SPAIN X SAINT CLUB",
         "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e827ae39-8025-4df7-62c7-cae116f75500/w=1350",
@@ -1972,6 +1531,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/L38U",
         "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 30 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "VC9L",
+        "titulo": "ONE WORLD - Salsa & Bachata Lessons by ESN",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/9769eaba-1208-4078-d8fa-11d9f3fe2f00/w=1350",
+        "fecha": "2026-11-30",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VC9L",
+        "descripcion": "No te pierdas ONE WORLD - Salsa & Bachata Lessons by ESN en Fitz Madrid. Vive una noche épica este Lun, 30 nov en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "CQY0",
@@ -2329,6 +1909,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/LW1S",
         "descripcion": "No te pierdas Bum Bum en BONDED CLUB. Vive una noche épica este Mié, 2 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "JD0F",
+        "titulo": "Miércoles",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/103f76b0-30e9-421f-3376-6a58e8f8b800/w=1350",
+        "fecha": "2026-12-02",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "GABANA",
+        "ubicacion": {
+            "direccion": "Calle de María de Molina, 39, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4378538,
+            "longitud": -3.6797603
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JD0F",
+        "descripcion": "No te pierdas Miércoles en GABANA MUSIC CLUB. Vive una noche épica este Mié, 2 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "192O",
@@ -2772,6 +2373,27 @@
         "descripcion": "No te pierdas VIERNES en Manama Disco. Vive una noche épica este Vie, 4 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
+        "id": "4AM9",
+        "titulo": "THE FACULTY",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f5fff044-2f68-4310-e5f6-7acca6830a00/w=1350",
+        "fecha": "2026-12-04",
+        "hora": "23:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Epoka the club",
+        "ubicacion": {
+            "direccion": "Calle de Joaquín María López, 74, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4379269,
+            "longitud": -3.7174348
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4AM9",
+        "descripcion": "No te pierdas THE FACULTY en EPOKA THE CLUB. Vive una noche épica este Vie, 4 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
         "id": "KAGH",
         "titulo": "VIERNES POSH ⭐️",
         "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/gl4d15dwz4fon01iz4xwde9wmbRDpor4.jpeg?versionId=CJTIUpxPi7M85t8lk5XXe8xiBddXdIMQ",
@@ -3190,6 +2812,27 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/KN8T",
         "descripcion": "No te pierdas DESCUIDO | BIG OPENING en CrisTo Social Club. Vive una noche épica este Vie, 4 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4OFX",
+        "titulo": "LUME FEST",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/639e6c94-4801-4a36-53fc-1f6eb018fd00/w=1350",
+        "fecha": "2026-12-04",
+        "hora": "00:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala La Riviera",
+        "ubicacion": {
+            "direccion": "Paseo Bajo de la Virgen del Puerto, 28005 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4141756,
+            "longitud": -3.7213166
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4OFX",
+        "descripcion": "No te pierdas LUME FEST en Sala La Riviera. Vive una noche épica este Vie, 4 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     },
     {
         "id": "S4T9",
@@ -3736,5 +3379,677 @@
         },
         "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/HUQW",
         "descripcion": "No te pierdas B12 - ENTRADAS en B12 Madrid. Vive una noche épica este Sáb, 5 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "UWMK",
+        "titulo": "SATURDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/eb85ca74-2029-4771-37cf-240de7fd8e00/w=1350",
+        "fecha": "2026-12-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/UWMK",
+        "descripcion": "No te pierdas SATURDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Sáb, 5 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "U606",
+        "titulo": "CHAMÁN SÁBADO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/c2f6b026-8a70-4ffd-b53a-feea5e09f000/w=1350",
+        "fecha": "2026-12-05",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "CHAMÁN BOILER CLUB",
+        "ubicacion": {
+            "direccion": "C. del Poeta Joan Maragall, 1, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4530602,
+            "longitud": -3.6933823
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/U606",
+        "descripcion": "No te pierdas CHAMÁN SÁBADO en CHAMÁN. Vive una noche épica este Sáb, 5 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "YOSX",
+        "titulo": "SUNDAY HOUSE CLUB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/74c6464a-f6a5-4913-ca8b-13b45a66f600/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BONDED CLUB",
+        "ubicacion": {
+            "direccion": "C. de Miguel Ángel, 9, 28010 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4331996,
+            "longitud": -3.6913379
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/YOSX",
+        "descripcion": "No te pierdas SUNDAY HOUSE CLUB en BONDED CLUB. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8WZ3",
+        "titulo": "CALLE 365 by MADRID  NO DESCANSA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7b61b30d-046a-4c56-9eea-8b544df18200/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "18:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "CALLE 365",
+        "ubicacion": {
+            "direccion": "Calle de Echegaray, 18, Centro, 28005 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4151775,
+            "longitud": -3.6996408
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8WZ3",
+        "descripcion": "No te pierdas CALLE 365 by MADRID NO DESCANSA en MADRID NO DESCANSA. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "JN5U",
+        "titulo": "TARDEZINHA CLUB",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0c4b472e-4cd3-4034-25ca-a9ba1bc98b00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "19:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "KUBE Madrid",
+        "ubicacion": {
+            "direccion": "C. del Poeta Joan Maragall, 38, Tetuán, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.459781,
+            "longitud": -3.6918002
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/JN5U",
+        "descripcion": "No te pierdas TARDEZINHA CLUB en KUBE. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "T7Q8",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/06cb36d6-dc72-41e4-75ac-3ba6e0950b00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/T7Q8",
+        "descripcion": "No te pierdas DOMINGO en Manama Disco. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "FGUU",
+        "titulo": "DOMINGO MON - MOCOLOCO COPAS A 2€",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5b93a621-5ae4-4c52-d953-f1a8e22e3700/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "ubicacion": {
+            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4359198,
+            "longitud": -3.7165172
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/FGUU",
+        "descripcion": "No te pierdas DOMINGO MON - MOCOLOCO COPAS A 2€ en DISCOTECA MON MADRID. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "GR1D",
+        "titulo": "JALEITO VANDIDO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/b0e72f23-7c4e-4b16-37b1-b58184e25c00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/GR1D",
+        "descripcion": "No te pierdas JALEITO VANDIDO en VANDIDO. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "8R43",
+        "titulo": "DOMINGO COPERNICO | La Nocturna",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/e648a80d-2506-42b0-7d59-f6d884f79f00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Copernico",
+        "ubicacion": {
+            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4352712,
+            "longitud": -3.7136635
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/8R43",
+        "descripcion": "No te pierdas DOMINGO COPERNICO | La Nocturna en Copérnico The Club. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "QEKK",
+        "titulo": "ØRIGEN -  Domingo Bonded",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/38b7d243-95f8-424a-6c9f-18878fb8ff00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "BONDED CLUB",
+        "ubicacion": {
+            "direccion": "C. de Miguel Ángel, 9, 28010 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4331996,
+            "longitud": -3.6913379
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/QEKK",
+        "descripcion": "No te pierdas ØRIGEN - Domingo Bonded en BONDED CLUB. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "4I78",
+        "titulo": "CASPER MAGICO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/97fbefb0-eee7-4e5e-d797-64bc2f9fde00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "VENNUS Madrid ",
+        "ubicacion": {
+            "direccion": "C. Sofía, 3, 28232 Las Rozas de Madrid, Madrid, España",
+            "ciudad": "las rozas de madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4997651,
+            "longitud": -3.8931305
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/4I78",
+        "descripcion": "No te pierdas CASPER MAGICO en VENNUS MADRID. Vive una noche épica este Dom, 6 dic en Las Rozas de Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "C68I",
+        "titulo": "DOMINGO",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/4821b387-d704-441a-c8e2-bf2ecabc5e00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513836,
+            "longitud": -3.6944566
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/C68I",
+        "descripcion": "No te pierdas DOMINGO en Nazca Club. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "ZXDU",
+        "titulo": "PERRAERA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7e03dbf4-faf8-4678-5e9d-f662570a7d00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Cristo Social Club ",
+        "ubicacion": {
+            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4327116,
+            "longitud": -3.6826075
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/ZXDU",
+        "descripcion": "No te pierdas PERRAERA en CrisTo Social Club. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "DT6A",
+        "titulo": "THE NAUGHTY LIST 🎅🏼",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/f6fe911f-c191-4544-bf48-437e16a73c00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Provenza",
+        "ubicacion": {
+            "direccion": "P.º de Recoletos, 16, Salamanca, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4225632,
+            "longitud": -3.6909002
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DT6A",
+        "descripcion": "No te pierdas THE NAUGHTY LIST 🎅🏼 en PROVENZA. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "VWV3",
+        "titulo": "THE HOME OF PERREO at Tiffany's",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5e08fc22-dec6-4c22-3a08-17de562f4d00/w=1350",
+        "fecha": "2026-12-06",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/VWV3",
+        "descripcion": "No te pierdas THE HOME OF PERREO at Tiffany's en TIFFANY'S THE CLUB. Vive una noche épica este Dom, 6 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "341I",
+        "titulo": "SALA DE DESPECHO by Madrid No Descansa",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0e31f0c3-a3b4-427a-d1ba-c1ee008d0000/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "20:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SALA DE DESPECHO.",
+        "ubicacion": {
+            "direccion": "P.º de Recoletos, 18, Salamanca, 28004 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4228377,
+            "longitud": -3.6909403
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/341I",
+        "descripcion": "No te pierdas SALA DE DESPECHO by Madrid No Descansa en MADRID NO DESCANSA. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "3UZO",
+        "titulo": "LUNES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/68fd84bc-2636-4ec3-d194-757682c57400/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/3UZO",
+        "descripcion": "No te pierdas LUNES en Manama Disco. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "57Q9",
+        "titulo": "LUNES MON - MOCOLOCO COPAS A 2€",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/1e925950-22c5-4a9b-d821-36ffb7da5200/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Sala Mon",
+        "ubicacion": {
+            "direccion": "C. de Hilarión Eslava, 36, 28015 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4359198,
+            "longitud": -3.7165172
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/57Q9",
+        "descripcion": "No te pierdas LUNES MON - MOCOLOCO COPAS A 2€ en DISCOTECA MON MADRID. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "1KWF",
+        "titulo": "LUNES 7 DICIEMBRE",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/524c9da3-3d2c-47d8-d989-e7e0fe646400/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Nazca Club",
+        "ubicacion": {
+            "direccion": "C. de Orense, 24, 28020 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4513836,
+            "longitud": -3.6944566
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1KWF",
+        "descripcion": "No te pierdas LUNES 7 DICIEMBRE en Nazca Club. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "X7HT",
+        "titulo": "CANDY AT TIFFANY’S",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/fa66782e-f288-4a09-c95e-1f269ffdb400/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/X7HT",
+        "descripcion": "No te pierdas CANDY AT TIFFANY’S en TIFFANY'S THE CLUB. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "H2JV",
+        "titulo": "PERRAERA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/7e03dbf4-faf8-4678-5e9d-f662570a7d00/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Cristo Social Club ",
+        "ubicacion": {
+            "direccion": "Calle de Juan Bravo, 35, Salamanca, 28006 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4327116,
+            "longitud": -3.6826075
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/H2JV",
+        "descripcion": "No te pierdas PERRAERA en CrisTo Social Club. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "X3PS",
+        "titulo": "LUNES COPERNICO | La Nocturna",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/5066ab70-abb7-41d1-b5cd-4e5b777bd100/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Copernico",
+        "ubicacion": {
+            "direccion": "Calle de Fernández de los Ríos, 67, 28015 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4352712,
+            "longitud": -3.7136635
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/X3PS",
+        "descripcion": "No te pierdas LUNES COPERNICO | La Nocturna en Copérnico The Club. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "WUG6",
+        "titulo": "CAMIN x FITZ",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/48efbfa6-6d0e-43e7-e451-23e1678e8100/w=1350",
+        "fecha": "2026-12-07",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/WUG6",
+        "descripcion": "No te pierdas CAMIN x FITZ en Fitz Madrid. Vive una noche épica este Lun, 7 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "DV9S",
+        "titulo": "MARTES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/657a1098-8752-4043-560a-c34acc6d6e00/w=1350",
+        "fecha": "2026-12-08",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/DV9S",
+        "descripcion": "No te pierdas MARTES en Manama Disco. Vive una noche épica este Mar, 8 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "T2V3",
+        "titulo": "MARTES SALVAJE",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/0f7d27ec-9d4c-4a7b-2ea0-94fd20f10e00/w=1350",
+        "fecha": "2026-12-08",
+        "hora": "23:45",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "SLVJ",
+        "ubicacion": {
+            "direccion": "C. de Velázquez, 62, 28001 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4281978,
+            "longitud": -3.6836948
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/T2V3",
+        "descripcion": "No te pierdas MARTES SALVAJE en MADRID NO DESCANSA. Vive una noche épica este Mar, 8 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "NJ1Y",
+        "titulo": "TUESDAY'S at Tiffany's The Club",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/945b99a2-16cd-4239-ad75-3bb9d2e80000/w=1350",
+        "fecha": "2026-12-08",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Tiffany's The Club",
+        "ubicacion": {
+            "direccion": "Av. del Dr. Arce, 10, 28002 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4457859,
+            "longitud": -3.6834706
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/NJ1Y",
+        "descripcion": "No te pierdas TUESDAY'S at Tiffany's The Club en TIFFANY'S THE CLUB. Vive una noche épica este Mar, 8 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "B3FQ",
+        "titulo": "Martes VANDIDO",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=euX0E_in797dLa6ohWVxbQcBbkdzHRJR",
+        "fecha": "2026-12-08",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/B3FQ",
+        "descripcion": "No te pierdas Martes VANDIDO en VANDIDO. Vive una noche épica este Mar, 8 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "CJJZ",
+        "titulo": "Martes Fitz",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/79bd16cd-aaeb-4402-461d-9688290c3100/w=1350",
+        "fecha": "2026-12-08",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Fitz Club",
+        "ubicacion": {
+            "direccion": "C. de la Princesa, 1, 28008 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4244822,
+            "longitud": -3.7120419
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/CJJZ",
+        "descripcion": "No te pierdas Martes Fitz en Fitz Madrid. Vive una noche épica este Mar, 8 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "2Q5C",
+        "titulo": "MIÉRCOLES",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/36128b96-0a76-494e-9b15-c7f0f7980c00/w=1350",
+        "fecha": "2026-12-09",
+        "hora": "22:30",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Discoteca Manama",
+        "ubicacion": {
+            "direccion": "C. de Barcelona, 14, 28012 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4150915,
+            "longitud": -3.7026052
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/2Q5C",
+        "descripcion": "No te pierdas MIÉRCOLES en Manama Disco. Vive una noche épica este Mié, 9 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "SZG4",
+        "titulo": "MIERCOLES JOY ESLAVA",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/3b40dfd8-5bdb-49de-3b15-ec491b7ca600/w=1350",
+        "fecha": "2026-12-09",
+        "hora": "23:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "JOY ESLAVA",
+        "ubicacion": {
+            "direccion": "C. del Arenal, 11, Centro, 28013 Madrid, España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4171669,
+            "longitud": -3.7065415
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/SZG4",
+        "descripcion": "No te pierdas MIERCOLES JOY ESLAVA en JOY ESLAVA. Vive una noche épica este Mié, 9 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "1BBY",
+        "titulo": "MIERCOLES GUNILLA X ¿Qué pasó Ayer?",
+        "imagen": "https://fourvenues.com/cdn-cgi/imagedelivery/kWuoTchaMsk7Xnc_FNem7A/8cf98273-d21d-457d-12cd-8b2816884400/w=1350",
+        "fecha": "2026-12-09",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Gunilla Club",
+        "ubicacion": {
+            "direccion": "Calle de Recoletos, 16, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4220053,
+            "longitud": -3.6904171
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/1BBY",
+        "descripcion": "No te pierdas MIERCOLES GUNILLA X ¿Qué pasó Ayer? en Gunilla Club. Vive una noche épica este Mié, 9 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
+    },
+    {
+        "id": "62JV",
+        "titulo": "VANDIDO by Madrid Es Fuego - Christmas gala at home",
+        "imagen": "https://d72sklgi05fbu.cloudfront.net/images/venues/cover/el6dy69980ry7019j1uqze3e3yaZ8I1E.jpeg?versionId=euX0E_in797dLa6ohWVxbQcBbkdzHRJR",
+        "fecha": "2026-12-09",
+        "hora": "00:00",
+        "edad": "+18",
+        "vestimenta": "Smart / Arreglado",
+        "sala": "Vandido",
+        "ubicacion": {
+            "direccion": "Calle de Goya, 79, 28001 Madrid (Madrid), España",
+            "ciudad": "madrid",
+            "provincia": "madrid",
+            "comunidad": "comunidad de madrid",
+            "pais": "es",
+            "latitud": 40.4251864,
+            "longitud": -3.6780181
+        },
+        "link_compra_rrpp": "https://www.fourvenues.com/es/nextplan/events/62JV",
+        "descripcion": "No te pierdas VANDIDO by Madrid Es Fuego - Christmas gala at home en VANDIDO. Vive una noche épica este Mié, 9 dic en Madrid. Entradas limitadas y reservados VIP disponibles. ¡Compra aquí tus tickets oficiales!"
     }
 ]
